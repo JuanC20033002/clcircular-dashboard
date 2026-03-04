@@ -1,0 +1,1921 @@
+zona,estado,year,month,fecha,temp_promedio,dias_calor,humedad_relativa,IRT,nivel_riesgo
+Norte,Chihuahua,2018,1,1/1/2018,10.6,0,44.7,20.7,Bajo
+Norte,Coahuila de Zaragoza,2018,1,1/1/2018,10.6,0,44.7,20.7,Bajo
+Norte,Tamaulipas,2018,1,1/1/2018,10.6,0,44.7,20.7,Bajo
+Norte,Nuevo León,2018,1,1/1/2018,10.6,0,44.7,20.7,Bajo
+Norte,Chihuahua,2018,2,2/1/2018,13.6,0,45.4,24.16,Bajo
+Norte,Coahuila de Zaragoza,2018,2,2/1/2018,13.6,0,45.4,24.16,Bajo
+Norte,Tamaulipas,2018,2,2/1/2018,13.6,0,45.4,24.16,Bajo
+Norte,Nuevo León,2018,2,2/1/2018,13.6,0,45.4,24.16,Bajo
+Norte,Chihuahua,2018,3,3/1/2018,18.3,0,37.5,27.88,Bajo
+Norte,Coahuila de Zaragoza,2018,3,3/1/2018,18.3,0,37.5,27.88,Bajo
+Norte,Tamaulipas,2018,3,3/1/2018,18.3,0,37.5,27.88,Bajo
+Norte,Nuevo León,2018,3,3/1/2018,18.3,0,37.5,27.88,Bajo
+Norte,Chihuahua,2018,4,4/1/2018,23.4,2,29.4,33.85,Bajo
+Norte,Coahuila de Zaragoza,2018,4,4/1/2018,23.4,2,29.4,33.85,Bajo
+Norte,Tamaulipas,2018,4,4/1/2018,23.4,2,29.4,33.85,Bajo
+Norte,Nuevo León,2018,4,4/1/2018,23.4,2,29.4,33.85,Bajo
+Norte,Chihuahua,2018,5,5/1/2018,29.3,7,22.7,43.88,Medio
+Norte,Coahuila de Zaragoza,2018,5,5/1/2018,29.3,7,22.7,43.88,Medio
+Norte,Tamaulipas,2018,5,5/1/2018,29.3,7,22.7,43.88,Medio
+Norte,Nuevo León,2018,5,5/1/2018,29.3,7,22.7,43.88,Medio
+Norte,Chihuahua,2018,6,6/1/2018,32.9,14,26.6,55.46,Medio
+Norte,Coahuila de Zaragoza,2018,6,6/1/2018,32.9,14,26.6,55.46,Medio
+Norte,Tamaulipas,2018,6,6/1/2018,32.9,14,26.6,55.46,Medio
+Norte,Nuevo León,2018,6,6/1/2018,32.9,14,26.6,55.46,Medio
+Norte,Chihuahua,2018,7,7/1/2018,36.4,21,39.7,68.67,Alto
+Norte,Coahuila de Zaragoza,2018,7,7/1/2018,36.4,21,39.7,68.67,Alto
+Norte,Tamaulipas,2018,7,7/1/2018,36.4,21,39.7,68.67,Alto
+Norte,Nuevo León,2018,7,7/1/2018,36.4,21,39.7,68.67,Alto
+Norte,Chihuahua,2018,8,8/1/2018,35.2,18,36.7,63.81,Alto
+Norte,Coahuila de Zaragoza,2018,8,8/1/2018,35.2,18,36.7,63.81,Alto
+Norte,Tamaulipas,2018,8,8/1/2018,35.2,18,36.7,63.81,Alto
+Norte,Nuevo León,2018,8,8/1/2018,35.2,18,36.7,63.81,Alto
+Norte,Chihuahua,2018,9,9/1/2018,31.2,6,37.9,48.02,Medio
+Norte,Coahuila de Zaragoza,2018,9,9/1/2018,31.2,6,37.9,48.02,Medio
+Norte,Tamaulipas,2018,9,9/1/2018,31.2,6,37.9,48.02,Medio
+Norte,Nuevo León,2018,9,9/1/2018,31.2,6,37.9,48.02,Medio
+Norte,Chihuahua,2018,10,10/1/2018,24.1,3,33.7,36.48,Medio
+Norte,Coahuila de Zaragoza,2018,10,10/1/2018,24.1,3,33.7,36.48,Medio
+Norte,Tamaulipas,2018,10,10/1/2018,24.1,3,33.7,36.48,Medio
+Norte,Nuevo León,2018,10,10/1/2018,24.1,3,33.7,36.48,Medio
+Norte,Chihuahua,2018,11,11/1/2018,15.6,0,41.9,25.77,Bajo
+Norte,Coahuila de Zaragoza,2018,11,11/1/2018,15.6,0,41.9,25.77,Bajo
+Norte,Tamaulipas,2018,11,11/1/2018,15.6,0,41.9,25.77,Bajo
+Norte,Nuevo León,2018,11,11/1/2018,15.6,0,41.9,25.77,Bajo
+Norte,Chihuahua,2018,12,12/1/2018,10.3,1,46.3,21.64,Bajo
+Norte,Coahuila de Zaragoza,2018,12,12/1/2018,10.3,1,46.3,21.64,Bajo
+Norte,Tamaulipas,2018,12,12/1/2018,10.3,1,46.3,21.64,Bajo
+Norte,Nuevo León,2018,12,12/1/2018,10.3,1,46.3,21.64,Bajo
+Norte,Chihuahua,2019,1,1/1/2019,11,1,42.2,21.68,Bajo
+Norte,Coahuila de Zaragoza,2019,1,1/1/2019,11,1,42.2,21.68,Bajo
+Norte,Tamaulipas,2019,1,1/1/2019,11,1,42.2,21.68,Bajo
+Norte,Nuevo León,2019,1,1/1/2019,11,1,42.2,21.68,Bajo
+Norte,Chihuahua,2019,2,2/1/2019,12.5,0,42,22.24,Bajo
+Norte,Coahuila de Zaragoza,2019,2,2/1/2019,12.5,0,42,22.24,Bajo
+Norte,Tamaulipas,2019,2,2/1/2019,12.5,0,42,22.24,Bajo
+Norte,Nuevo León,2019,2,2/1/2019,12.5,0,42,22.24,Bajo
+Norte,Chihuahua,2019,3,3/1/2019,19.1,0,31.9,27.6,Bajo
+Norte,Coahuila de Zaragoza,2019,3,3/1/2019,19.1,0,31.9,27.6,Bajo
+Norte,Tamaulipas,2019,3,3/1/2019,19.1,0,31.9,27.6,Bajo
+Norte,Nuevo León,2019,3,3/1/2019,19.1,0,31.9,27.6,Bajo
+Norte,Chihuahua,2019,4,4/1/2019,22.4,2,27.1,32.3,Bajo
+Norte,Coahuila de Zaragoza,2019,4,4/1/2019,22.4,2,27.1,32.3,Bajo
+Norte,Tamaulipas,2019,4,4/1/2019,22.4,2,27.1,32.3,Bajo
+Norte,Nuevo León,2019,4,4/1/2019,22.4,2,27.1,32.3,Bajo
+Norte,Chihuahua,2019,5,5/1/2019,30.4,6,27.2,44.98,Medio
+Norte,Coahuila de Zaragoza,2019,5,5/1/2019,30.4,6,27.2,44.98,Medio
+Norte,Tamaulipas,2019,5,5/1/2019,30.4,6,27.2,44.98,Medio
+Norte,Nuevo León,2019,5,5/1/2019,30.4,6,27.2,44.98,Medio
+Norte,Chihuahua,2019,6,6/1/2019,35,16,27.2,59.78,Medio
+Norte,Coahuila de Zaragoza,2019,6,6/1/2019,35,16,27.2,59.78,Medio
+Norte,Tamaulipas,2019,6,6/1/2019,35,16,27.2,59.78,Medio
+Norte,Nuevo León,2019,6,6/1/2019,35,16,27.2,59.78,Medio
+Norte,Chihuahua,2019,7,7/1/2019,38,19,38.7,68.37,Alto
+Norte,Coahuila de Zaragoza,2019,7,7/1/2019,38,19,38.7,68.37,Alto
+Norte,Tamaulipas,2019,7,7/1/2019,38,19,38.7,68.37,Alto
+Norte,Nuevo León,2019,7,7/1/2019,38,19,38.7,68.37,Alto
+Norte,Chihuahua,2019,8,8/1/2019,36.2,20,43,68.2,Alto
+Norte,Coahuila de Zaragoza,2019,8,8/1/2019,36.2,20,43,68.2,Alto
+Norte,Tamaulipas,2019,8,8/1/2019,36.2,20,43,68.2,Alto
+Norte,Nuevo León,2019,8,8/1/2019,36.2,20,43,68.2,Alto
+Norte,Chihuahua,2019,9,9/1/2019,31.5,6,37,48.2,Medio
+Norte,Coahuila de Zaragoza,2019,9,9/1/2019,31.5,6,37,48.2,Medio
+Norte,Tamaulipas,2019,9,9/1/2019,31.5,6,37,48.2,Medio
+Norte,Nuevo León,2019,9,9/1/2019,31.5,6,37,48.2,Medio
+Norte,Chihuahua,2019,10,10/1/2019,24,0,34.3,33.58,Bajo
+Norte,Coahuila de Zaragoza,2019,10,10/1/2019,24,0,34.3,33.58,Bajo
+Norte,Tamaulipas,2019,10,10/1/2019,24,0,34.3,33.58,Bajo
+Norte,Nuevo León,2019,10,10/1/2019,24,0,34.3,33.58,Bajo
+Norte,Chihuahua,2019,11,11/1/2019,16.8,0,44.2,27.51,Bajo
+Norte,Coahuila de Zaragoza,2019,11,11/1/2019,16.8,0,44.2,27.51,Bajo
+Norte,Tamaulipas,2019,11,11/1/2019,16.8,0,44.2,27.51,Bajo
+Norte,Nuevo León,2019,11,11/1/2019,16.8,0,44.2,27.51,Bajo
+Norte,Chihuahua,2019,12,12/1/2019,11.7,0,50.3,23.02,Bajo
+Norte,Coahuila de Zaragoza,2019,12,12/1/2019,11.7,0,50.3,23.02,Bajo
+Norte,Tamaulipas,2019,12,12/1/2019,11.7,0,50.3,23.02,Bajo
+Norte,Nuevo León,2019,12,12/1/2019,11.7,0,50.3,23.02,Bajo
+Norte,Chihuahua,2020,1,1/1/2020,9.2,0,44.2,19.06,Bajo
+Norte,Coahuila de Zaragoza,2020,1,1/1/2020,9.2,0,44.2,19.06,Bajo
+Norte,Tamaulipas,2020,1,1/1/2020,9.2,0,44.2,19.06,Bajo
+Norte,Nuevo León,2020,1,1/1/2020,9.2,0,44.2,19.06,Bajo
+Norte,Chihuahua,2020,2,2/1/2020,11.4,2,44.7,23.54,Bajo
+Norte,Coahuila de Zaragoza,2020,2,2/1/2020,11.4,2,44.7,23.54,Bajo
+Norte,Tamaulipas,2020,2,2/1/2020,11.4,2,44.7,23.54,Bajo
+Norte,Nuevo León,2020,2,2/1/2020,11.4,2,44.7,23.54,Bajo
+Norte,Chihuahua,2020,3,3/1/2020,19.2,0,38.4,28.98,Bajo
+Norte,Coahuila de Zaragoza,2020,3,3/1/2020,19.2,0,38.4,28.98,Bajo
+Norte,Tamaulipas,2020,3,3/1/2020,19.2,0,38.4,28.98,Bajo
+Norte,Nuevo León,2020,3,3/1/2020,19.2,0,38.4,28.98,Bajo
+Norte,Chihuahua,2020,4,4/1/2020,21.7,1,30.7,31.27,Bajo
+Norte,Coahuila de Zaragoza,2020,4,4/1/2020,21.7,1,30.7,31.27,Bajo
+Norte,Tamaulipas,2020,4,4/1/2020,21.7,1,30.7,31.27,Bajo
+Norte,Nuevo León,2020,4,4/1/2020,21.7,1,30.7,31.27,Bajo
+Norte,Chihuahua,2020,5,5/1/2020,30.6,5,28.8,44.65,Medio
+Norte,Coahuila de Zaragoza,2020,5,5/1/2020,30.6,5,28.8,44.65,Medio
+Norte,Tamaulipas,2020,5,5/1/2020,30.6,5,28.8,44.65,Medio
+Norte,Nuevo León,2020,5,5/1/2020,30.6,5,28.8,44.65,Medio
+Norte,Chihuahua,2020,6,6/1/2020,32.1,13,30.1,54.21,Medio
+Norte,Coahuila de Zaragoza,2020,6,6/1/2020,32.1,13,30.1,54.21,Medio
+Norte,Tamaulipas,2020,6,6/1/2020,32.1,13,30.1,54.21,Medio
+Norte,Nuevo León,2020,6,6/1/2020,32.1,13,30.1,54.21,Medio
+Norte,Chihuahua,2020,7,7/1/2020,35.5,18,39.3,64.77,Alto
+Norte,Coahuila de Zaragoza,2020,7,7/1/2020,35.5,18,39.3,64.77,Alto
+Norte,Tamaulipas,2020,7,7/1/2020,35.5,18,39.3,64.77,Alto
+Norte,Nuevo León,2020,7,7/1/2020,35.5,18,39.3,64.77,Alto
+Norte,Chihuahua,2020,8,8/1/2020,36.3,20,37,67.11,Alto
+Norte,Coahuila de Zaragoza,2020,8,8/1/2020,36.3,20,37,67.11,Alto
+Norte,Tamaulipas,2020,8,8/1/2020,36.3,20,37,67.11,Alto
+Norte,Nuevo León,2020,8,8/1/2020,36.3,20,37,67.11,Alto
+Norte,Chihuahua,2020,9,9/1/2020,30.6,8,34.3,48.55,Medio
+Norte,Coahuila de Zaragoza,2020,9,9/1/2020,30.6,8,34.3,48.55,Medio
+Norte,Tamaulipas,2020,9,9/1/2020,30.6,8,34.3,48.55,Medio
+Norte,Nuevo León,2020,9,9/1/2020,30.6,8,34.3,48.55,Medio
+Norte,Chihuahua,2020,10,10/1/2020,26.1,2,37.1,38.4,Medio
+Norte,Coahuila de Zaragoza,2020,10,10/1/2020,26.1,2,37.1,38.4,Medio
+Norte,Tamaulipas,2020,10,10/1/2020,26.1,2,37.1,38.4,Medio
+Norte,Nuevo León,2020,10,10/1/2020,26.1,2,37.1,38.4,Medio
+Norte,Chihuahua,2020,11,11/1/2020,17.3,1,42.8,28.75,Bajo
+Norte,Coahuila de Zaragoza,2020,11,11/1/2020,17.3,1,42.8,28.75,Bajo
+Norte,Tamaulipas,2020,11,11/1/2020,17.3,1,42.8,28.75,Bajo
+Norte,Nuevo León,2020,11,11/1/2020,17.3,1,42.8,28.75,Bajo
+Norte,Chihuahua,2020,12,12/1/2020,10.7,0,43.5,20.59,Bajo
+Norte,Coahuila de Zaragoza,2020,12,12/1/2020,10.7,0,43.5,20.59,Bajo
+Norte,Tamaulipas,2020,12,12/1/2020,10.7,0,43.5,20.59,Bajo
+Norte,Nuevo León,2020,12,12/1/2020,10.7,0,43.5,20.59,Bajo
+Norte,Chihuahua,2021,1,1/1/2021,9.4,0,44.1,19.23,Bajo
+Norte,Coahuila de Zaragoza,2021,1,1/1/2021,9.4,0,44.1,19.23,Bajo
+Norte,Tamaulipas,2021,1,1/1/2021,9.4,0,44.1,19.23,Bajo
+Norte,Nuevo León,2021,1,1/1/2021,9.4,0,44.1,19.23,Bajo
+Norte,Chihuahua,2021,2,2/1/2021,12.5,0,41.2,22.08,Bajo
+Norte,Coahuila de Zaragoza,2021,2,2/1/2021,12.5,0,41.2,22.08,Bajo
+Norte,Tamaulipas,2021,2,2/1/2021,12.5,0,41.2,22.08,Bajo
+Norte,Nuevo León,2021,2,2/1/2021,12.5,0,41.2,22.08,Bajo
+Norte,Chihuahua,2021,3,3/1/2021,16.7,0,32.5,25.02,Bajo
+Norte,Coahuila de Zaragoza,2021,3,3/1/2021,16.7,0,32.5,25.02,Bajo
+Norte,Tamaulipas,2021,3,3/1/2021,16.7,0,32.5,25.02,Bajo
+Norte,Nuevo León,2021,3,3/1/2021,16.7,0,32.5,25.02,Bajo
+Norte,Chihuahua,2021,4,4/1/2021,22.6,1,26.9,31.47,Bajo
+Norte,Coahuila de Zaragoza,2021,4,4/1/2021,22.6,1,26.9,31.47,Bajo
+Norte,Tamaulipas,2021,4,4/1/2021,22.6,1,26.9,31.47,Bajo
+Norte,Nuevo León,2021,4,4/1/2021,22.6,1,26.9,31.47,Bajo
+Norte,Chihuahua,2021,5,5/1/2021,29.2,5,23,41.89,Medio
+Norte,Coahuila de Zaragoza,2021,5,5/1/2021,29.2,5,23,41.89,Medio
+Norte,Tamaulipas,2021,5,5/1/2021,29.2,5,23,41.89,Medio
+Norte,Nuevo León,2021,5,5/1/2021,29.2,5,23,41.89,Medio
+Norte,Chihuahua,2021,6,6/1/2021,35.6,12,22.9,55.71,Medio
+Norte,Coahuila de Zaragoza,2021,6,6/1/2021,35.6,12,22.9,55.71,Medio
+Norte,Tamaulipas,2021,6,6/1/2021,35.6,12,22.9,55.71,Medio
+Norte,Nuevo León,2021,6,6/1/2021,35.6,12,22.9,55.71,Medio
+Norte,Chihuahua,2021,7,7/1/2021,36.5,19,39.6,66.87,Alto
+Norte,Coahuila de Zaragoza,2021,7,7/1/2021,36.5,19,39.6,66.87,Alto
+Norte,Tamaulipas,2021,7,7/1/2021,36.5,19,39.6,66.87,Alto
+Norte,Nuevo León,2021,7,7/1/2021,36.5,19,39.6,66.87,Alto
+Norte,Chihuahua,2021,8,8/1/2021,34,16,41.9,61.65,Alto
+Norte,Coahuila de Zaragoza,2021,8,8/1/2021,34,16,41.9,61.65,Alto
+Norte,Tamaulipas,2021,8,8/1/2021,34,16,41.9,61.65,Alto
+Norte,Nuevo León,2021,8,8/1/2021,34,16,41.9,61.65,Alto
+Norte,Chihuahua,2021,9,9/1/2021,31.2,10,38.9,52.14,Medio
+Norte,Coahuila de Zaragoza,2021,9,9/1/2021,31.2,10,38.9,52.14,Medio
+Norte,Tamaulipas,2021,9,9/1/2021,31.2,10,38.9,52.14,Medio
+Norte,Nuevo León,2021,9,9/1/2021,31.2,10,38.9,52.14,Medio
+Norte,Chihuahua,2021,10,10/1/2021,25.8,0,31.4,34.94,Bajo
+Norte,Coahuila de Zaragoza,2021,10,10/1/2021,25.8,0,31.4,34.94,Bajo
+Norte,Tamaulipas,2021,10,10/1/2021,25.8,0,31.4,34.94,Bajo
+Norte,Nuevo León,2021,10,10/1/2021,25.8,0,31.4,34.94,Bajo
+Norte,Chihuahua,2021,11,11/1/2021,13.3,1,45.7,24.89,Bajo
+Norte,Coahuila de Zaragoza,2021,11,11/1/2021,13.3,1,45.7,24.89,Bajo
+Norte,Tamaulipas,2021,11,11/1/2021,13.3,1,45.7,24.89,Bajo
+Norte,Nuevo León,2021,11,11/1/2021,13.3,1,45.7,24.89,Bajo
+Norte,Chihuahua,2021,12,12/1/2021,11,0,45.3,21.33,Bajo
+Norte,Coahuila de Zaragoza,2021,12,12/1/2021,11,0,45.3,21.33,Bajo
+Norte,Tamaulipas,2021,12,12/1/2021,11,0,45.3,21.33,Bajo
+Norte,Nuevo León,2021,12,12/1/2021,11,0,45.3,21.33,Bajo
+Norte,Chihuahua,2022,1,1/1/2022,9.4,1,48.5,21.15,Bajo
+Norte,Coahuila de Zaragoza,2022,1,1/1/2022,9.4,1,48.5,21.15,Bajo
+Norte,Tamaulipas,2022,1,1/1/2022,9.4,1,48.5,21.15,Bajo
+Norte,Nuevo León,2022,1,1/1/2022,9.4,1,48.5,21.15,Bajo
+Norte,Chihuahua,2022,2,2/1/2022,13.3,0,42.5,23.34,Bajo
+Norte,Coahuila de Zaragoza,2022,2,2/1/2022,13.3,0,42.5,23.34,Bajo
+Norte,Tamaulipas,2022,2,2/1/2022,13.3,0,42.5,23.34,Bajo
+Norte,Nuevo León,2022,2,2/1/2022,13.3,0,42.5,23.34,Bajo
+Norte,Chihuahua,2022,3,3/1/2022,18.4,2,32,28.82,Bajo
+Norte,Coahuila de Zaragoza,2022,3,3/1/2022,18.4,2,32,28.82,Bajo
+Norte,Tamaulipas,2022,3,3/1/2022,18.4,2,32,28.82,Bajo
+Norte,Nuevo León,2022,3,3/1/2022,18.4,2,32,28.82,Bajo
+Norte,Chihuahua,2022,4,4/1/2022,23.9,2,30.1,34.52,Bajo
+Norte,Coahuila de Zaragoza,2022,4,4/1/2022,23.9,2,30.1,34.52,Bajo
+Norte,Tamaulipas,2022,4,4/1/2022,23.9,2,30.1,34.52,Bajo
+Norte,Nuevo León,2022,4,4/1/2022,23.9,2,30.1,34.52,Bajo
+Norte,Chihuahua,2022,5,5/1/2022,30.4,5,24.1,43.45,Medio
+Norte,Coahuila de Zaragoza,2022,5,5/1/2022,30.4,5,24.1,43.45,Medio
+Norte,Tamaulipas,2022,5,5/1/2022,30.4,5,24.1,43.45,Medio
+Norte,Nuevo León,2022,5,5/1/2022,30.4,5,24.1,43.45,Medio
+Norte,Chihuahua,2022,6,6/1/2022,34.5,12,27.3,55.45,Medio
+Norte,Coahuila de Zaragoza,2022,6,6/1/2022,34.5,12,27.3,55.45,Medio
+Norte,Tamaulipas,2022,6,6/1/2022,34.5,12,27.3,55.45,Medio
+Norte,Nuevo León,2022,6,6/1/2022,34.5,12,27.3,55.45,Medio
+Norte,Chihuahua,2022,7,7/1/2022,36.3,19,43.9,67.49,Alto
+Norte,Coahuila de Zaragoza,2022,7,7/1/2022,36.3,19,43.9,67.49,Alto
+Norte,Tamaulipas,2022,7,7/1/2022,36.3,19,43.9,67.49,Alto
+Norte,Nuevo León,2022,7,7/1/2022,36.3,19,43.9,67.49,Alto
+Norte,Chihuahua,2022,8,8/1/2022,37,16,44.3,65.43,Alto
+Norte,Coahuila de Zaragoza,2022,8,8/1/2022,37,16,44.3,65.43,Alto
+Norte,Tamaulipas,2022,8,8/1/2022,37,16,44.3,65.43,Alto
+Norte,Nuevo León,2022,8,8/1/2022,37,16,44.3,65.43,Alto
+Norte,Chihuahua,2022,9,9/1/2022,31,9,39.4,51,Medio
+Norte,Coahuila de Zaragoza,2022,9,9/1/2022,31,9,39.4,51,Medio
+Norte,Tamaulipas,2022,9,9/1/2022,31,9,39.4,51,Medio
+Norte,Nuevo León,2022,9,9/1/2022,31,9,39.4,51,Medio
+Norte,Chihuahua,2022,10,10/1/2022,22.3,0,35.3,31.89,Bajo
+Norte,Coahuila de Zaragoza,2022,10,10/1/2022,22.3,0,35.3,31.89,Bajo
+Norte,Tamaulipas,2022,10,10/1/2022,22.3,0,35.3,31.89,Bajo
+Norte,Nuevo León,2022,10,10/1/2022,22.3,0,35.3,31.89,Bajo
+Norte,Chihuahua,2022,11,11/1/2022,16.7,0,44,27.36,Bajo
+Norte,Coahuila de Zaragoza,2022,11,11/1/2022,16.7,0,44,27.36,Bajo
+Norte,Tamaulipas,2022,11,11/1/2022,16.7,0,44,27.36,Bajo
+Norte,Nuevo León,2022,11,11/1/2022,16.7,0,44,27.36,Bajo
+Norte,Chihuahua,2022,12,12/1/2022,12.6,0,44.3,22.82,Bajo
+Norte,Coahuila de Zaragoza,2022,12,12/1/2022,12.6,0,44.3,22.82,Bajo
+Norte,Tamaulipas,2022,12,12/1/2022,12.6,0,44.3,22.82,Bajo
+Norte,Nuevo León,2022,12,12/1/2022,12.6,0,44.3,22.82,Bajo
+Norte,Chihuahua,2023,1,1/1/2023,10.2,0,47.7,20.82,Bajo
+Norte,Coahuila de Zaragoza,2023,1,1/1/2023,10.2,0,47.7,20.82,Bajo
+Norte,Tamaulipas,2023,1,1/1/2023,10.2,0,47.7,20.82,Bajo
+Norte,Nuevo León,2023,1,1/1/2023,10.2,0,47.7,20.82,Bajo
+Norte,Chihuahua,2023,2,2/1/2023,12.7,1,42.6,23.58,Bajo
+Norte,Coahuila de Zaragoza,2023,2,2/1/2023,12.7,1,42.6,23.58,Bajo
+Norte,Tamaulipas,2023,2,2/1/2023,12.7,1,42.6,23.58,Bajo
+Norte,Nuevo León,2023,2,2/1/2023,12.7,1,42.6,23.58,Bajo
+Norte,Chihuahua,2023,3,3/1/2023,18.8,0,37.1,28.28,Bajo
+Norte,Coahuila de Zaragoza,2023,3,3/1/2023,18.8,0,37.1,28.28,Bajo
+Norte,Tamaulipas,2023,3,3/1/2023,18.8,0,37.1,28.28,Bajo
+Norte,Nuevo León,2023,3,3/1/2023,18.8,0,37.1,28.28,Bajo
+Norte,Chihuahua,2023,4,4/1/2023,25.2,0,27.6,33.5,Bajo
+Norte,Coahuila de Zaragoza,2023,4,4/1/2023,25.2,0,27.6,33.5,Bajo
+Norte,Tamaulipas,2023,4,4/1/2023,25.2,0,27.6,33.5,Bajo
+Norte,Nuevo León,2023,4,4/1/2023,25.2,0,27.6,33.5,Bajo
+Norte,Chihuahua,2023,5,5/1/2023,32.7,7,26.2,48.39,Medio
+Norte,Coahuila de Zaragoza,2023,5,5/1/2023,32.7,7,26.2,48.39,Medio
+Norte,Tamaulipas,2023,5,5/1/2023,32.7,7,26.2,48.39,Medio
+Norte,Nuevo León,2023,5,5/1/2023,32.7,7,26.2,48.39,Medio
+Norte,Chihuahua,2023,6,6/1/2023,36.4,12,25.6,57.16,Medio
+Norte,Coahuila de Zaragoza,2023,6,6/1/2023,36.4,12,25.6,57.16,Medio
+Norte,Tamaulipas,2023,6,6/1/2023,36.4,12,25.6,57.16,Medio
+Norte,Nuevo León,2023,6,6/1/2023,36.4,12,25.6,57.16,Medio
+Norte,Chihuahua,2023,7,7/1/2023,35.9,20,39.9,67.24,Alto
+Norte,Coahuila de Zaragoza,2023,7,7/1/2023,35.9,20,39.9,67.24,Alto
+Norte,Tamaulipas,2023,7,7/1/2023,35.9,20,39.9,67.24,Alto
+Norte,Nuevo León,2023,7,7/1/2023,35.9,20,39.9,67.24,Alto
+Norte,Chihuahua,2023,8,8/1/2023,37.5,19,46.7,69.39,Alto
+Norte,Coahuila de Zaragoza,2023,8,8/1/2023,37.5,19,46.7,69.39,Alto
+Norte,Tamaulipas,2023,8,8/1/2023,37.5,19,46.7,69.39,Alto
+Norte,Nuevo León,2023,8,8/1/2023,37.5,19,46.7,69.39,Alto
+Norte,Chihuahua,2023,9,9/1/2023,34.2,10,38.4,55.38,Medio
+Norte,Coahuila de Zaragoza,2023,9,9/1/2023,34.2,10,38.4,55.38,Medio
+Norte,Tamaulipas,2023,9,9/1/2023,34.2,10,38.4,55.38,Medio
+Norte,Nuevo León,2023,9,9/1/2023,34.2,10,38.4,55.38,Medio
+Norte,Chihuahua,2023,10,10/1/2023,25.6,1,34.9,36.39,Medio
+Norte,Coahuila de Zaragoza,2023,10,10/1/2023,25.6,1,34.9,36.39,Medio
+Norte,Tamaulipas,2023,10,10/1/2023,25.6,1,34.9,36.39,Medio
+Norte,Nuevo León,2023,10,10/1/2023,25.6,1,34.9,36.39,Medio
+Norte,Chihuahua,2023,11,11/1/2023,16.5,1,45.6,28.45,Bajo
+Norte,Coahuila de Zaragoza,2023,11,11/1/2023,16.5,1,45.6,28.45,Bajo
+Norte,Tamaulipas,2023,11,11/1/2023,16.5,1,45.6,28.45,Bajo
+Norte,Nuevo León,2023,11,11/1/2023,16.5,1,45.6,28.45,Bajo
+Norte,Chihuahua,2023,12,12/1/2023,12.5,1,48,24.48,Bajo
+Norte,Coahuila de Zaragoza,2023,12,12/1/2023,12.5,1,48,24.48,Bajo
+Norte,Tamaulipas,2023,12,12/1/2023,12.5,1,48,24.48,Bajo
+Norte,Nuevo León,2023,12,12/1/2023,12.5,1,48,24.48,Bajo
+Norte,Chihuahua,2024,1,1/1/2024,9.4,0,47.4,19.98,Bajo
+Norte,Coahuila de Zaragoza,2024,1,1/1/2024,9.4,0,47.4,19.98,Bajo
+Norte,Tamaulipas,2024,1,1/1/2024,9.4,0,47.4,19.98,Bajo
+Norte,Nuevo León,2024,1,1/1/2024,9.4,0,47.4,19.98,Bajo
+Norte,Chihuahua,2024,2,2/1/2024,13.6,2,42.5,25.53,Bajo
+Norte,Coahuila de Zaragoza,2024,2,2/1/2024,13.6,2,42.5,25.53,Bajo
+Norte,Tamaulipas,2024,2,2/1/2024,13.6,2,42.5,25.53,Bajo
+Norte,Nuevo León,2024,2,2/1/2024,13.6,2,42.5,25.53,Bajo
+Norte,Chihuahua,2024,3,3/1/2024,19,2,36.3,30.29,Bajo
+Norte,Coahuila de Zaragoza,2024,3,3/1/2024,19,2,36.3,30.29,Bajo
+Norte,Tamaulipas,2024,3,3/1/2024,19,2,36.3,30.29,Bajo
+Norte,Nuevo León,2024,3,3/1/2024,19,2,36.3,30.29,Bajo
+Norte,Chihuahua,2024,4,4/1/2024,24.5,3,29.9,36.04,Medio
+Norte,Coahuila de Zaragoza,2024,4,4/1/2024,24.5,3,29.9,36.04,Medio
+Norte,Tamaulipas,2024,4,4/1/2024,24.5,3,29.9,36.04,Medio
+Norte,Nuevo León,2024,4,4/1/2024,24.5,3,29.9,36.04,Medio
+Norte,Chihuahua,2024,5,5/1/2024,31,6,25.1,45.28,Medio
+Norte,Coahuila de Zaragoza,2024,5,5/1/2024,31,6,25.1,45.28,Medio
+Norte,Tamaulipas,2024,5,5/1/2024,31,6,25.1,45.28,Medio
+Norte,Nuevo León,2024,5,5/1/2024,31,6,25.1,45.28,Medio
+Norte,Chihuahua,2024,6,6/1/2024,34.6,12,24.2,54.88,Medio
+Norte,Coahuila de Zaragoza,2024,6,6/1/2024,34.6,12,24.2,54.88,Medio
+Norte,Tamaulipas,2024,6,6/1/2024,34.6,12,24.2,54.88,Medio
+Norte,Nuevo León,2024,6,6/1/2024,34.6,12,24.2,54.88,Medio
+Norte,Chihuahua,2024,7,7/1/2024,36.5,18,38.7,65.71,Alto
+Norte,Coahuila de Zaragoza,2024,7,7/1/2024,36.5,18,38.7,65.71,Alto
+Norte,Tamaulipas,2024,7,7/1/2024,36.5,18,38.7,65.71,Alto
+Norte,Nuevo León,2024,7,7/1/2024,36.5,18,38.7,65.71,Alto
+Norte,Chihuahua,2024,8,8/1/2024,37.9,18,41.2,67.78,Alto
+Norte,Coahuila de Zaragoza,2024,8,8/1/2024,37.9,18,41.2,67.78,Alto
+Norte,Tamaulipas,2024,8,8/1/2024,37.9,18,41.2,67.78,Alto
+Norte,Nuevo León,2024,8,8/1/2024,37.9,18,41.2,67.78,Alto
+Norte,Chihuahua,2024,9,9/1/2024,30.5,7,38.4,48.38,Medio
+Norte,Coahuila de Zaragoza,2024,9,9/1/2024,30.5,7,38.4,48.38,Medio
+Norte,Tamaulipas,2024,9,9/1/2024,30.5,7,38.4,48.38,Medio
+Norte,Nuevo León,2024,9,9/1/2024,30.5,7,38.4,48.38,Medio
+Norte,Chihuahua,2024,10,10/1/2024,23.6,0,32.4,32.68,Bajo
+Norte,Coahuila de Zaragoza,2024,10,10/1/2024,23.6,0,32.4,32.68,Bajo
+Norte,Tamaulipas,2024,10,10/1/2024,23.6,0,32.4,32.68,Bajo
+Norte,Nuevo León,2024,10,10/1/2024,23.6,0,32.4,32.68,Bajo
+Norte,Chihuahua,2024,11,11/1/2024,17.6,0,44.7,28.54,Bajo
+Norte,Coahuila de Zaragoza,2024,11,11/1/2024,17.6,0,44.7,28.54,Bajo
+Norte,Tamaulipas,2024,11,11/1/2024,17.6,0,44.7,28.54,Bajo
+Norte,Nuevo León,2024,11,11/1/2024,17.6,0,44.7,28.54,Bajo
+Norte,Chihuahua,2024,12,12/1/2024,12.1,0,51.4,23.78,Bajo
+Norte,Coahuila de Zaragoza,2024,12,12/1/2024,12.1,0,51.4,23.78,Bajo
+Norte,Tamaulipas,2024,12,12/1/2024,12.1,0,51.4,23.78,Bajo
+Norte,Nuevo León,2024,12,12/1/2024,12.1,0,51.4,23.78,Bajo
+Norte,Chihuahua,2025,1,1/1/2025,11.3,0,46.3,21.83,Bajo
+Norte,Coahuila de Zaragoza,2025,1,1/1/2025,11.3,0,46.3,21.83,Bajo
+Norte,Tamaulipas,2025,1,1/1/2025,11.3,0,46.3,21.83,Bajo
+Norte,Nuevo León,2025,1,1/1/2025,11.3,0,46.3,21.83,Bajo
+Norte,Chihuahua,2025,2,2/1/2025,12.8,0,42.5,22.74,Bajo
+Norte,Coahuila de Zaragoza,2025,2,2/1/2025,12.8,0,42.5,22.74,Bajo
+Norte,Tamaulipas,2025,2,2/1/2025,12.8,0,42.5,22.74,Bajo
+Norte,Nuevo León,2025,2,2/1/2025,12.8,0,42.5,22.74,Bajo
+Norte,Chihuahua,2025,3,3/1/2025,17.3,1,36.2,27.42,Bajo
+Norte,Coahuila de Zaragoza,2025,3,3/1/2025,17.3,1,36.2,27.42,Bajo
+Norte,Tamaulipas,2025,3,3/1/2025,17.3,1,36.2,27.42,Bajo
+Norte,Nuevo León,2025,3,3/1/2025,17.3,1,36.2,27.42,Bajo
+Norte,Chihuahua,2025,4,4/1/2025,22.8,1,33,32.93,Bajo
+Norte,Coahuila de Zaragoza,2025,4,4/1/2025,22.8,1,33,32.93,Bajo
+Norte,Tamaulipas,2025,4,4/1/2025,22.8,1,33,32.93,Bajo
+Norte,Nuevo León,2025,4,4/1/2025,22.8,1,33,32.93,Bajo
+Norte,Chihuahua,2025,5,5/1/2025,33.5,7,20.3,48.04,Medio
+Norte,Coahuila de Zaragoza,2025,5,5/1/2025,33.5,7,20.3,48.04,Medio
+Norte,Tamaulipas,2025,5,5/1/2025,33.5,7,20.3,48.04,Medio
+Norte,Nuevo León,2025,5,5/1/2025,33.5,7,20.3,48.04,Medio
+Norte,Chihuahua,2025,6,6/1/2025,35.9,12,28.4,57.15,Medio
+Norte,Coahuila de Zaragoza,2025,6,6/1/2025,35.9,12,28.4,57.15,Medio
+Norte,Tamaulipas,2025,6,6/1/2025,35.9,12,28.4,57.15,Medio
+Norte,Nuevo León,2025,6,6/1/2025,35.9,12,28.4,57.15,Medio
+Norte,Chihuahua,2025,7,7/1/2025,36.6,18,39.2,65.95,Alto
+Norte,Coahuila de Zaragoza,2025,7,7/1/2025,36.6,18,39.2,65.95,Alto
+Norte,Tamaulipas,2025,7,7/1/2025,36.6,18,39.2,65.95,Alto
+Norte,Nuevo León,2025,7,7/1/2025,36.6,18,39.2,65.95,Alto
+Norte,Chihuahua,2025,8,8/1/2025,36.1,19,43.9,67.23,Alto
+Norte,Coahuila de Zaragoza,2025,8,8/1/2025,36.1,19,43.9,67.23,Alto
+Norte,Tamaulipas,2025,8,8/1/2025,36.1,19,43.9,67.23,Alto
+Norte,Nuevo León,2025,8,8/1/2025,36.1,19,43.9,67.23,Alto
+Norte,Chihuahua,2025,9,9/1/2025,30.8,10,38.5,51.63,Medio
+Norte,Coahuila de Zaragoza,2025,9,9/1/2025,30.8,10,38.5,51.63,Medio
+Norte,Tamaulipas,2025,9,9/1/2025,30.8,10,38.5,51.63,Medio
+Norte,Nuevo León,2025,9,9/1/2025,30.8,10,38.5,51.63,Medio
+Norte,Chihuahua,2025,10,10/1/2025,24.3,1,31.8,34.27,Bajo
+Norte,Coahuila de Zaragoza,2025,10,10/1/2025,24.3,1,31.8,34.27,Bajo
+Norte,Tamaulipas,2025,10,10/1/2025,24.3,1,31.8,34.27,Bajo
+Norte,Nuevo León,2025,10,10/1/2025,24.3,1,31.8,34.27,Bajo
+Norte,Chihuahua,2025,11,11/1/2025,18.3,2,44.1,31.12,Bajo
+Norte,Coahuila de Zaragoza,2025,11,11/1/2025,18.3,2,44.1,31.12,Bajo
+Norte,Tamaulipas,2025,11,11/1/2025,18.3,2,44.1,31.12,Bajo
+Norte,Nuevo León,2025,11,11/1/2025,18.3,2,44.1,31.12,Bajo
+Norte,Chihuahua,2025,12,12/1/2025,11.6,0,45.8,22.01,Bajo
+Norte,Coahuila de Zaragoza,2025,12,12/1/2025,11.6,0,45.8,22.01,Bajo
+Norte,Tamaulipas,2025,12,12/1/2025,11.6,0,45.8,22.01,Bajo
+Norte,Nuevo León,2025,12,12/1/2025,11.6,0,45.8,22.01,Bajo
+Noroeste,Sonora,2018,1,1/1/2018,15,2,54.7,29.6,Bajo
+Noroeste,Sinaloa,2018,1,1/1/2018,15,2,54.7,29.6,Bajo
+Noroeste,Baja California,2018,1,1/1/2018,15,2,54.7,29.6,Bajo
+Noroeste,Baja California Sur,2018,1,1/1/2018,15,2,54.7,29.6,Bajo
+Noroeste,Sonora,2018,2,2/1/2018,20.1,0,48.3,32.04,Bajo
+Noroeste,Sinaloa,2018,2,2/1/2018,20.1,0,48.3,32.04,Bajo
+Noroeste,Baja California,2018,2,2/1/2018,20.1,0,48.3,32.04,Bajo
+Noroeste,Baja California Sur,2018,2,2/1/2018,20.1,0,48.3,32.04,Bajo
+Noroeste,Sonora,2018,3,3/1/2018,21.6,0,41.2,32.24,Bajo
+Noroeste,Sinaloa,2018,3,3/1/2018,21.6,0,41.2,32.24,Bajo
+Noroeste,Baja California,2018,3,3/1/2018,21.6,0,41.2,32.24,Bajo
+Noroeste,Baja California Sur,2018,3,3/1/2018,21.6,0,41.2,32.24,Bajo
+Noroeste,Sonora,2018,4,4/1/2018,26.6,0,34.5,36.47,Medio
+Noroeste,Sinaloa,2018,4,4/1/2018,26.6,0,34.5,36.47,Medio
+Noroeste,Baja California,2018,4,4/1/2018,26.6,0,34.5,36.47,Medio
+Noroeste,Baja California Sur,2018,4,4/1/2018,26.6,0,34.5,36.47,Medio
+Noroeste,Sonora,2018,5,5/1/2018,31.5,12,32.3,53.06,Medio
+Noroeste,Sinaloa,2018,5,5/1/2018,31.5,12,32.3,53.06,Medio
+Noroeste,Baja California,2018,5,5/1/2018,31.5,12,32.3,53.06,Medio
+Noroeste,Baja California Sur,2018,5,5/1/2018,31.5,12,32.3,53.06,Medio
+Noroeste,Sonora,2018,6,6/1/2018,38.5,24,36.1,73.18,Alto
+Noroeste,Sinaloa,2018,6,6/1/2018,38.5,24,36.1,73.18,Alto
+Noroeste,Baja California,2018,6,6/1/2018,38.5,24,36.1,73.18,Alto
+Noroeste,Baja California Sur,2018,6,6/1/2018,38.5,24,36.1,73.18,Alto
+Noroeste,Sonora,2018,7,7/1/2018,39.2,28,43.8,79.38,Alto
+Noroeste,Sinaloa,2018,7,7/1/2018,39.2,28,43.8,79.38,Alto
+Noroeste,Baja California,2018,7,7/1/2018,39.2,28,43.8,79.38,Alto
+Noroeste,Baja California Sur,2018,7,7/1/2018,39.2,28,43.8,79.38,Alto
+Noroeste,Sonora,2018,8,8/1/2018,39.7,25,54.7,79.26,Alto
+Noroeste,Sinaloa,2018,8,8/1/2018,39.7,25,54.7,79.26,Alto
+Noroeste,Baja California,2018,8,8/1/2018,39.7,25,54.7,79.26,Alto
+Noroeste,Baja California Sur,2018,8,8/1/2018,39.7,25,54.7,79.26,Alto
+Noroeste,Sonora,2018,9,9/1/2018,36.8,16,49.5,66.32,Alto
+Noroeste,Sinaloa,2018,9,9/1/2018,36.8,16,49.5,66.32,Alto
+Noroeste,Baja California,2018,9,9/1/2018,36.8,16,49.5,66.32,Alto
+Noroeste,Baja California Sur,2018,9,9/1/2018,36.8,16,49.5,66.32,Alto
+Noroeste,Sonora,2018,10,10/1/2018,28.7,2,38.9,41.6,Medio
+Noroeste,Sinaloa,2018,10,10/1/2018,28.7,2,38.9,41.6,Medio
+Noroeste,Baja California,2018,10,10/1/2018,28.7,2,38.9,41.6,Medio
+Noroeste,Baja California Sur,2018,10,10/1/2018,28.7,2,38.9,41.6,Medio
+Noroeste,Sonora,2018,11,11/1/2018,23.9,0,53.3,37.16,Medio
+Noroeste,Sinaloa,2018,11,11/1/2018,23.9,0,53.3,37.16,Medio
+Noroeste,Baja California,2018,11,11/1/2018,23.9,0,53.3,37.16,Medio
+Noroeste,Baja California Sur,2018,11,11/1/2018,23.9,0,53.3,37.16,Medio
+Noroeste,Sonora,2018,12,12/1/2018,17,2,58.9,32.6,Bajo
+Noroeste,Sinaloa,2018,12,12/1/2018,17,2,58.9,32.6,Bajo
+Noroeste,Baja California,2018,12,12/1/2018,17,2,58.9,32.6,Bajo
+Noroeste,Baja California Sur,2018,12,12/1/2018,17,2,58.9,32.6,Bajo
+Noroeste,Sonora,2019,1,1/1/2019,17.3,0,58.9,30.96,Bajo
+Noroeste,Sinaloa,2019,1,1/1/2019,17.3,0,58.9,30.96,Bajo
+Noroeste,Baja California,2019,1,1/1/2019,17.3,0,58.9,30.96,Bajo
+Noroeste,Baja California Sur,2019,1,1/1/2019,17.3,0,58.9,30.96,Bajo
+Noroeste,Sonora,2019,2,2/1/2019,18.2,0,49,30.01,Bajo
+Noroeste,Sinaloa,2019,2,2/1/2019,18.2,0,49,30.01,Bajo
+Noroeste,Baja California,2019,2,2/1/2019,18.2,0,49,30.01,Bajo
+Noroeste,Baja California Sur,2019,2,2/1/2019,18.2,0,49,30.01,Bajo
+Noroeste,Sonora,2019,3,3/1/2019,22.8,0,44.6,34.28,Bajo
+Noroeste,Sinaloa,2019,3,3/1/2019,22.8,0,44.6,34.28,Bajo
+Noroeste,Baja California,2019,3,3/1/2019,22.8,0,44.6,34.28,Bajo
+Noroeste,Baja California Sur,2019,3,3/1/2019,22.8,0,44.6,34.28,Bajo
+Noroeste,Sonora,2019,4,4/1/2019,26.4,2,40.3,39.28,Medio
+Noroeste,Sinaloa,2019,4,4/1/2019,26.4,2,40.3,39.28,Medio
+Noroeste,Baja California,2019,4,4/1/2019,26.4,2,40.3,39.28,Medio
+Noroeste,Baja California Sur,2019,4,4/1/2019,26.4,2,40.3,39.28,Medio
+Noroeste,Sonora,2019,5,5/1/2019,33.6,8,32.8,51.68,Medio
+Noroeste,Sinaloa,2019,5,5/1/2019,33.6,8,32.8,51.68,Medio
+Noroeste,Baja California,2019,5,5/1/2019,33.6,8,32.8,51.68,Medio
+Noroeste,Baja California Sur,2019,5,5/1/2019,33.6,8,32.8,51.68,Medio
+Noroeste,Sonora,2019,6,6/1/2019,38.4,20,30.4,68.15,Alto
+Noroeste,Sinaloa,2019,6,6/1/2019,38.4,20,30.4,68.15,Alto
+Noroeste,Baja California,2019,6,6/1/2019,38.4,20,30.4,68.15,Alto
+Noroeste,Baja California Sur,2019,6,6/1/2019,38.4,20,30.4,68.15,Alto
+Noroeste,Sonora,2019,7,7/1/2019,39.7,27,48.9,80.04,Alto
+Noroeste,Sinaloa,2019,7,7/1/2019,39.7,27,48.9,80.04,Alto
+Noroeste,Baja California,2019,7,7/1/2019,39.7,27,48.9,80.04,Alto
+Noroeste,Baja California Sur,2019,7,7/1/2019,39.7,27,48.9,80.04,Alto
+Noroeste,Sonora,2019,8,8/1/2019,39.4,28,49.1,80.64,Alto
+Noroeste,Sinaloa,2019,8,8/1/2019,39.4,28,49.1,80.64,Alto
+Noroeste,Baja California,2019,8,8/1/2019,39.4,28,49.1,80.64,Alto
+Noroeste,Baja California Sur,2019,8,8/1/2019,39.4,28,49.1,80.64,Alto
+Noroeste,Sonora,2019,9,9/1/2019,36.7,16,47.5,65.81,Alto
+Noroeste,Sinaloa,2019,9,9/1/2019,36.7,16,47.5,65.81,Alto
+Noroeste,Baja California,2019,9,9/1/2019,36.7,16,47.5,65.81,Alto
+Noroeste,Baja California Sur,2019,9,9/1/2019,36.7,16,47.5,65.81,Alto
+Noroeste,Sonora,2019,10,10/1/2019,29.6,4,41.8,45.16,Medio
+Noroeste,Sinaloa,2019,10,10/1/2019,29.6,4,41.8,45.16,Medio
+Noroeste,Baja California,2019,10,10/1/2019,29.6,4,41.8,45.16,Medio
+Noroeste,Baja California Sur,2019,10,10/1/2019,29.6,4,41.8,45.16,Medio
+Noroeste,Sonora,2019,11,11/1/2019,22.8,0,48.2,34.94,Bajo
+Noroeste,Sinaloa,2019,11,11/1/2019,22.8,0,48.2,34.94,Bajo
+Noroeste,Baja California,2019,11,11/1/2019,22.8,0,48.2,34.94,Bajo
+Noroeste,Baja California Sur,2019,11,11/1/2019,22.8,0,48.2,34.94,Bajo
+Noroeste,Sonora,2019,12,12/1/2019,17.1,0,57.3,30.43,Bajo
+Noroeste,Sinaloa,2019,12,12/1/2019,17.1,0,57.3,30.43,Bajo
+Noroeste,Baja California,2019,12,12/1/2019,17.1,0,57.3,30.43,Bajo
+Noroeste,Baja California Sur,2019,12,12/1/2019,17.1,0,57.3,30.43,Bajo
+Noroeste,Sonora,2020,1,1/1/2020,16.8,2,51.2,30.83,Bajo
+Noroeste,Sinaloa,2020,1,1/1/2020,16.8,2,51.2,30.83,Bajo
+Noroeste,Baja California,2020,1,1/1/2020,16.8,2,51.2,30.83,Bajo
+Noroeste,Baja California Sur,2020,1,1/1/2020,16.8,2,51.2,30.83,Bajo
+Noroeste,Sonora,2020,2,2/1/2020,19.1,0,47.2,30.69,Bajo
+Noroeste,Sinaloa,2020,2,2/1/2020,19.1,0,47.2,30.69,Bajo
+Noroeste,Baja California,2020,2,2/1/2020,19.1,0,47.2,30.69,Bajo
+Noroeste,Baja California Sur,2020,2,2/1/2020,19.1,0,47.2,30.69,Bajo
+Noroeste,Sonora,2020,3,3/1/2020,21.4,0,38.6,31.56,Bajo
+Noroeste,Sinaloa,2020,3,3/1/2020,21.4,0,38.6,31.56,Bajo
+Noroeste,Baja California,2020,3,3/1/2020,21.4,0,38.6,31.56,Bajo
+Noroeste,Baja California Sur,2020,3,3/1/2020,21.4,0,38.6,31.56,Bajo
+Noroeste,Sonora,2020,4,4/1/2020,28.8,4,35.1,42.84,Medio
+Noroeste,Sinaloa,2020,4,4/1/2020,28.8,4,35.1,42.84,Medio
+Noroeste,Baja California,2020,4,4/1/2020,28.8,4,35.1,42.84,Medio
+Noroeste,Baja California Sur,2020,4,4/1/2020,28.8,4,35.1,42.84,Medio
+Noroeste,Sonora,2020,5,5/1/2020,32.9,11,32.1,53.64,Medio
+Noroeste,Sinaloa,2020,5,5/1/2020,32.9,11,32.1,53.64,Medio
+Noroeste,Baja California,2020,5,5/1/2020,32.9,11,32.1,53.64,Medio
+Noroeste,Baja California Sur,2020,5,5/1/2020,32.9,11,32.1,53.64,Medio
+Noroeste,Sonora,2020,6,6/1/2020,38.7,23,31.7,71.56,Alto
+Noroeste,Sinaloa,2020,6,6/1/2020,38.7,23,31.7,71.56,Alto
+Noroeste,Baja California,2020,6,6/1/2020,38.7,23,31.7,71.56,Alto
+Noroeste,Baja California Sur,2020,6,6/1/2020,38.7,23,31.7,71.56,Alto
+Noroeste,Sonora,2020,7,7/1/2020,43.5,30,47.7,86.89,Alto
+Noroeste,Sinaloa,2020,7,7/1/2020,43.5,30,47.7,86.89,Alto
+Noroeste,Baja California,2020,7,7/1/2020,43.5,30,47.7,86.89,Alto
+Noroeste,Baja California Sur,2020,7,7/1/2020,43.5,30,47.7,86.89,Alto
+Noroeste,Sonora,2020,8,8/1/2020,40.4,27,48,80.66,Alto
+Noroeste,Sinaloa,2020,8,8/1/2020,40.4,27,48,80.66,Alto
+Noroeste,Baja California,2020,8,8/1/2020,40.4,27,48,80.66,Alto
+Noroeste,Baja California Sur,2020,8,8/1/2020,40.4,27,48,80.66,Alto
+Noroeste,Sonora,2020,9,9/1/2020,37.6,13,50,64.34,Alto
+Noroeste,Sinaloa,2020,9,9/1/2020,37.6,13,50,64.34,Alto
+Noroeste,Baja California,2020,9,9/1/2020,37.6,13,50,64.34,Alto
+Noroeste,Baja California Sur,2020,9,9/1/2020,37.6,13,50,64.34,Alto
+Noroeste,Sonora,2020,10,10/1/2020,31.4,4,43,47.34,Medio
+Noroeste,Sinaloa,2020,10,10/1/2020,31.4,4,43,47.34,Medio
+Noroeste,Baja California,2020,10,10/1/2020,31.4,4,43,47.34,Medio
+Noroeste,Baja California Sur,2020,10,10/1/2020,31.4,4,43,47.34,Medio
+Noroeste,Sonora,2020,11,11/1/2020,23.3,0,51.2,36.1,Medio
+Noroeste,Sinaloa,2020,11,11/1/2020,23.3,0,51.2,36.1,Medio
+Noroeste,Baja California,2020,11,11/1/2020,23.3,0,51.2,36.1,Medio
+Noroeste,Baja California Sur,2020,11,11/1/2020,23.3,0,51.2,36.1,Medio
+Noroeste,Sonora,2020,12,12/1/2020,16.7,0,57.5,30.04,Bajo
+Noroeste,Sinaloa,2020,12,12/1/2020,16.7,0,57.5,30.04,Bajo
+Noroeste,Baja California,2020,12,12/1/2020,16.7,0,57.5,30.04,Bajo
+Noroeste,Baja California Sur,2020,12,12/1/2020,16.7,0,57.5,30.04,Bajo
+Noroeste,Sonora,2021,1,1/1/2021,14.4,2,55.2,28.98,Bajo
+Noroeste,Sinaloa,2021,1,1/1/2021,14.4,2,55.2,28.98,Bajo
+Noroeste,Baja California,2021,1,1/1/2021,14.4,2,55.2,28.98,Bajo
+Noroeste,Baja California Sur,2021,1,1/1/2021,14.4,2,55.2,28.98,Bajo
+Noroeste,Sonora,2021,2,2/1/2021,19.7,0,48.8,31.63,Bajo
+Noroeste,Sinaloa,2021,2,2/1/2021,19.7,0,48.8,31.63,Bajo
+Noroeste,Baja California,2021,2,2/1/2021,19.7,0,48.8,31.63,Bajo
+Noroeste,Baja California Sur,2021,2,2/1/2021,19.7,0,48.8,31.63,Bajo
+Noroeste,Sonora,2021,3,3/1/2021,20.2,1,44.7,32.36,Bajo
+Noroeste,Sinaloa,2021,3,3/1/2021,20.2,1,44.7,32.36,Bajo
+Noroeste,Baja California,2021,3,3/1/2021,20.2,1,44.7,32.36,Bajo
+Noroeste,Baja California Sur,2021,3,3/1/2021,20.2,1,44.7,32.36,Bajo
+Noroeste,Sonora,2021,4,4/1/2021,24.9,1,38.9,36.37,Medio
+Noroeste,Sinaloa,2021,4,4/1/2021,24.9,1,38.9,36.37,Medio
+Noroeste,Baja California,2021,4,4/1/2021,24.9,1,38.9,36.37,Medio
+Noroeste,Baja California Sur,2021,4,4/1/2021,24.9,1,38.9,36.37,Medio
+Noroeste,Sonora,2021,5,5/1/2021,32.4,12,25.3,52.71,Medio
+Noroeste,Sinaloa,2021,5,5/1/2021,32.4,12,25.3,52.71,Medio
+Noroeste,Baja California,2021,5,5/1/2021,32.4,12,25.3,52.71,Medio
+Noroeste,Baja California Sur,2021,5,5/1/2021,32.4,12,25.3,52.71,Medio
+Noroeste,Sonora,2021,6,6/1/2021,38.3,21,31.3,69.11,Alto
+Noroeste,Sinaloa,2021,6,6/1/2021,38.3,21,31.3,69.11,Alto
+Noroeste,Baja California,2021,6,6/1/2021,38.3,21,31.3,69.11,Alto
+Noroeste,Baja California Sur,2021,6,6/1/2021,38.3,21,31.3,69.11,Alto
+Noroeste,Sonora,2021,7,7/1/2021,42.3,26,46.9,81.57,Alto
+Noroeste,Sinaloa,2021,7,7/1/2021,42.3,26,46.9,81.57,Alto
+Noroeste,Baja California,2021,7,7/1/2021,42.3,26,46.9,81.57,Alto
+Noroeste,Baja California Sur,2021,7,7/1/2021,42.3,26,46.9,81.57,Alto
+Noroeste,Sonora,2021,8,8/1/2021,41.3,27,52.8,82.59,Alto
+Noroeste,Sinaloa,2021,8,8/1/2021,41.3,27,52.8,82.59,Alto
+Noroeste,Baja California,2021,8,8/1/2021,41.3,27,52.8,82.59,Alto
+Noroeste,Baja California Sur,2021,8,8/1/2021,41.3,27,52.8,82.59,Alto
+Noroeste,Sonora,2021,9,9/1/2021,36.2,13,49,62.57,Alto
+Noroeste,Sinaloa,2021,9,9/1/2021,36.2,13,49,62.57,Alto
+Noroeste,Baja California,2021,9,9/1/2021,36.2,13,49,62.57,Alto
+Noroeste,Baja California Sur,2021,9,9/1/2021,36.2,13,49,62.57,Alto
+Noroeste,Sonora,2021,10,10/1/2021,29.4,5,39.9,45.45,Medio
+Noroeste,Sinaloa,2021,10,10/1/2021,29.4,5,39.9,45.45,Medio
+Noroeste,Baja California,2021,10,10/1/2021,29.4,5,39.9,45.45,Medio
+Noroeste,Baja California Sur,2021,10,10/1/2021,29.4,5,39.9,45.45,Medio
+Noroeste,Sonora,2021,11,11/1/2021,22.4,0,52.5,35.36,Medio
+Noroeste,Sinaloa,2021,11,11/1/2021,22.4,0,52.5,35.36,Medio
+Noroeste,Baja California,2021,11,11/1/2021,22.4,0,52.5,35.36,Medio
+Noroeste,Baja California Sur,2021,11,11/1/2021,22.4,0,52.5,35.36,Medio
+Noroeste,Sonora,2021,12,12/1/2021,17.1,0,57.7,30.54,Bajo
+Noroeste,Sinaloa,2021,12,12/1/2021,17.1,0,57.7,30.54,Bajo
+Noroeste,Baja California,2021,12,12/1/2021,17.1,0,57.7,30.54,Bajo
+Noroeste,Baja California Sur,2021,12,12/1/2021,17.1,0,57.7,30.54,Bajo
+Noroeste,Sonora,2022,1,1/1/2022,16.4,0,56.2,29.5,Bajo
+Noroeste,Sinaloa,2022,1,1/1/2022,16.4,0,56.2,29.5,Bajo
+Noroeste,Baja California,2022,1,1/1/2022,16.4,0,56.2,29.5,Bajo
+Noroeste,Baja California Sur,2022,1,1/1/2022,16.4,0,56.2,29.5,Bajo
+Noroeste,Sonora,2022,2,2/1/2022,17.6,0,47.6,29.03,Bajo
+Noroeste,Sinaloa,2022,2,2/1/2022,17.6,0,47.6,29.03,Bajo
+Noroeste,Baja California,2022,2,2/1/2022,17.6,0,47.6,29.03,Bajo
+Noroeste,Baja California Sur,2022,2,2/1/2022,17.6,0,47.6,29.03,Bajo
+Noroeste,Sonora,2022,3,3/1/2022,23.8,0,46.5,35.8,Medio
+Noroeste,Sinaloa,2022,3,3/1/2022,23.8,0,46.5,35.8,Medio
+Noroeste,Baja California,2022,3,3/1/2022,23.8,0,46.5,35.8,Medio
+Noroeste,Baja California Sur,2022,3,3/1/2022,23.8,0,46.5,35.8,Medio
+Noroeste,Sonora,2022,4,4/1/2022,27.2,3,33.5,39.86,Medio
+Noroeste,Sinaloa,2022,4,4/1/2022,27.2,3,33.5,39.86,Medio
+Noroeste,Baja California,2022,4,4/1/2022,27.2,3,33.5,39.86,Medio
+Noroeste,Baja California Sur,2022,4,4/1/2022,27.2,3,33.5,39.86,Medio
+Noroeste,Sonora,2022,5,5/1/2022,32.2,11,28.8,52.19,Medio
+Noroeste,Sinaloa,2022,5,5/1/2022,32.2,11,28.8,52.19,Medio
+Noroeste,Baja California,2022,5,5/1/2022,32.2,11,28.8,52.19,Medio
+Noroeste,Baja California Sur,2022,5,5/1/2022,32.2,11,28.8,52.19,Medio
+Noroeste,Sonora,2022,6,6/1/2022,35.9,21,30.7,66.29,Alto
+Noroeste,Sinaloa,2022,6,6/1/2022,35.9,21,30.7,66.29,Alto
+Noroeste,Baja California,2022,6,6/1/2022,35.9,21,30.7,66.29,Alto
+Noroeste,Baja California Sur,2022,6,6/1/2022,35.9,21,30.7,66.29,Alto
+Noroeste,Sonora,2022,7,7/1/2022,40.4,29,41.7,81.33,Alto
+Noroeste,Sinaloa,2022,7,7/1/2022,40.4,29,41.7,81.33,Alto
+Noroeste,Baja California,2022,7,7/1/2022,40.4,29,41.7,81.33,Alto
+Noroeste,Baja California Sur,2022,7,7/1/2022,40.4,29,41.7,81.33,Alto
+Noroeste,Sonora,2022,8,8/1/2022,38.1,27,50.9,78.65,Alto
+Noroeste,Sinaloa,2022,8,8/1/2022,38.1,27,50.9,78.65,Alto
+Noroeste,Baja California,2022,8,8/1/2022,38.1,27,50.9,78.65,Alto
+Noroeste,Baja California Sur,2022,8,8/1/2022,38.1,27,50.9,78.65,Alto
+Noroeste,Sonora,2022,9,9/1/2022,34.6,17,49.7,64.82,Alto
+Noroeste,Sinaloa,2022,9,9/1/2022,34.6,17,49.7,64.82,Alto
+Noroeste,Baja California,2022,9,9/1/2022,34.6,17,49.7,64.82,Alto
+Noroeste,Baja California Sur,2022,9,9/1/2022,34.6,17,49.7,64.82,Alto
+Noroeste,Sonora,2022,10,10/1/2022,27.8,2,46.6,42.16,Medio
+Noroeste,Sinaloa,2022,10,10/1/2022,27.8,2,46.6,42.16,Medio
+Noroeste,Baja California,2022,10,10/1/2022,27.8,2,46.6,42.16,Medio
+Noroeste,Baja California Sur,2022,10,10/1/2022,27.8,2,46.6,42.16,Medio
+Noroeste,Sonora,2022,11,11/1/2022,20.9,0,50.5,33.34,Bajo
+Noroeste,Sinaloa,2022,11,11/1/2022,20.9,0,50.5,33.34,Bajo
+Noroeste,Baja California,2022,11,11/1/2022,20.9,0,50.5,33.34,Bajo
+Noroeste,Baja California Sur,2022,11,11/1/2022,20.9,0,50.5,33.34,Bajo
+Noroeste,Sonora,2022,12,12/1/2022,17.3,0,60.8,31.35,Bajo
+Noroeste,Sinaloa,2022,12,12/1/2022,17.3,0,60.8,31.35,Bajo
+Noroeste,Baja California,2022,12,12/1/2022,17.3,0,60.8,31.35,Bajo
+Noroeste,Baja California Sur,2022,12,12/1/2022,17.3,0,60.8,31.35,Bajo
+Noroeste,Sonora,2023,1,1/1/2023,18.1,0,53.3,30.82,Bajo
+Noroeste,Sinaloa,2023,1,1/1/2023,18.1,0,53.3,30.82,Bajo
+Noroeste,Baja California,2023,1,1/1/2023,18.1,0,53.3,30.82,Bajo
+Noroeste,Baja California Sur,2023,1,1/1/2023,18.1,0,53.3,30.82,Bajo
+Noroeste,Sonora,2023,2,2/1/2023,18.4,0,53.1,31.02,Bajo
+Noroeste,Sinaloa,2023,2,2/1/2023,18.4,0,53.1,31.02,Bajo
+Noroeste,Baja California,2023,2,2/1/2023,18.4,0,53.1,31.02,Bajo
+Noroeste,Baja California Sur,2023,2,2/1/2023,18.4,0,53.1,31.02,Bajo
+Noroeste,Sonora,2023,3,3/1/2023,22.8,2,40.8,35.38,Medio
+Noroeste,Sinaloa,2023,3,3/1/2023,22.8,2,40.8,35.38,Medio
+Noroeste,Baja California,2023,3,3/1/2023,22.8,2,40.8,35.38,Medio
+Noroeste,Baja California Sur,2023,3,3/1/2023,22.8,2,40.8,35.38,Medio
+Noroeste,Sonora,2023,4,4/1/2023,29.3,4,35.8,43.6,Medio
+Noroeste,Sinaloa,2023,4,4/1/2023,29.3,4,35.8,43.6,Medio
+Noroeste,Baja California,2023,4,4/1/2023,29.3,4,35.8,43.6,Medio
+Noroeste,Baja California Sur,2023,4,4/1/2023,29.3,4,35.8,43.6,Medio
+Noroeste,Sonora,2023,5,5/1/2023,32.7,12,33.4,54.65,Medio
+Noroeste,Sinaloa,2023,5,5/1/2023,32.7,12,33.4,54.65,Medio
+Noroeste,Baja California,2023,5,5/1/2023,32.7,12,33.4,54.65,Medio
+Noroeste,Baja California Sur,2023,5,5/1/2023,32.7,12,33.4,54.65,Medio
+Noroeste,Sonora,2023,6,6/1/2023,37.2,22,31.6,68.97,Alto
+Noroeste,Sinaloa,2023,6,6/1/2023,37.2,22,31.6,68.97,Alto
+Noroeste,Baja California,2023,6,6/1/2023,37.2,22,31.6,68.97,Alto
+Noroeste,Baja California Sur,2023,6,6/1/2023,37.2,22,31.6,68.97,Alto
+Noroeste,Sonora,2023,7,7/1/2023,40.5,26,43.3,78.77,Alto
+Noroeste,Sinaloa,2023,7,7/1/2023,40.5,26,43.3,78.77,Alto
+Noroeste,Baja California,2023,7,7/1/2023,40.5,26,43.3,78.77,Alto
+Noroeste,Baja California Sur,2023,7,7/1/2023,40.5,26,43.3,78.77,Alto
+Noroeste,Sonora,2023,8,8/1/2023,41.8,27,53.9,83.31,Alto
+Noroeste,Sinaloa,2023,8,8/1/2023,41.8,27,53.9,83.31,Alto
+Noroeste,Baja California,2023,8,8/1/2023,41.8,27,53.9,83.31,Alto
+Noroeste,Baja California Sur,2023,8,8/1/2023,41.8,27,53.9,83.31,Alto
+Noroeste,Sonora,2023,9,9/1/2023,32.3,15,47.3,59.9,Medio
+Noroeste,Sinaloa,2023,9,9/1/2023,32.3,15,47.3,59.9,Medio
+Noroeste,Baja California,2023,9,9/1/2023,32.3,15,47.3,59.9,Medio
+Noroeste,Baja California Sur,2023,9,9/1/2023,32.3,15,47.3,59.9,Medio
+Noroeste,Sonora,2023,10,10/1/2023,30.9,4,42.2,46.65,Medio
+Noroeste,Sinaloa,2023,10,10/1/2023,30.9,4,42.2,46.65,Medio
+Noroeste,Baja California,2023,10,10/1/2023,30.9,4,42.2,46.65,Medio
+Noroeste,Baja California Sur,2023,10,10/1/2023,30.9,4,42.2,46.65,Medio
+Noroeste,Sonora,2023,11,11/1/2023,23.7,0,50.4,36.45,Medio
+Noroeste,Sinaloa,2023,11,11/1/2023,23.7,0,50.4,36.45,Medio
+Noroeste,Baja California,2023,11,11/1/2023,23.7,0,50.4,36.45,Medio
+Noroeste,Baja California Sur,2023,11,11/1/2023,23.7,0,50.4,36.45,Medio
+Noroeste,Sonora,2023,12,12/1/2023,16.8,2,63.3,33.3,Bajo
+Noroeste,Sinaloa,2023,12,12/1/2023,16.8,2,63.3,33.3,Bajo
+Noroeste,Baja California,2023,12,12/1/2023,16.8,2,63.3,33.3,Bajo
+Noroeste,Baja California Sur,2023,12,12/1/2023,16.8,2,63.3,33.3,Bajo
+Noroeste,Sonora,2024,1,1/1/2024,18.4,0,57.2,31.87,Bajo
+Noroeste,Sinaloa,2024,1,1/1/2024,18.4,0,57.2,31.87,Bajo
+Noroeste,Baja California,2024,1,1/1/2024,18.4,0,57.2,31.87,Bajo
+Noroeste,Baja California Sur,2024,1,1/1/2024,18.4,0,57.2,31.87,Bajo
+Noroeste,Sonora,2024,2,2/1/2024,18.9,0,52,31.38,Bajo
+Noroeste,Sinaloa,2024,2,2/1/2024,18.9,0,52,31.38,Bajo
+Noroeste,Baja California,2024,2,2/1/2024,18.9,0,52,31.38,Bajo
+Noroeste,Baja California Sur,2024,2,2/1/2024,18.9,0,52,31.38,Bajo
+Noroeste,Sonora,2024,3,3/1/2024,23.9,0,37.6,34.04,Bajo
+Noroeste,Sinaloa,2024,3,3/1/2024,23.9,0,37.6,34.04,Bajo
+Noroeste,Baja California,2024,3,3/1/2024,23.9,0,37.6,34.04,Bajo
+Noroeste,Baja California Sur,2024,3,3/1/2024,23.9,0,37.6,34.04,Bajo
+Noroeste,Sonora,2024,4,4/1/2024,27.9,0,33.9,37.77,Medio
+Noroeste,Sinaloa,2024,4,4/1/2024,27.9,0,33.9,37.77,Medio
+Noroeste,Baja California,2024,4,4/1/2024,27.9,0,33.9,37.77,Medio
+Noroeste,Baja California Sur,2024,4,4/1/2024,27.9,0,33.9,37.77,Medio
+Noroeste,Sonora,2024,5,5/1/2024,35.4,11,30.2,56.02,Medio
+Noroeste,Sinaloa,2024,5,5/1/2024,35.4,11,30.2,56.02,Medio
+Noroeste,Baja California,2024,5,5/1/2024,35.4,11,30.2,56.02,Medio
+Noroeste,Baja California Sur,2024,5,5/1/2024,35.4,11,30.2,56.02,Medio
+Noroeste,Sonora,2024,6,6/1/2024,38.9,20,27.3,68,Alto
+Noroeste,Sinaloa,2024,6,6/1/2024,38.9,20,27.3,68,Alto
+Noroeste,Baja California,2024,6,6/1/2024,38.9,20,27.3,68,Alto
+Noroeste,Baja California Sur,2024,6,6/1/2024,38.9,20,27.3,68,Alto
+Noroeste,Sonora,2024,7,7/1/2024,41.6,29,47,83.67,Alto
+Noroeste,Sinaloa,2024,7,7/1/2024,41.6,29,47,83.67,Alto
+Noroeste,Baja California,2024,7,7/1/2024,41.6,29,47,83.67,Alto
+Noroeste,Baja California Sur,2024,7,7/1/2024,41.6,29,47,83.67,Alto
+Noroeste,Sonora,2024,8,8/1/2024,38.8,26,53,78.84,Alto
+Noroeste,Sinaloa,2024,8,8/1/2024,38.8,26,53,78.84,Alto
+Noroeste,Baja California,2024,8,8/1/2024,38.8,26,53,78.84,Alto
+Noroeste,Baja California Sur,2024,8,8/1/2024,38.8,26,53,78.84,Alto
+Noroeste,Sonora,2024,9,9/1/2024,34.4,13,50.3,60.88,Alto
+Noroeste,Sinaloa,2024,9,9/1/2024,34.4,13,50.3,60.88,Alto
+Noroeste,Baja California,2024,9,9/1/2024,34.4,13,50.3,60.88,Alto
+Noroeste,Baja California Sur,2024,9,9/1/2024,34.4,13,50.3,60.88,Alto
+Noroeste,Sonora,2024,10,10/1/2024,32.4,3,39.2,46.76,Medio
+Noroeste,Sinaloa,2024,10,10/1/2024,32.4,3,39.2,46.76,Medio
+Noroeste,Baja California,2024,10,10/1/2024,32.4,3,39.2,46.76,Medio
+Noroeste,Baja California Sur,2024,10,10/1/2024,32.4,3,39.2,46.76,Medio
+Noroeste,Sonora,2024,11,11/1/2024,23,1,47.7,36.1,Medio
+Noroeste,Sinaloa,2024,11,11/1/2024,23,1,47.7,36.1,Medio
+Noroeste,Baja California,2024,11,11/1/2024,23,1,47.7,36.1,Medio
+Noroeste,Baja California Sur,2024,11,11/1/2024,23,1,47.7,36.1,Medio
+Noroeste,Sonora,2024,12,12/1/2024,18.5,0,56.3,31.81,Bajo
+Noroeste,Sinaloa,2024,12,12/1/2024,18.5,0,56.3,31.81,Bajo
+Noroeste,Baja California,2024,12,12/1/2024,18.5,0,56.3,31.81,Bajo
+Noroeste,Baja California Sur,2024,12,12/1/2024,18.5,0,56.3,31.81,Bajo
+Noroeste,Sonora,2025,1,1/1/2025,17.3,2,55,32.12,Bajo
+Noroeste,Sinaloa,2025,1,1/1/2025,17.3,2,55,32.12,Bajo
+Noroeste,Baja California,2025,1,1/1/2025,17.3,2,55,32.12,Bajo
+Noroeste,Baja California Sur,2025,1,1/1/2025,17.3,2,55,32.12,Bajo
+Noroeste,Sonora,2025,2,2/1/2025,18.1,2,48,31.61,Bajo
+Noroeste,Sinaloa,2025,2,2/1/2025,18.1,2,48,31.61,Bajo
+Noroeste,Baja California,2025,2,2/1/2025,18.1,2,48,31.61,Bajo
+Noroeste,Baja California Sur,2025,2,2/1/2025,18.1,2,48,31.61,Bajo
+Noroeste,Sonora,2025,3,3/1/2025,22.8,2,40.8,35.38,Medio
+Noroeste,Sinaloa,2025,3,3/1/2025,22.8,2,40.8,35.38,Medio
+Noroeste,Baja California,2025,3,3/1/2025,22.8,2,40.8,35.38,Medio
+Noroeste,Baja California Sur,2025,3,3/1/2025,22.8,2,40.8,35.38,Medio
+Noroeste,Sonora,2025,4,4/1/2025,26,1,34.5,36.74,Medio
+Noroeste,Sinaloa,2025,4,4/1/2025,26,1,34.5,36.74,Medio
+Noroeste,Baja California,2025,4,4/1/2025,26,1,34.5,36.74,Medio
+Noroeste,Baja California Sur,2025,4,4/1/2025,26,1,34.5,36.74,Medio
+Noroeste,Sonora,2025,5,5/1/2025,33.3,10,28,52.21,Medio
+Noroeste,Sinaloa,2025,5,5/1/2025,33.3,10,28,52.21,Medio
+Noroeste,Baja California,2025,5,5/1/2025,33.3,10,28,52.21,Medio
+Noroeste,Baja California Sur,2025,5,5/1/2025,33.3,10,28,52.21,Medio
+Noroeste,Sonora,2025,6,6/1/2025,37.9,22,32.5,69.86,Alto
+Noroeste,Sinaloa,2025,6,6/1/2025,37.9,22,32.5,69.86,Alto
+Noroeste,Baja California,2025,6,6/1/2025,37.9,22,32.5,69.86,Alto
+Noroeste,Baja California Sur,2025,6,6/1/2025,37.9,22,32.5,69.86,Alto
+Noroeste,Sonora,2025,7,7/1/2025,42.7,26,43.4,81.32,Alto
+Noroeste,Sinaloa,2025,7,7/1/2025,42.7,26,43.4,81.32,Alto
+Noroeste,Baja California,2025,7,7/1/2025,42.7,26,43.4,81.32,Alto
+Noroeste,Baja California Sur,2025,7,7/1/2025,42.7,26,43.4,81.32,Alto
+Noroeste,Sonora,2025,8,8/1/2025,40.9,25,50.1,79.67,Alto
+Noroeste,Sinaloa,2025,8,8/1/2025,40.9,25,50.1,79.67,Alto
+Noroeste,Baja California,2025,8,8/1/2025,40.9,25,50.1,79.67,Alto
+Noroeste,Baja California Sur,2025,8,8/1/2025,40.9,25,50.1,79.67,Alto
+Noroeste,Sonora,2025,9,9/1/2025,36.9,14,52,64.98,Alto
+Noroeste,Sinaloa,2025,9,9/1/2025,36.9,14,52,64.98,Alto
+Noroeste,Baja California,2025,9,9/1/2025,36.9,14,52,64.98,Alto
+Noroeste,Baja California Sur,2025,9,9/1/2025,36.9,14,52,64.98,Alto
+Noroeste,Sonora,2025,10,10/1/2025,30.7,3,39.5,44.94,Medio
+Noroeste,Sinaloa,2025,10,10/1/2025,30.7,3,39.5,44.94,Medio
+Noroeste,Baja California,2025,10,10/1/2025,30.7,3,39.5,44.94,Medio
+Noroeste,Baja California Sur,2025,10,10/1/2025,30.7,3,39.5,44.94,Medio
+Noroeste,Sonora,2025,11,11/1/2025,21.5,0,50.2,33.97,Bajo
+Noroeste,Sinaloa,2025,11,11/1/2025,21.5,0,50.2,33.97,Bajo
+Noroeste,Baja California,2025,11,11/1/2025,21.5,0,50.2,33.97,Bajo
+Noroeste,Baja California Sur,2025,11,11/1/2025,21.5,0,50.2,33.97,Bajo
+Noroeste,Sonora,2025,12,12/1/2025,16.3,0,52.9,28.68,Bajo
+Noroeste,Sinaloa,2025,12,12/1/2025,16.3,0,52.9,28.68,Bajo
+Noroeste,Baja California,2025,12,12/1/2025,16.3,0,52.9,28.68,Bajo
+Noroeste,Baja California Sur,2025,12,12/1/2025,16.3,0,52.9,28.68,Bajo
+Occidente,Jalisco,2018,1,1/1/2018,13.1,0,51.4,24.82,Bajo
+Occidente,Guanajuato,2018,1,1/1/2018,13.1,0,51.4,24.82,Bajo
+Occidente,Aguascalientes,2018,1,1/1/2018,13.1,0,51.4,24.82,Bajo
+Occidente,Querétaro,2018,1,1/1/2018,13.1,0,51.4,24.82,Bajo
+Occidente,Jalisco,2018,2,2/1/2018,14.1,2,48.5,27.34,Bajo
+Occidente,Guanajuato,2018,2,2/1/2018,14.1,2,48.5,27.34,Bajo
+Occidente,Aguascalientes,2018,2,2/1/2018,14.1,2,48.5,27.34,Bajo
+Occidente,Querétaro,2018,2,2/1/2018,14.1,2,48.5,27.34,Bajo
+Occidente,Jalisco,2018,3,3/1/2018,21,0,47.2,32.8,Bajo
+Occidente,Guanajuato,2018,3,3/1/2018,21,0,47.2,32.8,Bajo
+Occidente,Aguascalientes,2018,3,3/1/2018,21,0,47.2,32.8,Bajo
+Occidente,Querétaro,2018,3,3/1/2018,21,0,47.2,32.8,Bajo
+Occidente,Jalisco,2018,4,4/1/2018,21.6,1,47.4,34.5,Bajo
+Occidente,Guanajuato,2018,4,4/1/2018,21.6,1,47.4,34.5,Bajo
+Occidente,Aguascalientes,2018,4,4/1/2018,21.6,1,47.4,34.5,Bajo
+Occidente,Querétaro,2018,4,4/1/2018,21.6,1,47.4,34.5,Bajo
+Occidente,Jalisco,2018,5,5/1/2018,26.8,0,52.5,40.34,Medio
+Occidente,Guanajuato,2018,5,5/1/2018,26.8,0,52.5,40.34,Medio
+Occidente,Aguascalientes,2018,5,5/1/2018,26.8,0,52.5,40.34,Medio
+Occidente,Querétaro,2018,5,5/1/2018,26.8,0,52.5,40.34,Medio
+Occidente,Jalisco,2018,6,6/1/2018,20.6,2,67.7,38.35,Medio
+Occidente,Guanajuato,2018,6,6/1/2018,20.6,2,67.7,38.35,Medio
+Occidente,Aguascalientes,2018,6,6/1/2018,20.6,2,67.7,38.35,Medio
+Occidente,Querétaro,2018,6,6/1/2018,20.6,2,67.7,38.35,Medio
+Occidente,Jalisco,2018,7,7/1/2018,23.7,0,66.7,39.65,Medio
+Occidente,Guanajuato,2018,7,7/1/2018,23.7,0,66.7,39.65,Medio
+Occidente,Aguascalientes,2018,7,7/1/2018,23.7,0,66.7,39.65,Medio
+Occidente,Querétaro,2018,7,7/1/2018,23.7,0,66.7,39.65,Medio
+Occidente,Jalisco,2018,8,8/1/2018,22,2,63.9,39.15,Medio
+Occidente,Guanajuato,2018,8,8/1/2018,22,2,63.9,39.15,Medio
+Occidente,Aguascalientes,2018,8,8/1/2018,22,2,63.9,39.15,Medio
+Occidente,Querétaro,2018,8,8/1/2018,22,2,63.9,39.15,Medio
+Occidente,Jalisco,2018,9,9/1/2018,20.3,1,61.9,35.85,Medio
+Occidente,Guanajuato,2018,9,9/1/2018,20.3,1,61.9,35.85,Medio
+Occidente,Aguascalientes,2018,9,9/1/2018,20.3,1,61.9,35.85,Medio
+Occidente,Querétaro,2018,9,9/1/2018,20.3,1,61.9,35.85,Medio
+Occidente,Jalisco,2018,10,10/1/2018,20,0,55.4,33.25,Bajo
+Occidente,Guanajuato,2018,10,10/1/2018,20,0,55.4,33.25,Bajo
+Occidente,Aguascalientes,2018,10,10/1/2018,20,0,55.4,33.25,Bajo
+Occidente,Querétaro,2018,10,10/1/2018,20,0,55.4,33.25,Bajo
+Occidente,Jalisco,2018,11,11/1/2018,18.2,0,49.8,30.13,Bajo
+Occidente,Guanajuato,2018,11,11/1/2018,18.2,0,49.8,30.13,Bajo
+Occidente,Aguascalientes,2018,11,11/1/2018,18.2,0,49.8,30.13,Bajo
+Occidente,Querétaro,2018,11,11/1/2018,18.2,0,49.8,30.13,Bajo
+Occidente,Jalisco,2018,12,12/1/2018,14.3,0,54.5,26.83,Bajo
+Occidente,Guanajuato,2018,12,12/1/2018,14.3,0,54.5,26.83,Bajo
+Occidente,Aguascalientes,2018,12,12/1/2018,14.3,0,54.5,26.83,Bajo
+Occidente,Querétaro,2018,12,12/1/2018,14.3,0,54.5,26.83,Bajo
+Occidente,Jalisco,2019,1,1/1/2019,15.2,0,48.1,26.53,Bajo
+Occidente,Guanajuato,2019,1,1/1/2019,15.2,0,48.1,26.53,Bajo
+Occidente,Aguascalientes,2019,1,1/1/2019,15.2,0,48.1,26.53,Bajo
+Occidente,Querétaro,2019,1,1/1/2019,15.2,0,48.1,26.53,Bajo
+Occidente,Jalisco,2019,2,2/1/2019,15.2,0,43.5,25.57,Bajo
+Occidente,Guanajuato,2019,2,2/1/2019,15.2,0,43.5,25.57,Bajo
+Occidente,Aguascalientes,2019,2,2/1/2019,15.2,0,43.5,25.57,Bajo
+Occidente,Querétaro,2019,2,2/1/2019,15.2,0,43.5,25.57,Bajo
+Occidente,Jalisco,2019,3,3/1/2019,19.4,0,49.3,31.36,Bajo
+Occidente,Guanajuato,2019,3,3/1/2019,19.4,0,49.3,31.36,Bajo
+Occidente,Aguascalientes,2019,3,3/1/2019,19.4,0,49.3,31.36,Bajo
+Occidente,Querétaro,2019,3,3/1/2019,19.4,0,49.3,31.36,Bajo
+Occidente,Jalisco,2019,4,4/1/2019,20.3,2,44,33.26,Bajo
+Occidente,Guanajuato,2019,4,4/1/2019,20.3,2,44,33.26,Bajo
+Occidente,Aguascalientes,2019,4,4/1/2019,20.3,2,44,33.26,Bajo
+Occidente,Querétaro,2019,4,4/1/2019,20.3,2,44,33.26,Bajo
+Occidente,Jalisco,2019,5,5/1/2019,25,2,50,39.74,Medio
+Occidente,Guanajuato,2019,5,5/1/2019,25,2,50,39.74,Medio
+Occidente,Aguascalientes,2019,5,5/1/2019,25,2,50,39.74,Medio
+Occidente,Querétaro,2019,5,5/1/2019,25,2,50,39.74,Medio
+Occidente,Jalisco,2019,6,6/1/2019,22.3,0,65.1,37.82,Medio
+Occidente,Guanajuato,2019,6,6/1/2019,22.3,0,65.1,37.82,Medio
+Occidente,Aguascalientes,2019,6,6/1/2019,22.3,0,65.1,37.82,Medio
+Occidente,Querétaro,2019,6,6/1/2019,22.3,0,65.1,37.82,Medio
+Occidente,Jalisco,2019,7,7/1/2019,24.6,0,65.1,40.34,Medio
+Occidente,Guanajuato,2019,7,7/1/2019,24.6,0,65.1,40.34,Medio
+Occidente,Aguascalientes,2019,7,7/1/2019,24.6,0,65.1,40.34,Medio
+Occidente,Querétaro,2019,7,7/1/2019,24.6,0,65.1,40.34,Medio
+Occidente,Jalisco,2019,8,8/1/2019,21.4,2,69.9,39.67,Medio
+Occidente,Guanajuato,2019,8,8/1/2019,21.4,2,69.9,39.67,Medio
+Occidente,Aguascalientes,2019,8,8/1/2019,21.4,2,69.9,39.67,Medio
+Occidente,Querétaro,2019,8,8/1/2019,21.4,2,69.9,39.67,Medio
+Occidente,Jalisco,2019,9,9/1/2019,24,0,63.5,39.33,Medio
+Occidente,Guanajuato,2019,9,9/1/2019,24,0,63.5,39.33,Medio
+Occidente,Aguascalientes,2019,9,9/1/2019,24,0,63.5,39.33,Medio
+Occidente,Querétaro,2019,9,9/1/2019,24,0,63.5,39.33,Medio
+Occidente,Jalisco,2019,10,10/1/2019,19.8,1,54.5,33.86,Bajo
+Occidente,Guanajuato,2019,10,10/1/2019,19.8,1,54.5,33.86,Bajo
+Occidente,Aguascalientes,2019,10,10/1/2019,19.8,1,54.5,33.86,Bajo
+Occidente,Querétaro,2019,10,10/1/2019,19.8,1,54.5,33.86,Bajo
+Occidente,Jalisco,2019,11,11/1/2019,16.3,1,50.2,29.13,Bajo
+Occidente,Guanajuato,2019,11,11/1/2019,16.3,1,50.2,29.13,Bajo
+Occidente,Aguascalientes,2019,11,11/1/2019,16.3,1,50.2,29.13,Bajo
+Occidente,Querétaro,2019,11,11/1/2019,16.3,1,50.2,29.13,Bajo
+Occidente,Jalisco,2019,12,12/1/2019,14.9,1,49.5,27.43,Bajo
+Occidente,Guanajuato,2019,12,12/1/2019,14.9,1,49.5,27.43,Bajo
+Occidente,Aguascalientes,2019,12,12/1/2019,14.9,1,49.5,27.43,Bajo
+Occidente,Querétaro,2019,12,12/1/2019,14.9,1,49.5,27.43,Bajo
+Occidente,Jalisco,2020,1,1/1/2020,14.1,0,50.3,25.67,Bajo
+Occidente,Guanajuato,2020,1,1/1/2020,14.1,0,50.3,25.67,Bajo
+Occidente,Aguascalientes,2020,1,1/1/2020,14.1,0,50.3,25.67,Bajo
+Occidente,Querétaro,2020,1,1/1/2020,14.1,0,50.3,25.67,Bajo
+Occidente,Jalisco,2020,2,2/1/2020,17.1,0,49.6,28.94,Bajo
+Occidente,Guanajuato,2020,2,2/1/2020,17.1,0,49.6,28.94,Bajo
+Occidente,Aguascalientes,2020,2,2/1/2020,17.1,0,49.6,28.94,Bajo
+Occidente,Querétaro,2020,2,2/1/2020,17.1,0,49.6,28.94,Bajo
+Occidente,Jalisco,2020,3,3/1/2020,19.7,0,43.9,30.65,Bajo
+Occidente,Guanajuato,2020,3,3/1/2020,19.7,0,43.9,30.65,Bajo
+Occidente,Aguascalientes,2020,3,3/1/2020,19.7,0,43.9,30.65,Bajo
+Occidente,Querétaro,2020,3,3/1/2020,19.7,0,43.9,30.65,Bajo
+Occidente,Jalisco,2020,4,4/1/2020,23.1,0,42.6,34.18,Bajo
+Occidente,Guanajuato,2020,4,4/1/2020,23.1,0,42.6,34.18,Bajo
+Occidente,Aguascalientes,2020,4,4/1/2020,23.1,0,42.6,34.18,Bajo
+Occidente,Querétaro,2020,4,4/1/2020,23.1,0,42.6,34.18,Bajo
+Occidente,Jalisco,2020,5,5/1/2020,23.9,0,52.4,37,Medio
+Occidente,Guanajuato,2020,5,5/1/2020,23.9,0,52.4,37,Medio
+Occidente,Aguascalientes,2020,5,5/1/2020,23.9,0,52.4,37,Medio
+Occidente,Querétaro,2020,5,5/1/2020,23.9,0,52.4,37,Medio
+Occidente,Jalisco,2020,6,6/1/2020,24,0,70.5,40.83,Medio
+Occidente,Guanajuato,2020,6,6/1/2020,24,0,70.5,40.83,Medio
+Occidente,Aguascalientes,2020,6,6/1/2020,24,0,70.5,40.83,Medio
+Occidente,Querétaro,2020,6,6/1/2020,24,0,70.5,40.83,Medio
+Occidente,Jalisco,2020,7,7/1/2020,22.6,0,69.5,38.99,Medio
+Occidente,Guanajuato,2020,7,7/1/2020,22.6,0,69.5,38.99,Medio
+Occidente,Aguascalientes,2020,7,7/1/2020,22.6,0,69.5,38.99,Medio
+Occidente,Querétaro,2020,7,7/1/2020,22.6,0,69.5,38.99,Medio
+Occidente,Jalisco,2020,8,8/1/2020,23.3,0,68.2,39.5,Medio
+Occidente,Guanajuato,2020,8,8/1/2020,23.3,0,68.2,39.5,Medio
+Occidente,Aguascalientes,2020,8,8/1/2020,23.3,0,68.2,39.5,Medio
+Occidente,Querétaro,2020,8,8/1/2020,23.3,0,68.2,39.5,Medio
+Occidente,Jalisco,2020,9,9/1/2020,18.5,0,68.6,34.22,Bajo
+Occidente,Guanajuato,2020,9,9/1/2020,18.5,0,68.6,34.22,Bajo
+Occidente,Aguascalientes,2020,9,9/1/2020,18.5,0,68.6,34.22,Bajo
+Occidente,Querétaro,2020,9,9/1/2020,18.5,0,68.6,34.22,Bajo
+Occidente,Jalisco,2020,10,10/1/2020,17.4,1,57.9,31.9,Bajo
+Occidente,Guanajuato,2020,10,10/1/2020,17.4,1,57.9,31.9,Bajo
+Occidente,Aguascalientes,2020,10,10/1/2020,17.4,1,57.9,31.9,Bajo
+Occidente,Querétaro,2020,10,10/1/2020,17.4,1,57.9,31.9,Bajo
+Occidente,Jalisco,2020,11,11/1/2020,16.8,1,53.1,30.27,Bajo
+Occidente,Guanajuato,2020,11,11/1/2020,16.8,1,53.1,30.27,Bajo
+Occidente,Aguascalientes,2020,11,11/1/2020,16.8,1,53.1,30.27,Bajo
+Occidente,Querétaro,2020,11,11/1/2020,16.8,1,53.1,30.27,Bajo
+Occidente,Jalisco,2020,12,12/1/2020,14.8,2,54,29.14,Bajo
+Occidente,Guanajuato,2020,12,12/1/2020,14.8,2,54,29.14,Bajo
+Occidente,Aguascalientes,2020,12,12/1/2020,14.8,2,54,29.14,Bajo
+Occidente,Querétaro,2020,12,12/1/2020,14.8,2,54,29.14,Bajo
+Occidente,Jalisco,2021,1,1/1/2021,13.7,2,47.9,26.79,Bajo
+Occidente,Guanajuato,2021,1,1/1/2021,13.7,2,47.9,26.79,Bajo
+Occidente,Aguascalientes,2021,1,1/1/2021,13.7,2,47.9,26.79,Bajo
+Occidente,Querétaro,2021,1,1/1/2021,13.7,2,47.9,26.79,Bajo
+Occidente,Jalisco,2021,2,2/1/2021,15.7,1,49,28.21,Bajo
+Occidente,Guanajuato,2021,2,2/1/2021,15.7,1,49,28.21,Bajo
+Occidente,Aguascalientes,2021,2,2/1/2021,15.7,1,49,28.21,Bajo
+Occidente,Querétaro,2021,2,2/1/2021,15.7,1,49,28.21,Bajo
+Occidente,Jalisco,2021,3,3/1/2021,21.1,0,46,32.66,Bajo
+Occidente,Guanajuato,2021,3,3/1/2021,21.1,0,46,32.66,Bajo
+Occidente,Aguascalientes,2021,3,3/1/2021,21.1,0,46,32.66,Bajo
+Occidente,Querétaro,2021,3,3/1/2021,21.1,0,46,32.66,Bajo
+Occidente,Jalisco,2021,4,4/1/2021,21.8,2,42.7,34.7,Bajo
+Occidente,Guanajuato,2021,4,4/1/2021,21.8,2,42.7,34.7,Bajo
+Occidente,Aguascalientes,2021,4,4/1/2021,21.8,2,42.7,34.7,Bajo
+Occidente,Querétaro,2021,4,4/1/2021,21.8,2,42.7,34.7,Bajo
+Occidente,Jalisco,2021,5,5/1/2021,24,2,47.6,38.09,Medio
+Occidente,Guanajuato,2021,5,5/1/2021,24,2,47.6,38.09,Medio
+Occidente,Aguascalientes,2021,5,5/1/2021,24,2,47.6,38.09,Medio
+Occidente,Querétaro,2021,5,5/1/2021,24,2,47.6,38.09,Medio
+Occidente,Jalisco,2021,6,6/1/2021,22.1,1,72.4,39.99,Medio
+Occidente,Guanajuato,2021,6,6/1/2021,22.1,1,72.4,39.99,Medio
+Occidente,Aguascalientes,2021,6,6/1/2021,22.1,1,72.4,39.99,Medio
+Occidente,Querétaro,2021,6,6/1/2021,22.1,1,72.4,39.99,Medio
+Occidente,Jalisco,2021,7,7/1/2021,23.5,0,72.4,40.55,Medio
+Occidente,Guanajuato,2021,7,7/1/2021,23.5,0,72.4,40.55,Medio
+Occidente,Aguascalientes,2021,7,7/1/2021,23.5,0,72.4,40.55,Medio
+Occidente,Querétaro,2021,7,7/1/2021,23.5,0,72.4,40.55,Medio
+Occidente,Jalisco,2021,8,8/1/2021,22.8,0,72.7,39.87,Medio
+Occidente,Guanajuato,2021,8,8/1/2021,22.8,0,72.7,39.87,Medio
+Occidente,Aguascalientes,2021,8,8/1/2021,22.8,0,72.7,39.87,Medio
+Occidente,Querétaro,2021,8,8/1/2021,22.8,0,72.7,39.87,Medio
+Occidente,Jalisco,2021,9,9/1/2021,22.7,0,65.9,38.42,Medio
+Occidente,Guanajuato,2021,9,9/1/2021,22.7,0,65.9,38.42,Medio
+Occidente,Aguascalientes,2021,9,9/1/2021,22.7,0,65.9,38.42,Medio
+Occidente,Querétaro,2021,9,9/1/2021,22.7,0,65.9,38.42,Medio
+Occidente,Jalisco,2021,10,10/1/2021,17.9,0,53.3,30.53,Bajo
+Occidente,Guanajuato,2021,10,10/1/2021,17.9,0,53.3,30.53,Bajo
+Occidente,Aguascalientes,2021,10,10/1/2021,17.9,0,53.3,30.53,Bajo
+Occidente,Querétaro,2021,10,10/1/2021,17.9,0,53.3,30.53,Bajo
+Occidente,Jalisco,2021,11,11/1/2021,16.5,0,56.6,29.67,Bajo
+Occidente,Guanajuato,2021,11,11/1/2021,16.5,0,56.6,29.67,Bajo
+Occidente,Aguascalientes,2021,11,11/1/2021,16.5,0,56.6,29.67,Bajo
+Occidente,Querétaro,2021,11,11/1/2021,16.5,0,56.6,29.67,Bajo
+Occidente,Jalisco,2021,12,12/1/2021,15.3,0,47.7,26.58,Bajo
+Occidente,Guanajuato,2021,12,12/1/2021,15.3,0,47.7,26.58,Bajo
+Occidente,Aguascalientes,2021,12,12/1/2021,15.3,0,47.7,26.58,Bajo
+Occidente,Querétaro,2021,12,12/1/2021,15.3,0,47.7,26.58,Bajo
+Occidente,Jalisco,2022,1,1/1/2022,14.5,1,51.8,27.48,Bajo
+Occidente,Guanajuato,2022,1,1/1/2022,14.5,1,51.8,27.48,Bajo
+Occidente,Aguascalientes,2022,1,1/1/2022,14.5,1,51.8,27.48,Bajo
+Occidente,Querétaro,2022,1,1/1/2022,14.5,1,51.8,27.48,Bajo
+Occidente,Jalisco,2022,2,2/1/2022,17.8,0,49.7,29.77,Bajo
+Occidente,Guanajuato,2022,2,2/1/2022,17.8,0,49.7,29.77,Bajo
+Occidente,Aguascalientes,2022,2,2/1/2022,17.8,0,49.7,29.77,Bajo
+Occidente,Querétaro,2022,2,2/1/2022,17.8,0,49.7,29.77,Bajo
+Occidente,Jalisco,2022,3,3/1/2022,18.6,1,43.8,30.44,Bajo
+Occidente,Guanajuato,2022,3,3/1/2022,18.6,1,43.8,30.44,Bajo
+Occidente,Aguascalientes,2022,3,3/1/2022,18.6,1,43.8,30.44,Bajo
+Occidente,Querétaro,2022,3,3/1/2022,18.6,1,43.8,30.44,Bajo
+Occidente,Jalisco,2022,4,4/1/2022,22.5,2,44.7,35.85,Medio
+Occidente,Guanajuato,2022,4,4/1/2022,22.5,2,44.7,35.85,Medio
+Occidente,Aguascalientes,2022,4,4/1/2022,22.5,2,44.7,35.85,Medio
+Occidente,Querétaro,2022,4,4/1/2022,22.5,2,44.7,35.85,Medio
+Occidente,Jalisco,2022,5,5/1/2022,26.1,0,48.3,38.63,Medio
+Occidente,Guanajuato,2022,5,5/1/2022,26.1,0,48.3,38.63,Medio
+Occidente,Aguascalientes,2022,5,5/1/2022,26.1,0,48.3,38.63,Medio
+Occidente,Querétaro,2022,5,5/1/2022,26.1,0,48.3,38.63,Medio
+Occidente,Jalisco,2022,6,6/1/2022,22.2,0,60.9,36.82,Medio
+Occidente,Guanajuato,2022,6,6/1/2022,22.2,0,60.9,36.82,Medio
+Occidente,Aguascalientes,2022,6,6/1/2022,22.2,0,60.9,36.82,Medio
+Occidente,Querétaro,2022,6,6/1/2022,22.2,0,60.9,36.82,Medio
+Occidente,Jalisco,2022,7,7/1/2022,20.5,0,63,35.42,Medio
+Occidente,Guanajuato,2022,7,7/1/2022,20.5,0,63,35.42,Medio
+Occidente,Aguascalientes,2022,7,7/1/2022,20.5,0,63,35.42,Medio
+Occidente,Querétaro,2022,7,7/1/2022,20.5,0,63,35.42,Medio
+Occidente,Jalisco,2022,8,8/1/2022,20.6,1,67.3,37.32,Medio
+Occidente,Guanajuato,2022,8,8/1/2022,20.6,1,67.3,37.32,Medio
+Occidente,Aguascalientes,2022,8,8/1/2022,20.6,1,67.3,37.32,Medio
+Occidente,Querétaro,2022,8,8/1/2022,20.6,1,67.3,37.32,Medio
+Occidente,Jalisco,2022,9,9/1/2022,21.2,0,65.8,36.68,Medio
+Occidente,Guanajuato,2022,9,9/1/2022,21.2,0,65.8,36.68,Medio
+Occidente,Aguascalientes,2022,9,9/1/2022,21.2,0,65.8,36.68,Medio
+Occidente,Querétaro,2022,9,9/1/2022,21.2,0,65.8,36.68,Medio
+Occidente,Jalisco,2022,10,10/1/2022,16.2,0,54.9,28.93,Bajo
+Occidente,Guanajuato,2022,10,10/1/2022,16.2,0,54.9,28.93,Bajo
+Occidente,Aguascalientes,2022,10,10/1/2022,16.2,0,54.9,28.93,Bajo
+Occidente,Querétaro,2022,10,10/1/2022,16.2,0,54.9,28.93,Bajo
+Occidente,Jalisco,2022,11,11/1/2022,17.7,0,45.4,28.74,Bajo
+Occidente,Guanajuato,2022,11,11/1/2022,17.7,0,45.4,28.74,Bajo
+Occidente,Aguascalientes,2022,11,11/1/2022,17.7,0,45.4,28.74,Bajo
+Occidente,Querétaro,2022,11,11/1/2022,17.7,0,45.4,28.74,Bajo
+Occidente,Jalisco,2022,12,12/1/2022,14.1,1,47.2,26.06,Bajo
+Occidente,Guanajuato,2022,12,12/1/2022,14.1,1,47.2,26.06,Bajo
+Occidente,Aguascalientes,2022,12,12/1/2022,14.1,1,47.2,26.06,Bajo
+Occidente,Querétaro,2022,12,12/1/2022,14.1,1,47.2,26.06,Bajo
+Occidente,Jalisco,2023,1,1/1/2023,12.9,0,50.4,24.4,Bajo
+Occidente,Guanajuato,2023,1,1/1/2023,12.9,0,50.4,24.4,Bajo
+Occidente,Aguascalientes,2023,1,1/1/2023,12.9,0,50.4,24.4,Bajo
+Occidente,Querétaro,2023,1,1/1/2023,12.9,0,50.4,24.4,Bajo
+Occidente,Jalisco,2023,2,2/1/2023,15.5,0,44,25.97,Bajo
+Occidente,Guanajuato,2023,2,2/1/2023,15.5,0,44,25.97,Bajo
+Occidente,Aguascalientes,2023,2,2/1/2023,15.5,0,44,25.97,Bajo
+Occidente,Querétaro,2023,2,2/1/2023,15.5,0,44,25.97,Bajo
+Occidente,Jalisco,2023,3,3/1/2023,19.7,2,44.6,32.79,Bajo
+Occidente,Guanajuato,2023,3,3/1/2023,19.7,2,44.6,32.79,Bajo
+Occidente,Aguascalientes,2023,3,3/1/2023,19.7,2,44.6,32.79,Bajo
+Occidente,Querétaro,2023,3,3/1/2023,19.7,2,44.6,32.79,Bajo
+Occidente,Jalisco,2023,4,4/1/2023,20.8,0,45.7,32.22,Bajo
+Occidente,Guanajuato,2023,4,4/1/2023,20.8,0,45.7,32.22,Bajo
+Occidente,Aguascalientes,2023,4,4/1/2023,20.8,0,45.7,32.22,Bajo
+Occidente,Querétaro,2023,4,4/1/2023,20.8,0,45.7,32.22,Bajo
+Occidente,Jalisco,2023,5,5/1/2023,26.2,1,43.4,38.71,Medio
+Occidente,Guanajuato,2023,5,5/1/2023,26.2,1,43.4,38.71,Medio
+Occidente,Aguascalientes,2023,5,5/1/2023,26.2,1,43.4,38.71,Medio
+Occidente,Querétaro,2023,5,5/1/2023,26.2,1,43.4,38.71,Medio
+Occidente,Jalisco,2023,6,6/1/2023,22.8,0,56.1,36.58,Medio
+Occidente,Guanajuato,2023,6,6/1/2023,22.8,0,56.1,36.58,Medio
+Occidente,Aguascalientes,2023,6,6/1/2023,22.8,0,56.1,36.58,Medio
+Occidente,Querétaro,2023,6,6/1/2023,22.8,0,56.1,36.58,Medio
+Occidente,Jalisco,2023,7,7/1/2023,22.1,2,69.1,40.29,Medio
+Occidente,Guanajuato,2023,7,7/1/2023,22.1,2,69.1,40.29,Medio
+Occidente,Aguascalientes,2023,7,7/1/2023,22.1,2,69.1,40.29,Medio
+Occidente,Querétaro,2023,7,7/1/2023,22.1,2,69.1,40.29,Medio
+Occidente,Jalisco,2023,8,8/1/2023,22.6,0,67.5,38.65,Medio
+Occidente,Guanajuato,2023,8,8/1/2023,22.6,0,67.5,38.65,Medio
+Occidente,Aguascalientes,2023,8,8/1/2023,22.6,0,67.5,38.65,Medio
+Occidente,Querétaro,2023,8,8/1/2023,22.6,0,67.5,38.65,Medio
+Occidente,Jalisco,2023,9,9/1/2023,22.5,1,61.7,38.3,Medio
+Occidente,Guanajuato,2023,9,9/1/2023,22.5,1,61.7,38.3,Medio
+Occidente,Aguascalientes,2023,9,9/1/2023,22.5,1,61.7,38.3,Medio
+Occidente,Querétaro,2023,9,9/1/2023,22.5,1,61.7,38.3,Medio
+Occidente,Jalisco,2023,10,10/1/2023,21,0,49.6,33.21,Bajo
+Occidente,Guanajuato,2023,10,10/1/2023,21,0,49.6,33.21,Bajo
+Occidente,Aguascalientes,2023,10,10/1/2023,21,0,49.6,33.21,Bajo
+Occidente,Querétaro,2023,10,10/1/2023,21,0,49.6,33.21,Bajo
+Occidente,Jalisco,2023,11,11/1/2023,17.4,2,47.2,30.67,Bajo
+Occidente,Guanajuato,2023,11,11/1/2023,17.4,2,47.2,30.67,Bajo
+Occidente,Aguascalientes,2023,11,11/1/2023,17.4,2,47.2,30.67,Bajo
+Occidente,Querétaro,2023,11,11/1/2023,17.4,2,47.2,30.67,Bajo
+Occidente,Jalisco,2023,12,12/1/2023,12.4,2,52.5,26.27,Bajo
+Occidente,Guanajuato,2023,12,12/1/2023,12.4,2,52.5,26.27,Bajo
+Occidente,Aguascalientes,2023,12,12/1/2023,12.4,2,52.5,26.27,Bajo
+Occidente,Querétaro,2023,12,12/1/2023,12.4,2,52.5,26.27,Bajo
+Occidente,Jalisco,2024,1,1/1/2024,15.2,0,47.4,26.36,Bajo
+Occidente,Guanajuato,2024,1,1/1/2024,15.2,0,47.4,26.36,Bajo
+Occidente,Aguascalientes,2024,1,1/1/2024,15.2,0,47.4,26.36,Bajo
+Occidente,Querétaro,2024,1,1/1/2024,15.2,0,47.4,26.36,Bajo
+Occidente,Jalisco,2024,2,2/1/2024,18.1,1,49.1,30.89,Bajo
+Occidente,Guanajuato,2024,2,2/1/2024,18.1,1,49.1,30.89,Bajo
+Occidente,Aguascalientes,2024,2,2/1/2024,18.1,1,49.1,30.89,Bajo
+Occidente,Querétaro,2024,2,2/1/2024,18.1,1,49.1,30.89,Bajo
+Occidente,Jalisco,2024,3,3/1/2024,17.6,0,42.7,28.07,Bajo
+Occidente,Guanajuato,2024,3,3/1/2024,17.6,0,42.7,28.07,Bajo
+Occidente,Aguascalientes,2024,3,3/1/2024,17.6,0,42.7,28.07,Bajo
+Occidente,Querétaro,2024,3,3/1/2024,17.6,0,42.7,28.07,Bajo
+Occidente,Jalisco,2024,4,4/1/2024,23,1,38.9,34.29,Bajo
+Occidente,Guanajuato,2024,4,4/1/2024,23,1,38.9,34.29,Bajo
+Occidente,Aguascalientes,2024,4,4/1/2024,23,1,38.9,34.29,Bajo
+Occidente,Querétaro,2024,4,4/1/2024,23,1,38.9,34.29,Bajo
+Occidente,Jalisco,2024,5,5/1/2024,25.2,2,50.7,40.1,Medio
+Occidente,Guanajuato,2024,5,5/1/2024,25.2,2,50.7,40.1,Medio
+Occidente,Aguascalientes,2024,5,5/1/2024,25.2,2,50.7,40.1,Medio
+Occidente,Querétaro,2024,5,5/1/2024,25.2,2,50.7,40.1,Medio
+Occidente,Jalisco,2024,6,6/1/2024,22.1,0,63,37.16,Medio
+Occidente,Guanajuato,2024,6,6/1/2024,22.1,0,63,37.16,Medio
+Occidente,Aguascalientes,2024,6,6/1/2024,22.1,0,63,37.16,Medio
+Occidente,Querétaro,2024,6,6/1/2024,22.1,0,63,37.16,Medio
+Occidente,Jalisco,2024,7,7/1/2024,22.2,1,69.8,39.59,Medio
+Occidente,Guanajuato,2024,7,7/1/2024,22.2,1,69.8,39.59,Medio
+Occidente,Aguascalientes,2024,7,7/1/2024,22.2,1,69.8,39.59,Medio
+Occidente,Querétaro,2024,7,7/1/2024,22.2,1,69.8,39.59,Medio
+Occidente,Jalisco,2024,8,8/1/2024,21.1,0,72.4,37.88,Medio
+Occidente,Guanajuato,2024,8,8/1/2024,21.1,0,72.4,37.88,Medio
+Occidente,Aguascalientes,2024,8,8/1/2024,21.1,0,72.4,37.88,Medio
+Occidente,Querétaro,2024,8,8/1/2024,21.1,0,72.4,37.88,Medio
+Occidente,Jalisco,2024,9,9/1/2024,19.5,1,63.6,35.36,Medio
+Occidente,Guanajuato,2024,9,9/1/2024,19.5,1,63.6,35.36,Medio
+Occidente,Aguascalientes,2024,9,9/1/2024,19.5,1,63.6,35.36,Medio
+Occidente,Querétaro,2024,9,9/1/2024,19.5,1,63.6,35.36,Medio
+Occidente,Jalisco,2024,10,10/1/2024,19.8,0,52.6,32.51,Bajo
+Occidente,Guanajuato,2024,10,10/1/2024,19.8,0,52.6,32.51,Bajo
+Occidente,Aguascalientes,2024,10,10/1/2024,19.8,0,52.6,32.51,Bajo
+Occidente,Querétaro,2024,10,10/1/2024,19.8,0,52.6,32.51,Bajo
+Occidente,Jalisco,2024,11,11/1/2024,16.7,0,50.4,28.67,Bajo
+Occidente,Guanajuato,2024,11,11/1/2024,16.7,0,50.4,28.67,Bajo
+Occidente,Aguascalientes,2024,11,11/1/2024,16.7,0,50.4,28.67,Bajo
+Occidente,Querétaro,2024,11,11/1/2024,16.7,0,50.4,28.67,Bajo
+Occidente,Jalisco,2024,12,12/1/2024,17.3,0,43,27.87,Bajo
+Occidente,Guanajuato,2024,12,12/1/2024,17.3,0,43,27.87,Bajo
+Occidente,Aguascalientes,2024,12,12/1/2024,17.3,0,43,27.87,Bajo
+Occidente,Querétaro,2024,12,12/1/2024,17.3,0,43,27.87,Bajo
+Occidente,Jalisco,2025,1,1/1/2025,17.3,0,51.7,29.54,Bajo
+Occidente,Guanajuato,2025,1,1/1/2025,17.3,0,51.7,29.54,Bajo
+Occidente,Aguascalientes,2025,1,1/1/2025,17.3,0,51.7,29.54,Bajo
+Occidente,Querétaro,2025,1,1/1/2025,17.3,0,51.7,29.54,Bajo
+Occidente,Jalisco,2025,2,2/1/2025,16.9,1,47.5,29.26,Bajo
+Occidente,Guanajuato,2025,2,2/1/2025,16.9,1,47.5,29.26,Bajo
+Occidente,Aguascalientes,2025,2,2/1/2025,16.9,1,47.5,29.26,Bajo
+Occidente,Querétaro,2025,2,2/1/2025,16.9,1,47.5,29.26,Bajo
+Occidente,Jalisco,2025,3,3/1/2025,21,0,47.9,32.94,Bajo
+Occidente,Guanajuato,2025,3,3/1/2025,21,0,47.9,32.94,Bajo
+Occidente,Aguascalientes,2025,3,3/1/2025,21,0,47.9,32.94,Bajo
+Occidente,Querétaro,2025,3,3/1/2025,21,0,47.9,32.94,Bajo
+Occidente,Jalisco,2025,4,4/1/2025,24.3,0,42.3,35.48,Medio
+Occidente,Guanajuato,2025,4,4/1/2025,24.3,0,42.3,35.48,Medio
+Occidente,Aguascalientes,2025,4,4/1/2025,24.3,0,42.3,35.48,Medio
+Occidente,Querétaro,2025,4,4/1/2025,24.3,0,42.3,35.48,Medio
+Occidente,Jalisco,2025,5,5/1/2025,25.2,0,45.7,37.14,Medio
+Occidente,Guanajuato,2025,5,5/1/2025,25.2,0,45.7,37.14,Medio
+Occidente,Aguascalientes,2025,5,5/1/2025,25.2,0,45.7,37.14,Medio
+Occidente,Querétaro,2025,5,5/1/2025,25.2,0,45.7,37.14,Medio
+Occidente,Jalisco,2025,6,6/1/2025,25.9,2,64.9,43.67,Medio
+Occidente,Guanajuato,2025,6,6/1/2025,25.9,2,64.9,43.67,Medio
+Occidente,Aguascalientes,2025,6,6/1/2025,25.9,2,64.9,43.67,Medio
+Occidente,Querétaro,2025,6,6/1/2025,25.9,2,64.9,43.67,Medio
+Occidente,Jalisco,2025,7,7/1/2025,24.6,0,73.9,42.17,Medio
+Occidente,Guanajuato,2025,7,7/1/2025,24.6,0,73.9,42.17,Medio
+Occidente,Aguascalientes,2025,7,7/1/2025,24.6,0,73.9,42.17,Medio
+Occidente,Querétaro,2025,7,7/1/2025,24.6,0,73.9,42.17,Medio
+Occidente,Jalisco,2025,8,8/1/2025,26,0,67.5,42.4,Medio
+Occidente,Guanajuato,2025,8,8/1/2025,26,0,67.5,42.4,Medio
+Occidente,Aguascalientes,2025,8,8/1/2025,26,0,67.5,42.4,Medio
+Occidente,Querétaro,2025,8,8/1/2025,26,0,67.5,42.4,Medio
+Occidente,Jalisco,2025,9,9/1/2025,19.5,0,61.8,34.02,Bajo
+Occidente,Guanajuato,2025,9,9/1/2025,19.5,0,61.8,34.02,Bajo
+Occidente,Aguascalientes,2025,9,9/1/2025,19.5,0,61.8,34.02,Bajo
+Occidente,Querétaro,2025,9,9/1/2025,19.5,0,61.8,34.02,Bajo
+Occidente,Jalisco,2025,10,10/1/2025,17.5,0,52.5,29.92,Bajo
+Occidente,Guanajuato,2025,10,10/1/2025,17.5,0,52.5,29.92,Bajo
+Occidente,Aguascalientes,2025,10,10/1/2025,17.5,0,52.5,29.92,Bajo
+Occidente,Querétaro,2025,10,10/1/2025,17.5,0,52.5,29.92,Bajo
+Occidente,Jalisco,2025,11,11/1/2025,16.4,1,53,29.83,Bajo
+Occidente,Guanajuato,2025,11,11/1/2025,16.4,1,53,29.83,Bajo
+Occidente,Aguascalientes,2025,11,11/1/2025,16.4,1,53,29.83,Bajo
+Occidente,Querétaro,2025,11,11/1/2025,16.4,1,53,29.83,Bajo
+Occidente,Jalisco,2025,12,12/1/2025,13.5,0,52.6,25.56,Bajo
+Occidente,Guanajuato,2025,12,12/1/2025,13.5,0,52.6,25.56,Bajo
+Occidente,Aguascalientes,2025,12,12/1/2025,13.5,0,52.6,25.56,Bajo
+Occidente,Querétaro,2025,12,12/1/2025,13.5,0,52.6,25.56,Bajo
+Centro,Ciudad de México,2018,1,1/1/2018,12.8,2,56.4,27.49,Bajo
+Centro,Estado de México,2018,1,1/1/2018,12.8,2,56.4,27.49,Bajo
+Centro,Puebla,2018,1,1/1/2018,12.8,2,56.4,27.49,Bajo
+Centro,Morelos,2018,1,1/1/2018,12.8,2,56.4,27.49,Bajo
+Centro,Ciudad de México,2018,2,2/1/2018,12.9,1,51.7,25.63,Bajo
+Centro,Estado de México,2018,2,2/1/2018,12.9,1,51.7,25.63,Bajo
+Centro,Puebla,2018,2,2/1/2018,12.9,1,51.7,25.63,Bajo
+Centro,Morelos,2018,2,2/1/2018,12.9,1,51.7,25.63,Bajo
+Centro,Ciudad de México,2018,3,3/1/2018,18.3,0,49.3,30.24,Bajo
+Centro,Estado de México,2018,3,3/1/2018,18.3,0,49.3,30.24,Bajo
+Centro,Puebla,2018,3,3/1/2018,18.3,0,49.3,30.24,Bajo
+Centro,Morelos,2018,3,3/1/2018,18.3,0,49.3,30.24,Bajo
+Centro,Ciudad de México,2018,4,4/1/2018,23.1,0,49.8,35.59,Medio
+Centro,Estado de México,2018,4,4/1/2018,23.1,0,49.8,35.59,Medio
+Centro,Puebla,2018,4,4/1/2018,23.1,0,49.8,35.59,Medio
+Centro,Morelos,2018,4,4/1/2018,23.1,0,49.8,35.59,Medio
+Centro,Ciudad de México,2018,5,5/1/2018,20.4,0,60.7,34.84,Bajo
+Centro,Estado de México,2018,5,5/1/2018,20.4,0,60.7,34.84,Bajo
+Centro,Puebla,2018,5,5/1/2018,20.4,0,60.7,34.84,Bajo
+Centro,Morelos,2018,5,5/1/2018,20.4,0,60.7,34.84,Bajo
+Centro,Ciudad de México,2018,6,6/1/2018,20.2,0,64.2,35.29,Medio
+Centro,Estado de México,2018,6,6/1/2018,20.2,0,64.2,35.29,Medio
+Centro,Puebla,2018,6,6/1/2018,20.2,0,64.2,35.29,Medio
+Centro,Morelos,2018,6,6/1/2018,20.2,0,64.2,35.29,Medio
+Centro,Ciudad de México,2018,7,7/1/2018,19.9,0,74,36.94,Medio
+Centro,Estado de México,2018,7,7/1/2018,19.9,0,74,36.94,Medio
+Centro,Puebla,2018,7,7/1/2018,19.9,0,74,36.94,Medio
+Centro,Morelos,2018,7,7/1/2018,19.9,0,74,36.94,Medio
+Centro,Ciudad de México,2018,8,8/1/2018,19.8,2,68.6,37.71,Medio
+Centro,Estado de México,2018,8,8/1/2018,19.8,2,68.6,37.71,Medio
+Centro,Puebla,2018,8,8/1/2018,19.8,2,68.6,37.71,Medio
+Centro,Morelos,2018,8,8/1/2018,19.8,2,68.6,37.71,Medio
+Centro,Ciudad de México,2018,9,9/1/2018,19.2,0,66.5,34.62,Bajo
+Centro,Estado de México,2018,9,9/1/2018,19.2,0,66.5,34.62,Bajo
+Centro,Puebla,2018,9,9/1/2018,19.2,0,66.5,34.62,Bajo
+Centro,Morelos,2018,9,9/1/2018,19.2,0,66.5,34.62,Bajo
+Centro,Ciudad de México,2018,10,10/1/2018,15.4,0,59.4,29.02,Bajo
+Centro,Estado de México,2018,10,10/1/2018,15.4,0,59.4,29.02,Bajo
+Centro,Puebla,2018,10,10/1/2018,15.4,0,59.4,29.02,Bajo
+Centro,Morelos,2018,10,10/1/2018,15.4,0,59.4,29.02,Bajo
+Centro,Ciudad de México,2018,11,11/1/2018,16,2,58.5,31.4,Bajo
+Centro,Estado de México,2018,11,11/1/2018,16,2,58.5,31.4,Bajo
+Centro,Puebla,2018,11,11/1/2018,16,2,58.5,31.4,Bajo
+Centro,Morelos,2018,11,11/1/2018,16,2,58.5,31.4,Bajo
+Centro,Ciudad de México,2018,12,12/1/2018,14,0,57.1,26.99,Bajo
+Centro,Estado de México,2018,12,12/1/2018,14,0,57.1,26.99,Bajo
+Centro,Puebla,2018,12,12/1/2018,14,0,57.1,26.99,Bajo
+Centro,Morelos,2018,12,12/1/2018,14,0,57.1,26.99,Bajo
+Centro,Ciudad de México,2019,1,1/1/2019,13.4,0,56.8,26.28,Bajo
+Centro,Estado de México,2019,1,1/1/2019,13.4,0,56.8,26.28,Bajo
+Centro,Puebla,2019,1,1/1/2019,13.4,0,56.8,26.28,Bajo
+Centro,Morelos,2019,1,1/1/2019,13.4,0,56.8,26.28,Bajo
+Centro,Ciudad de México,2019,2,2/1/2019,16.1,2,52.3,30.27,Bajo
+Centro,Estado de México,2019,2,2/1/2019,16.1,2,52.3,30.27,Bajo
+Centro,Puebla,2019,2,2/1/2019,16.1,2,52.3,30.27,Bajo
+Centro,Morelos,2019,2,2/1/2019,16.1,2,52.3,30.27,Bajo
+Centro,Ciudad de México,2019,3,3/1/2019,17.1,0,51.5,29.33,Bajo
+Centro,Estado de México,2019,3,3/1/2019,17.1,0,51.5,29.33,Bajo
+Centro,Puebla,2019,3,3/1/2019,17.1,0,51.5,29.33,Bajo
+Centro,Morelos,2019,3,3/1/2019,17.1,0,51.5,29.33,Bajo
+Centro,Ciudad de México,2019,4,4/1/2019,21.7,1,49.1,34.93,Bajo
+Centro,Estado de México,2019,4,4/1/2019,21.7,1,49.1,34.93,Bajo
+Centro,Puebla,2019,4,4/1/2019,21.7,1,49.1,34.93,Bajo
+Centro,Morelos,2019,4,4/1/2019,21.7,1,49.1,34.93,Bajo
+Centro,Ciudad de México,2019,5,5/1/2019,20.5,0,57.2,34.27,Bajo
+Centro,Estado de México,2019,5,5/1/2019,20.5,0,57.2,34.27,Bajo
+Centro,Puebla,2019,5,5/1/2019,20.5,0,57.2,34.27,Bajo
+Centro,Morelos,2019,5,5/1/2019,20.5,0,57.2,34.27,Bajo
+Centro,Ciudad de México,2019,6,6/1/2019,21.7,0,68.2,37.78,Medio
+Centro,Estado de México,2019,6,6/1/2019,21.7,0,68.2,37.78,Medio
+Centro,Puebla,2019,6,6/1/2019,21.7,0,68.2,37.78,Medio
+Centro,Morelos,2019,6,6/1/2019,21.7,0,68.2,37.78,Medio
+Centro,Ciudad de México,2019,7,7/1/2019,18.1,0,76.9,35.45,Medio
+Centro,Estado de México,2019,7,7/1/2019,18.1,0,76.9,35.45,Medio
+Centro,Puebla,2019,7,7/1/2019,18.1,0,76.9,35.45,Medio
+Centro,Morelos,2019,7,7/1/2019,18.1,0,76.9,35.45,Medio
+Centro,Ciudad de México,2019,8,8/1/2019,17.8,1,73.2,35.44,Medio
+Centro,Estado de México,2019,8,8/1/2019,17.8,1,73.2,35.44,Medio
+Centro,Puebla,2019,8,8/1/2019,17.8,1,73.2,35.44,Medio
+Centro,Morelos,2019,8,8/1/2019,17.8,1,73.2,35.44,Medio
+Centro,Ciudad de México,2019,9,9/1/2019,19.7,1,68.8,36.62,Medio
+Centro,Estado de México,2019,9,9/1/2019,19.7,1,68.8,36.62,Medio
+Centro,Puebla,2019,9,9/1/2019,19.7,1,68.8,36.62,Medio
+Centro,Morelos,2019,9,9/1/2019,19.7,1,68.8,36.62,Medio
+Centro,Ciudad de México,2019,10,10/1/2019,16.3,0,62.6,30.65,Bajo
+Centro,Estado de México,2019,10,10/1/2019,16.3,0,62.6,30.65,Bajo
+Centro,Puebla,2019,10,10/1/2019,16.3,0,62.6,30.65,Bajo
+Centro,Morelos,2019,10,10/1/2019,16.3,0,62.6,30.65,Bajo
+Centro,Ciudad de México,2019,11,11/1/2019,11.9,1,58.8,25.98,Bajo
+Centro,Estado de México,2019,11,11/1/2019,11.9,1,58.8,25.98,Bajo
+Centro,Puebla,2019,11,11/1/2019,11.9,1,58.8,25.98,Bajo
+Centro,Morelos,2019,11,11/1/2019,11.9,1,58.8,25.98,Bajo
+Centro,Ciudad de México,2019,12,12/1/2019,13.2,0,58.7,26.4,Bajo
+Centro,Estado de México,2019,12,12/1/2019,13.2,0,58.7,26.4,Bajo
+Centro,Puebla,2019,12,12/1/2019,13.2,0,58.7,26.4,Bajo
+Centro,Morelos,2019,12,12/1/2019,13.2,0,58.7,26.4,Bajo
+Centro,Ciudad de México,2020,1,1/1/2020,13.2,1,53.6,26.32,Bajo
+Centro,Estado de México,2020,1,1/1/2020,13.2,1,53.6,26.32,Bajo
+Centro,Puebla,2020,1,1/1/2020,13.2,1,53.6,26.32,Bajo
+Centro,Morelos,2020,1,1/1/2020,13.2,1,53.6,26.32,Bajo
+Centro,Ciudad de México,2020,2,2/1/2020,13.2,2,47.6,26.1,Bajo
+Centro,Estado de México,2020,2,2/1/2020,13.2,2,47.6,26.1,Bajo
+Centro,Puebla,2020,2,2/1/2020,13.2,2,47.6,26.1,Bajo
+Centro,Morelos,2020,2,2/1/2020,13.2,2,47.6,26.1,Bajo
+Centro,Ciudad de México,2020,3,3/1/2020,16,0,49.3,27.59,Bajo
+Centro,Estado de México,2020,3,3/1/2020,16,0,49.3,27.59,Bajo
+Centro,Puebla,2020,3,3/1/2020,16,0,49.3,27.59,Bajo
+Centro,Morelos,2020,3,3/1/2020,16,0,49.3,27.59,Bajo
+Centro,Ciudad de México,2020,4,4/1/2020,19,0,48.1,30.72,Bajo
+Centro,Estado de México,2020,4,4/1/2020,19,0,48.1,30.72,Bajo
+Centro,Puebla,2020,4,4/1/2020,19,0,48.1,30.72,Bajo
+Centro,Morelos,2020,4,4/1/2020,19,0,48.1,30.72,Bajo
+Centro,Ciudad de México,2020,5,5/1/2020,21.8,0,54.4,35.04,Medio
+Centro,Estado de México,2020,5,5/1/2020,21.8,0,54.4,35.04,Medio
+Centro,Puebla,2020,5,5/1/2020,21.8,0,54.4,35.04,Medio
+Centro,Morelos,2020,5,5/1/2020,21.8,0,54.4,35.04,Medio
+Centro,Ciudad de México,2020,6,6/1/2020,19.9,1,62.8,35.64,Medio
+Centro,Estado de México,2020,6,6/1/2020,19.9,1,62.8,35.64,Medio
+Centro,Puebla,2020,6,6/1/2020,19.9,1,62.8,35.64,Medio
+Centro,Morelos,2020,6,6/1/2020,19.9,1,62.8,35.64,Medio
+Centro,Ciudad de México,2020,7,7/1/2020,20.4,0,69.5,36.54,Medio
+Centro,Estado de México,2020,7,7/1/2020,20.4,0,69.5,36.54,Medio
+Centro,Puebla,2020,7,7/1/2020,20.4,0,69.5,36.54,Medio
+Centro,Morelos,2020,7,7/1/2020,20.4,0,69.5,36.54,Medio
+Centro,Ciudad de México,2020,8,8/1/2020,19.1,1,70.1,36.2,Medio
+Centro,Estado de México,2020,8,8/1/2020,19.1,1,70.1,36.2,Medio
+Centro,Puebla,2020,8,8/1/2020,19.1,1,70.1,36.2,Medio
+Centro,Morelos,2020,8,8/1/2020,19.1,1,70.1,36.2,Medio
+Centro,Ciudad de México,2020,9,9/1/2020,17.6,0,69.5,33.49,Bajo
+Centro,Estado de México,2020,9,9/1/2020,17.6,0,69.5,33.49,Bajo
+Centro,Puebla,2020,9,9/1/2020,17.6,0,69.5,33.49,Bajo
+Centro,Morelos,2020,9,9/1/2020,17.6,0,69.5,33.49,Bajo
+Centro,Ciudad de México,2020,10,10/1/2020,15.3,0,60.2,29.05,Bajo
+Centro,Estado de México,2020,10,10/1/2020,15.3,0,60.2,29.05,Bajo
+Centro,Puebla,2020,10,10/1/2020,15.3,0,60.2,29.05,Bajo
+Centro,Morelos,2020,10,10/1/2020,15.3,0,60.2,29.05,Bajo
+Centro,Ciudad de México,2020,11,11/1/2020,14.7,0,56.7,27.68,Bajo
+Centro,Estado de México,2020,11,11/1/2020,14.7,0,56.7,27.68,Bajo
+Centro,Puebla,2020,11,11/1/2020,14.7,0,56.7,27.68,Bajo
+Centro,Morelos,2020,11,11/1/2020,14.7,0,56.7,27.68,Bajo
+Centro,Ciudad de México,2020,12,12/1/2020,12.4,2,59,27.55,Bajo
+Centro,Estado de México,2020,12,12/1/2020,12.4,2,59,27.55,Bajo
+Centro,Puebla,2020,12,12/1/2020,12.4,2,59,27.55,Bajo
+Centro,Morelos,2020,12,12/1/2020,12.4,2,59,27.55,Bajo
+Centro,Ciudad de México,2021,1,1/1/2021,11.8,0,56.4,24.4,Bajo
+Centro,Estado de México,2021,1,1/1/2021,11.8,0,56.4,24.4,Bajo
+Centro,Puebla,2021,1,1/1/2021,11.8,0,56.4,24.4,Bajo
+Centro,Morelos,2021,1,1/1/2021,11.8,0,56.4,24.4,Bajo
+Centro,Ciudad de México,2021,2,2/1/2021,14.9,0,49.1,26.32,Bajo
+Centro,Estado de México,2021,2,2/1/2021,14.9,0,49.1,26.32,Bajo
+Centro,Puebla,2021,2,2/1/2021,14.9,0,49.1,26.32,Bajo
+Centro,Morelos,2021,2,2/1/2021,14.9,0,49.1,26.32,Bajo
+Centro,Ciudad de México,2021,3,3/1/2021,18.5,0,50,30.56,Bajo
+Centro,Estado de México,2021,3,3/1/2021,18.5,0,50,30.56,Bajo
+Centro,Puebla,2021,3,3/1/2021,18.5,0,50,30.56,Bajo
+Centro,Morelos,2021,3,3/1/2021,18.5,0,50,30.56,Bajo
+Centro,Ciudad de México,2021,4,4/1/2021,19.6,2,51.6,34.07,Bajo
+Centro,Estado de México,2021,4,4/1/2021,19.6,2,51.6,34.07,Bajo
+Centro,Puebla,2021,4,4/1/2021,19.6,2,51.6,34.07,Bajo
+Centro,Morelos,2021,4,4/1/2021,19.6,2,51.6,34.07,Bajo
+Centro,Ciudad de México,2021,5,5/1/2021,24.1,2,57.3,40.21,Medio
+Centro,Estado de México,2021,5,5/1/2021,24.1,2,57.3,40.21,Medio
+Centro,Puebla,2021,5,5/1/2021,24.1,2,57.3,40.21,Medio
+Centro,Morelos,2021,5,5/1/2021,24.1,2,57.3,40.21,Medio
+Centro,Ciudad de México,2021,6,6/1/2021,19.6,0,64,34.54,Bajo
+Centro,Estado de México,2021,6,6/1/2021,19.6,0,64,34.54,Bajo
+Centro,Puebla,2021,6,6/1/2021,19.6,0,64,34.54,Bajo
+Centro,Morelos,2021,6,6/1/2021,19.6,0,64,34.54,Bajo
+Centro,Ciudad de México,2021,7,7/1/2021,19.2,0,69.5,35.26,Medio
+Centro,Estado de México,2021,7,7/1/2021,19.2,0,69.5,35.26,Medio
+Centro,Puebla,2021,7,7/1/2021,19.2,0,69.5,35.26,Medio
+Centro,Morelos,2021,7,7/1/2021,19.2,0,69.5,35.26,Medio
+Centro,Ciudad de México,2021,8,8/1/2021,18.3,1,70.3,35.33,Medio
+Centro,Estado de México,2021,8,8/1/2021,18.3,1,70.3,35.33,Medio
+Centro,Puebla,2021,8,8/1/2021,18.3,1,70.3,35.33,Medio
+Centro,Morelos,2021,8,8/1/2021,18.3,1,70.3,35.33,Medio
+Centro,Ciudad de México,2021,9,9/1/2021,16.6,2,66.2,33.66,Bajo
+Centro,Estado de México,2021,9,9/1/2021,16.6,2,66.2,33.66,Bajo
+Centro,Puebla,2021,9,9/1/2021,16.6,2,66.2,33.66,Bajo
+Centro,Morelos,2021,9,9/1/2021,16.6,2,66.2,33.66,Bajo
+Centro,Ciudad de México,2021,10,10/1/2021,17.4,2,58.4,32.9,Bajo
+Centro,Estado de México,2021,10,10/1/2021,17.4,2,58.4,32.9,Bajo
+Centro,Puebla,2021,10,10/1/2021,17.4,2,58.4,32.9,Bajo
+Centro,Morelos,2021,10,10/1/2021,17.4,2,58.4,32.9,Bajo
+Centro,Ciudad de México,2021,11,11/1/2021,16.1,2,54.3,30.73,Bajo
+Centro,Estado de México,2021,11,11/1/2021,16.1,2,54.3,30.73,Bajo
+Centro,Puebla,2021,11,11/1/2021,16.1,2,54.3,30.73,Bajo
+Centro,Morelos,2021,11,11/1/2021,16.1,2,54.3,30.73,Bajo
+Centro,Ciudad de México,2021,12,12/1/2021,13.4,0,58.6,26.55,Bajo
+Centro,Estado de México,2021,12,12/1/2021,13.4,0,58.6,26.55,Bajo
+Centro,Puebla,2021,12,12/1/2021,13.4,0,58.6,26.55,Bajo
+Centro,Morelos,2021,12,12/1/2021,13.4,0,58.6,26.55,Bajo
+Centro,Ciudad de México,2022,1,1/1/2022,12.8,0,57.6,25.76,Bajo
+Centro,Estado de México,2022,1,1/1/2022,12.8,0,57.6,25.76,Bajo
+Centro,Puebla,2022,1,1/1/2022,12.8,0,57.6,25.76,Bajo
+Centro,Morelos,2022,1,1/1/2022,12.8,0,57.6,25.76,Bajo
+Centro,Ciudad de México,2022,2,2/1/2022,16.7,0,52.3,29.05,Bajo
+Centro,Estado de México,2022,2,2/1/2022,16.7,0,52.3,29.05,Bajo
+Centro,Puebla,2022,2,2/1/2022,16.7,0,52.3,29.05,Bajo
+Centro,Morelos,2022,2,2/1/2022,16.7,0,52.3,29.05,Bajo
+Centro,Ciudad de México,2022,3,3/1/2022,18.7,1,50.8,31.88,Bajo
+Centro,Estado de México,2022,3,3/1/2022,18.7,1,50.8,31.88,Bajo
+Centro,Puebla,2022,3,3/1/2022,18.7,1,50.8,31.88,Bajo
+Centro,Morelos,2022,3,3/1/2022,18.7,1,50.8,31.88,Bajo
+Centro,Ciudad de México,2022,4,4/1/2022,21.4,0,51.3,34.01,Bajo
+Centro,Estado de México,2022,4,4/1/2022,21.4,0,51.3,34.01,Bajo
+Centro,Puebla,2022,4,4/1/2022,21.4,0,51.3,34.01,Bajo
+Centro,Morelos,2022,4,4/1/2022,21.4,0,51.3,34.01,Bajo
+Centro,Ciudad de México,2022,5,5/1/2022,20.3,2,56.5,35.77,Medio
+Centro,Estado de México,2022,5,5/1/2022,20.3,2,56.5,35.77,Medio
+Centro,Puebla,2022,5,5/1/2022,20.3,2,56.5,35.77,Medio
+Centro,Morelos,2022,5,5/1/2022,20.3,2,56.5,35.77,Medio
+Centro,Ciudad de México,2022,6,6/1/2022,20,0,62.9,34.76,Bajo
+Centro,Estado de México,2022,6,6/1/2022,20,0,62.9,34.76,Bajo
+Centro,Puebla,2022,6,6/1/2022,20,0,62.9,34.76,Bajo
+Centro,Morelos,2022,6,6/1/2022,20,0,62.9,34.76,Bajo
+Centro,Ciudad de México,2022,7,7/1/2022,19.9,2,71,38.25,Medio
+Centro,Estado de México,2022,7,7/1/2022,19.9,2,71,38.25,Medio
+Centro,Puebla,2022,7,7/1/2022,19.9,2,71,38.25,Medio
+Centro,Morelos,2022,7,7/1/2022,19.9,2,71,38.25,Medio
+Centro,Ciudad de México,2022,8,8/1/2022,18.5,2,68.5,36.14,Medio
+Centro,Estado de México,2022,8,8/1/2022,18.5,2,68.5,36.14,Medio
+Centro,Puebla,2022,8,8/1/2022,18.5,2,68.5,36.14,Medio
+Centro,Morelos,2022,8,8/1/2022,18.5,2,68.5,36.14,Medio
+Centro,Ciudad de México,2022,9,9/1/2022,18.6,0,68.1,34.32,Bajo
+Centro,Estado de México,2022,9,9/1/2022,18.6,0,68.1,34.32,Bajo
+Centro,Puebla,2022,9,9/1/2022,18.6,0,68.1,34.32,Bajo
+Centro,Morelos,2022,9,9/1/2022,18.6,0,68.1,34.32,Bajo
+Centro,Ciudad de México,2022,10,10/1/2022,17.1,2,57.8,32.45,Bajo
+Centro,Estado de México,2022,10,10/1/2022,17.1,2,57.8,32.45,Bajo
+Centro,Puebla,2022,10,10/1/2022,17.1,2,57.8,32.45,Bajo
+Centro,Morelos,2022,10,10/1/2022,17.1,2,57.8,32.45,Bajo
+Centro,Ciudad de México,2022,11,11/1/2022,15,0,57.5,28.21,Bajo
+Centro,Estado de México,2022,11,11/1/2022,15,0,57.5,28.21,Bajo
+Centro,Puebla,2022,11,11/1/2022,15,0,57.5,28.21,Bajo
+Centro,Morelos,2022,11,11/1/2022,15,0,57.5,28.21,Bajo
+Centro,Ciudad de México,2022,12,12/1/2022,14.8,1,55.4,28.52,Bajo
+Centro,Estado de México,2022,12,12/1/2022,14.8,1,55.4,28.52,Bajo
+Centro,Puebla,2022,12,12/1/2022,14.8,1,55.4,28.52,Bajo
+Centro,Morelos,2022,12,12/1/2022,14.8,1,55.4,28.52,Bajo
+Centro,Ciudad de México,2023,1,1/1/2023,14.2,2,55.5,28.84,Bajo
+Centro,Estado de México,2023,1,1/1/2023,14.2,2,55.5,28.84,Bajo
+Centro,Puebla,2023,1,1/1/2023,14.2,2,55.5,28.84,Bajo
+Centro,Morelos,2023,1,1/1/2023,14.2,2,55.5,28.84,Bajo
+Centro,Ciudad de México,2023,2,2/1/2023,14.8,1,53.2,28.1,Bajo
+Centro,Estado de México,2023,2,2/1/2023,14.8,1,53.2,28.1,Bajo
+Centro,Puebla,2023,2,2/1/2023,14.8,1,53.2,28.1,Bajo
+Centro,Morelos,2023,2,2/1/2023,14.8,1,53.2,28.1,Bajo
+Centro,Ciudad de México,2023,3,3/1/2023,18.3,0,49,30.1,Bajo
+Centro,Estado de México,2023,3,3/1/2023,18.3,0,49,30.1,Bajo
+Centro,Puebla,2023,3,3/1/2023,18.3,0,49,30.1,Bajo
+Centro,Morelos,2023,3,3/1/2023,18.3,0,49,30.1,Bajo
+Centro,Ciudad de México,2023,4,4/1/2023,21.4,0,52.4,34.27,Bajo
+Centro,Estado de México,2023,4,4/1/2023,21.4,0,52.4,34.27,Bajo
+Centro,Puebla,2023,4,4/1/2023,21.4,0,52.4,34.27,Bajo
+Centro,Morelos,2023,4,4/1/2023,21.4,0,52.4,34.27,Bajo
+Centro,Ciudad de México,2023,5,5/1/2023,20.8,0,59.8,35.06,Medio
+Centro,Estado de México,2023,5,5/1/2023,20.8,0,59.8,35.06,Medio
+Centro,Puebla,2023,5,5/1/2023,20.8,0,59.8,35.06,Medio
+Centro,Morelos,2023,5,5/1/2023,20.8,0,59.8,35.06,Medio
+Centro,Ciudad de México,2023,6,6/1/2023,20.9,2,63.7,37.94,Medio
+Centro,Estado de México,2023,6,6/1/2023,20.9,2,63.7,37.94,Medio
+Centro,Puebla,2023,6,6/1/2023,20.9,2,63.7,37.94,Medio
+Centro,Morelos,2023,6,6/1/2023,20.9,2,63.7,37.94,Medio
+Centro,Ciudad de México,2023,7,7/1/2023,21.4,0,69.8,37.72,Medio
+Centro,Estado de México,2023,7,7/1/2023,21.4,0,69.8,37.72,Medio
+Centro,Puebla,2023,7,7/1/2023,21.4,0,69.8,37.72,Medio
+Centro,Morelos,2023,7,7/1/2023,21.4,0,69.8,37.72,Medio
+Centro,Ciudad de México,2023,8,8/1/2023,20.3,0,69.9,36.55,Medio
+Centro,Estado de México,2023,8,8/1/2023,20.3,0,69.9,36.55,Medio
+Centro,Puebla,2023,8,8/1/2023,20.3,0,69.9,36.55,Medio
+Centro,Morelos,2023,8,8/1/2023,20.3,0,69.9,36.55,Medio
+Centro,Ciudad de México,2023,9,9/1/2023,17,2,67.6,34.36,Bajo
+Centro,Estado de México,2023,9,9/1/2023,17,2,67.6,34.36,Bajo
+Centro,Puebla,2023,9,9/1/2023,17,2,67.6,34.36,Bajo
+Centro,Morelos,2023,9,9/1/2023,17,2,67.6,34.36,Bajo
+Centro,Ciudad de México,2023,10,10/1/2023,16.3,0,61.8,30.44,Bajo
+Centro,Estado de México,2023,10,10/1/2023,16.3,0,61.8,30.44,Bajo
+Centro,Puebla,2023,10,10/1/2023,16.3,0,61.8,30.44,Bajo
+Centro,Morelos,2023,10,10/1/2023,16.3,0,61.8,30.44,Bajo
+Centro,Ciudad de México,2023,11,11/1/2023,14.6,0,58.8,28.02,Bajo
+Centro,Estado de México,2023,11,11/1/2023,14.6,0,58.8,28.02,Bajo
+Centro,Puebla,2023,11,11/1/2023,14.6,0,58.8,28.02,Bajo
+Centro,Morelos,2023,11,11/1/2023,14.6,0,58.8,28.02,Bajo
+Centro,Ciudad de México,2023,12,12/1/2023,13.2,2,53.1,27.27,Bajo
+Centro,Estado de México,2023,12,12/1/2023,13.2,2,53.1,27.27,Bajo
+Centro,Puebla,2023,12,12/1/2023,13.2,2,53.1,27.27,Bajo
+Centro,Morelos,2023,12,12/1/2023,13.2,2,53.1,27.27,Bajo
+Centro,Ciudad de México,2024,1,1/1/2024,11.4,0,53.6,23.37,Bajo
+Centro,Estado de México,2024,1,1/1/2024,11.4,0,53.6,23.37,Bajo
+Centro,Puebla,2024,1,1/1/2024,11.4,0,53.6,23.37,Bajo
+Centro,Morelos,2024,1,1/1/2024,11.4,0,53.6,23.37,Bajo
+Centro,Ciudad de México,2024,2,2/1/2024,15.3,2,52.9,29.52,Bajo
+Centro,Estado de México,2024,2,2/1/2024,15.3,2,52.9,29.52,Bajo
+Centro,Puebla,2024,2,2/1/2024,15.3,2,52.9,29.52,Bajo
+Centro,Morelos,2024,2,2/1/2024,15.3,2,52.9,29.52,Bajo
+Centro,Ciudad de México,2024,3,3/1/2024,19,1,49.3,31.96,Bajo
+Centro,Estado de México,2024,3,3/1/2024,19,1,49.3,31.96,Bajo
+Centro,Puebla,2024,3,3/1/2024,19,1,49.3,31.96,Bajo
+Centro,Morelos,2024,3,3/1/2024,19,1,49.3,31.96,Bajo
+Centro,Ciudad de México,2024,4,4/1/2024,19.2,0,56.4,32.62,Bajo
+Centro,Estado de México,2024,4,4/1/2024,19.2,0,56.4,32.62,Bajo
+Centro,Puebla,2024,4,4/1/2024,19.2,0,56.4,32.62,Bajo
+Centro,Morelos,2024,4,4/1/2024,19.2,0,56.4,32.62,Bajo
+Centro,Ciudad de México,2024,5,5/1/2024,22,0,56.1,35.69,Medio
+Centro,Estado de México,2024,5,5/1/2024,22,0,56.1,35.69,Medio
+Centro,Puebla,2024,5,5/1/2024,22,0,56.1,35.69,Medio
+Centro,Morelos,2024,5,5/1/2024,22,0,56.1,35.69,Medio
+Centro,Ciudad de México,2024,6,6/1/2024,21.2,0,66.5,36.81,Medio
+Centro,Estado de México,2024,6,6/1/2024,21.2,0,66.5,36.81,Medio
+Centro,Puebla,2024,6,6/1/2024,21.2,0,66.5,36.81,Medio
+Centro,Morelos,2024,6,6/1/2024,21.2,0,66.5,36.81,Medio
+Centro,Ciudad de México,2024,7,7/1/2024,18.8,1,72.3,36.35,Medio
+Centro,Estado de México,2024,7,7/1/2024,18.8,1,72.3,36.35,Medio
+Centro,Puebla,2024,7,7/1/2024,18.8,1,72.3,36.35,Medio
+Centro,Morelos,2024,7,7/1/2024,18.8,1,72.3,36.35,Medio
+Centro,Ciudad de México,2024,8,8/1/2024,21.6,1,73.8,39.68,Medio
+Centro,Estado de México,2024,8,8/1/2024,21.6,1,73.8,39.68,Medio
+Centro,Puebla,2024,8,8/1/2024,21.6,1,73.8,39.68,Medio
+Centro,Morelos,2024,8,8/1/2024,21.6,1,73.8,39.68,Medio
+Centro,Ciudad de México,2024,9,9/1/2024,17,0,67.2,32.3,Bajo
+Centro,Estado de México,2024,9,9/1/2024,17,0,67.2,32.3,Bajo
+Centro,Puebla,2024,9,9/1/2024,17,0,67.2,32.3,Bajo
+Centro,Morelos,2024,9,9/1/2024,17,0,67.2,32.3,Bajo
+Centro,Ciudad de México,2024,10,10/1/2024,18.1,2,57.5,33.59,Bajo
+Centro,Estado de México,2024,10,10/1/2024,18.1,2,57.5,33.59,Bajo
+Centro,Puebla,2024,10,10/1/2024,18.1,2,57.5,33.59,Bajo
+Centro,Morelos,2024,10,10/1/2024,18.1,2,57.5,33.59,Bajo
+Centro,Ciudad de México,2024,11,11/1/2024,16.6,0,55.4,29.53,Bajo
+Centro,Estado de México,2024,11,11/1/2024,16.6,0,55.4,29.53,Bajo
+Centro,Puebla,2024,11,11/1/2024,16.6,0,55.4,29.53,Bajo
+Centro,Morelos,2024,11,11/1/2024,16.6,0,55.4,29.53,Bajo
+Centro,Ciudad de México,2024,12,12/1/2024,16,0,55,28.74,Bajo
+Centro,Estado de México,2024,12,12/1/2024,16,0,55,28.74,Bajo
+Centro,Puebla,2024,12,12/1/2024,16,0,55,28.74,Bajo
+Centro,Morelos,2024,12,12/1/2024,16,0,55,28.74,Bajo
+Centro,Ciudad de México,2025,1,1/1/2025,16.7,0,53.8,29.27,Bajo
+Centro,Estado de México,2025,1,1/1/2025,16.7,0,53.8,29.27,Bajo
+Centro,Puebla,2025,1,1/1/2025,16.7,0,53.8,29.27,Bajo
+Centro,Morelos,2025,1,1/1/2025,16.7,0,53.8,29.27,Bajo
+Centro,Ciudad de México,2025,2,2/1/2025,16.6,0,53.1,29.1,Bajo
+Centro,Estado de México,2025,2,2/1/2025,16.6,0,53.1,29.1,Bajo
+Centro,Puebla,2025,2,2/1/2025,16.6,0,53.1,29.1,Bajo
+Centro,Morelos,2025,2,2/1/2025,16.6,0,53.1,29.1,Bajo
+Centro,Ciudad de México,2025,3,3/1/2025,18.7,0,48.6,30.46,Bajo
+Centro,Estado de México,2025,3,3/1/2025,18.7,0,48.6,30.46,Bajo
+Centro,Puebla,2025,3,3/1/2025,18.7,0,48.6,30.46,Bajo
+Centro,Morelos,2025,3,3/1/2025,18.7,0,48.6,30.46,Bajo
+Centro,Ciudad de México,2025,4,4/1/2025,20.7,1,47.1,33.38,Bajo
+Centro,Estado de México,2025,4,4/1/2025,20.7,1,47.1,33.38,Bajo
+Centro,Puebla,2025,4,4/1/2025,20.7,1,47.1,33.38,Bajo
+Centro,Morelos,2025,4,4/1/2025,20.7,1,47.1,33.38,Bajo
+Centro,Ciudad de México,2025,5,5/1/2025,22.3,0,59.5,36.7,Medio
+Centro,Estado de México,2025,5,5/1/2025,22.3,0,59.5,36.7,Medio
+Centro,Puebla,2025,5,5/1/2025,22.3,0,59.5,36.7,Medio
+Centro,Morelos,2025,5,5/1/2025,22.3,0,59.5,36.7,Medio
+Centro,Ciudad de México,2025,6,6/1/2025,21,0,59.9,35.26,Medio
+Centro,Estado de México,2025,6,6/1/2025,21,0,59.9,35.26,Medio
+Centro,Puebla,2025,6,6/1/2025,21,0,59.9,35.26,Medio
+Centro,Morelos,2025,6,6/1/2025,21,0,59.9,35.26,Medio
+Centro,Ciudad de México,2025,7,7/1/2025,19.1,0,72.7,35.8,Medio
+Centro,Estado de México,2025,7,7/1/2025,19.1,0,72.7,35.8,Medio
+Centro,Puebla,2025,7,7/1/2025,19.1,0,72.7,35.8,Medio
+Centro,Morelos,2025,7,7/1/2025,19.1,0,72.7,35.8,Medio
+Centro,Ciudad de México,2025,8,8/1/2025,20.8,0,71.4,37.39,Medio
+Centro,Estado de México,2025,8,8/1/2025,20.8,0,71.4,37.39,Medio
+Centro,Puebla,2025,8,8/1/2025,20.8,0,71.4,37.39,Medio
+Centro,Morelos,2025,8,8/1/2025,20.8,0,71.4,37.39,Medio
+Centro,Ciudad de México,2025,9,9/1/2025,20.4,0,70.3,36.71,Medio
+Centro,Estado de México,2025,9,9/1/2025,20.4,0,70.3,36.71,Medio
+Centro,Puebla,2025,9,9/1/2025,20.4,0,70.3,36.71,Medio
+Centro,Morelos,2025,9,9/1/2025,20.4,0,70.3,36.71,Medio
+Centro,Ciudad de México,2025,10,10/1/2025,19.9,0,60.9,34.26,Bajo
+Centro,Estado de México,2025,10,10/1/2025,19.9,0,60.9,34.26,Bajo
+Centro,Puebla,2025,10,10/1/2025,19.9,0,60.9,34.26,Bajo
+Centro,Morelos,2025,10,10/1/2025,19.9,0,60.9,34.26,Bajo
+Centro,Ciudad de México,2025,11,11/1/2025,17.2,0,58.4,30.81,Bajo
+Centro,Estado de México,2025,11,11/1/2025,17.2,0,58.4,30.81,Bajo
+Centro,Puebla,2025,11,11/1/2025,17.2,0,58.4,30.81,Bajo
+Centro,Morelos,2025,11,11/1/2025,17.2,0,58.4,30.81,Bajo
+Centro,Ciudad de México,2025,12,12/1/2025,16.2,1,55.5,30.11,Bajo
+Centro,Estado de México,2025,12,12/1/2025,16.2,1,55.5,30.11,Bajo
+Centro,Puebla,2025,12,12/1/2025,16.2,1,55.5,30.11,Bajo
+Centro,Morelos,2025,12,12/1/2025,16.2,1,55.5,30.11,Bajo
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,1,1/1/2018,23.6,0,76.2,41.48,Medio
+Sur-Golfo,Tabasco,2018,1,1/1/2018,23.6,0,76.2,41.48,Medio
+Sur-Golfo,Yucatán,2018,1,1/1/2018,23.6,0,76.2,41.48,Medio
+Sur-Golfo,Quintana Roo,2018,1,1/1/2018,23.6,0,76.2,41.48,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,2,2/1/2018,25,1,71.8,43.14,Medio
+Sur-Golfo,Tabasco,2018,2,2/1/2018,25,1,71.8,43.14,Medio
+Sur-Golfo,Yucatán,2018,2,2/1/2018,25,1,71.8,43.14,Medio
+Sur-Golfo,Quintana Roo,2018,2,2/1/2018,25,1,71.8,43.14,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,3,3/1/2018,25.2,2,70.8,44.11,Medio
+Sur-Golfo,Tabasco,2018,3,3/1/2018,25.2,2,70.8,44.11,Medio
+Sur-Golfo,Yucatán,2018,3,3/1/2018,25.2,2,70.8,44.11,Medio
+Sur-Golfo,Quintana Roo,2018,3,3/1/2018,25.2,2,70.8,44.11,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,4,4/1/2018,27.1,2,76.6,47.41,Medio
+Sur-Golfo,Tabasco,2018,4,4/1/2018,27.1,2,76.6,47.41,Medio
+Sur-Golfo,Yucatán,2018,4,4/1/2018,27.1,2,76.6,47.41,Medio
+Sur-Golfo,Quintana Roo,2018,4,4/1/2018,27.1,2,76.6,47.41,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,5,5/1/2018,31.7,5,78.9,55.83,Medio
+Sur-Golfo,Tabasco,2018,5,5/1/2018,31.7,5,78.9,55.83,Medio
+Sur-Golfo,Yucatán,2018,5,5/1/2018,31.7,5,78.9,55.83,Medio
+Sur-Golfo,Quintana Roo,2018,5,5/1/2018,31.7,5,78.9,55.83,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,6,6/1/2018,31,3,87.4,54.79,Medio
+Sur-Golfo,Tabasco,2018,6,6/1/2018,31,3,87.4,54.79,Medio
+Sur-Golfo,Yucatán,2018,6,6/1/2018,31,3,87.4,54.79,Medio
+Sur-Golfo,Quintana Roo,2018,6,6/1/2018,31,3,87.4,54.79,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,7,7/1/2018,30.6,3,77,52.31,Medio
+Sur-Golfo,Tabasco,2018,7,7/1/2018,30.6,3,77,52.31,Medio
+Sur-Golfo,Yucatán,2018,7,7/1/2018,30.6,3,77,52.31,Medio
+Sur-Golfo,Quintana Roo,2018,7,7/1/2018,30.6,3,77,52.31,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,8,8/1/2018,29.6,4,84.4,53.69,Medio
+Sur-Golfo,Tabasco,2018,8,8/1/2018,29.6,4,84.4,53.69,Medio
+Sur-Golfo,Yucatán,2018,8,8/1/2018,29.6,4,84.4,53.69,Medio
+Sur-Golfo,Quintana Roo,2018,8,8/1/2018,29.6,4,84.4,53.69,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,9,9/1/2018,29.5,1,79.5,49.65,Medio
+Sur-Golfo,Tabasco,2018,9,9/1/2018,29.5,1,79.5,49.65,Medio
+Sur-Golfo,Yucatán,2018,9,9/1/2018,29.5,1,79.5,49.65,Medio
+Sur-Golfo,Quintana Roo,2018,9,9/1/2018,29.5,1,79.5,49.65,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,10,10/1/2018,27.6,3,80.9,49.74,Medio
+Sur-Golfo,Tabasco,2018,10,10/1/2018,27.6,3,80.9,49.74,Medio
+Sur-Golfo,Yucatán,2018,10,10/1/2018,27.6,3,80.9,49.74,Medio
+Sur-Golfo,Quintana Roo,2018,10,10/1/2018,27.6,3,80.9,49.74,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,11,11/1/2018,26.1,1,80.2,46.03,Medio
+Sur-Golfo,Tabasco,2018,11,11/1/2018,26.1,1,80.2,46.03,Medio
+Sur-Golfo,Yucatán,2018,11,11/1/2018,26.1,1,80.2,46.03,Medio
+Sur-Golfo,Quintana Roo,2018,11,11/1/2018,26.1,1,80.2,46.03,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2018,12,12/1/2018,24.7,1,78.9,44.15,Medio
+Sur-Golfo,Tabasco,2018,12,12/1/2018,24.7,1,78.9,44.15,Medio
+Sur-Golfo,Yucatán,2018,12,12/1/2018,24.7,1,78.9,44.15,Medio
+Sur-Golfo,Quintana Roo,2018,12,12/1/2018,24.7,1,78.9,44.15,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,1,1/1/2019,25.8,0,75.9,43.87,Medio
+Sur-Golfo,Tabasco,2019,1,1/1/2019,25.8,0,75.9,43.87,Medio
+Sur-Golfo,Yucatán,2019,1,1/1/2019,25.8,0,75.9,43.87,Medio
+Sur-Golfo,Quintana Roo,2019,1,1/1/2019,25.8,0,75.9,43.87,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,2,2/1/2019,21.2,2,78,41.12,Medio
+Sur-Golfo,Tabasco,2019,2,2/1/2019,21.2,2,78,41.12,Medio
+Sur-Golfo,Yucatán,2019,2,2/1/2019,21.2,2,78,41.12,Medio
+Sur-Golfo,Quintana Roo,2019,2,2/1/2019,21.2,2,78,41.12,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,3,3/1/2019,28,0,68.1,44.72,Medio
+Sur-Golfo,Tabasco,2019,3,3/1/2019,28,0,68.1,44.72,Medio
+Sur-Golfo,Yucatán,2019,3,3/1/2019,28,0,68.1,44.72,Medio
+Sur-Golfo,Quintana Roo,2019,3,3/1/2019,28,0,68.1,44.72,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,4,4/1/2019,29.8,1,76.8,49.47,Medio
+Sur-Golfo,Tabasco,2019,4,4/1/2019,29.8,1,76.8,49.47,Medio
+Sur-Golfo,Yucatán,2019,4,4/1/2019,29.8,1,76.8,49.47,Medio
+Sur-Golfo,Quintana Roo,2019,4,4/1/2019,29.8,1,76.8,49.47,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,5,5/1/2019,32.1,4,78.4,55.18,Medio
+Sur-Golfo,Tabasco,2019,5,5/1/2019,32.1,4,78.4,55.18,Medio
+Sur-Golfo,Yucatán,2019,5,5/1/2019,32.1,4,78.4,55.18,Medio
+Sur-Golfo,Quintana Roo,2019,5,5/1/2019,32.1,4,78.4,55.18,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,6,6/1/2019,30.3,6,76.3,54.72,Medio
+Sur-Golfo,Tabasco,2019,6,6/1/2019,30.3,6,76.3,54.72,Medio
+Sur-Golfo,Yucatán,2019,6,6/1/2019,30.3,6,76.3,54.72,Medio
+Sur-Golfo,Quintana Roo,2019,6,6/1/2019,30.3,6,76.3,54.72,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,7,7/1/2019,29.3,4,83,53.08,Medio
+Sur-Golfo,Tabasco,2019,7,7/1/2019,29.3,4,83,53.08,Medio
+Sur-Golfo,Yucatán,2019,7,7/1/2019,29.3,4,83,53.08,Medio
+Sur-Golfo,Quintana Roo,2019,7,7/1/2019,29.3,4,83,53.08,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,8,8/1/2019,31.5,6,82.3,57.25,Medio
+Sur-Golfo,Tabasco,2019,8,8/1/2019,31.5,6,82.3,57.25,Medio
+Sur-Golfo,Yucatán,2019,8,8/1/2019,31.5,6,82.3,57.25,Medio
+Sur-Golfo,Quintana Roo,2019,8,8/1/2019,31.5,6,82.3,57.25,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,9,9/1/2019,29,5,82.7,53.62,Medio
+Sur-Golfo,Tabasco,2019,9,9/1/2019,29,5,82.7,53.62,Medio
+Sur-Golfo,Yucatán,2019,9,9/1/2019,29,5,82.7,53.62,Medio
+Sur-Golfo,Quintana Roo,2019,9,9/1/2019,29,5,82.7,53.62,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,10,10/1/2019,29,0,72.9,46.83,Medio
+Sur-Golfo,Tabasco,2019,10,10/1/2019,29,0,72.9,46.83,Medio
+Sur-Golfo,Yucatán,2019,10,10/1/2019,29,0,72.9,46.83,Medio
+Sur-Golfo,Quintana Roo,2019,10,10/1/2019,29,0,72.9,46.83,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,11,11/1/2019,24.3,0,78.7,42.71,Medio
+Sur-Golfo,Tabasco,2019,11,11/1/2019,24.3,0,78.7,42.71,Medio
+Sur-Golfo,Yucatán,2019,11,11/1/2019,24.3,0,78.7,42.71,Medio
+Sur-Golfo,Quintana Roo,2019,11,11/1/2019,24.3,0,78.7,42.71,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2019,12,12/1/2019,23.5,0,76.8,41.52,Medio
+Sur-Golfo,Tabasco,2019,12,12/1/2019,23.5,0,76.8,41.52,Medio
+Sur-Golfo,Yucatán,2019,12,12/1/2019,23.5,0,76.8,41.52,Medio
+Sur-Golfo,Quintana Roo,2019,12,12/1/2019,23.5,0,76.8,41.52,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,1,1/1/2020,24.3,1,78.8,43.69,Medio
+Sur-Golfo,Tabasco,2020,1,1/1/2020,24.3,1,78.8,43.69,Medio
+Sur-Golfo,Yucatán,2020,1,1/1/2020,24.3,1,78.8,43.69,Medio
+Sur-Golfo,Quintana Roo,2020,1,1/1/2020,24.3,1,78.8,43.69,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,2,2/1/2020,23.1,0,74.2,40.55,Medio
+Sur-Golfo,Tabasco,2020,2,2/1/2020,23.1,0,74.2,40.55,Medio
+Sur-Golfo,Yucatán,2020,2,2/1/2020,23.1,0,74.2,40.55,Medio
+Sur-Golfo,Quintana Roo,2020,2,2/1/2020,23.1,0,74.2,40.55,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,3,3/1/2020,26,0,74.5,43.81,Medio
+Sur-Golfo,Tabasco,2020,3,3/1/2020,26,0,74.5,43.81,Medio
+Sur-Golfo,Yucatán,2020,3,3/1/2020,26,0,74.5,43.81,Medio
+Sur-Golfo,Quintana Roo,2020,3,3/1/2020,26,0,74.5,43.81,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,4,4/1/2020,31.5,0,72.5,49.55,Medio
+Sur-Golfo,Tabasco,2020,4,4/1/2020,31.5,0,72.5,49.55,Medio
+Sur-Golfo,Yucatán,2020,4,4/1/2020,31.5,0,72.5,49.55,Medio
+Sur-Golfo,Quintana Roo,2020,4,4/1/2020,31.5,0,72.5,49.55,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,5,5/1/2020,29.3,3,76.9,50.88,Medio
+Sur-Golfo,Tabasco,2020,5,5/1/2020,29.3,3,76.9,50.88,Medio
+Sur-Golfo,Yucatán,2020,5,5/1/2020,29.3,3,76.9,50.88,Medio
+Sur-Golfo,Quintana Roo,2020,5,5/1/2020,29.3,3,76.9,50.88,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,6,6/1/2020,29.6,4,78.2,52.45,Medio
+Sur-Golfo,Tabasco,2020,6,6/1/2020,29.6,4,78.2,52.45,Medio
+Sur-Golfo,Yucatán,2020,6,6/1/2020,29.6,4,78.2,52.45,Medio
+Sur-Golfo,Quintana Roo,2020,6,6/1/2020,29.6,4,78.2,52.45,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,7,7/1/2020,31.2,5,85.1,56.53,Medio
+Sur-Golfo,Tabasco,2020,7,7/1/2020,31.2,5,85.1,56.53,Medio
+Sur-Golfo,Yucatán,2020,7,7/1/2020,31.2,5,85.1,56.53,Medio
+Sur-Golfo,Quintana Roo,2020,7,7/1/2020,31.2,5,85.1,56.53,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,8,8/1/2020,32,5,85.4,57.53,Medio
+Sur-Golfo,Tabasco,2020,8,8/1/2020,32,5,85.4,57.53,Medio
+Sur-Golfo,Yucatán,2020,8,8/1/2020,32,5,85.4,57.53,Medio
+Sur-Golfo,Quintana Roo,2020,8,8/1/2020,32,5,85.4,57.53,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,9,9/1/2020,30.4,3,85.7,53.84,Medio
+Sur-Golfo,Tabasco,2020,9,9/1/2020,30.4,3,85.7,53.84,Medio
+Sur-Golfo,Yucatán,2020,9,9/1/2020,30.4,3,85.7,53.84,Medio
+Sur-Golfo,Quintana Roo,2020,9,9/1/2020,30.4,3,85.7,53.84,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,10,10/1/2020,27.8,0,78.6,46.62,Medio
+Sur-Golfo,Tabasco,2020,10,10/1/2020,27.8,0,78.6,46.62,Medio
+Sur-Golfo,Yucatán,2020,10,10/1/2020,27.8,0,78.6,46.62,Medio
+Sur-Golfo,Quintana Roo,2020,10,10/1/2020,27.8,0,78.6,46.62,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,11,11/1/2020,24.8,0,76.9,42.95,Medio
+Sur-Golfo,Tabasco,2020,11,11/1/2020,24.8,0,76.9,42.95,Medio
+Sur-Golfo,Yucatán,2020,11,11/1/2020,24.8,0,76.9,42.95,Medio
+Sur-Golfo,Quintana Roo,2020,11,11/1/2020,24.8,0,76.9,42.95,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2020,12,12/1/2020,24.1,2,76.8,44.05,Medio
+Sur-Golfo,Tabasco,2020,12,12/1/2020,24.1,2,76.8,44.05,Medio
+Sur-Golfo,Yucatán,2020,12,12/1/2020,24.1,2,76.8,44.05,Medio
+Sur-Golfo,Quintana Roo,2020,12,12/1/2020,24.1,2,76.8,44.05,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,1,1/1/2021,22.5,1,72.8,40.55,Medio
+Sur-Golfo,Tabasco,2021,1,1/1/2021,22.5,1,72.8,40.55,Medio
+Sur-Golfo,Yucatán,2021,1,1/1/2021,22.5,1,72.8,40.55,Medio
+Sur-Golfo,Quintana Roo,2021,1,1/1/2021,22.5,1,72.8,40.55,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,2,2/1/2021,23.5,0,74.1,40.9,Medio
+Sur-Golfo,Tabasco,2021,2,2/1/2021,23.5,0,74.1,40.9,Medio
+Sur-Golfo,Yucatán,2021,2,2/1/2021,23.5,0,74.1,40.9,Medio
+Sur-Golfo,Quintana Roo,2021,2,2/1/2021,23.5,0,74.1,40.9,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,3,3/1/2021,24.4,0,73.3,41.81,Medio
+Sur-Golfo,Tabasco,2021,3,3/1/2021,24.4,0,73.3,41.81,Medio
+Sur-Golfo,Yucatán,2021,3,3/1/2021,24.4,0,73.3,41.81,Medio
+Sur-Golfo,Quintana Roo,2021,3,3/1/2021,24.4,0,73.3,41.81,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,4,4/1/2021,31.8,2,73.7,52.01,Medio
+Sur-Golfo,Tabasco,2021,4,4/1/2021,31.8,2,73.7,52.01,Medio
+Sur-Golfo,Yucatán,2021,4,4/1/2021,31.8,2,73.7,52.01,Medio
+Sur-Golfo,Quintana Roo,2021,4,4/1/2021,31.8,2,73.7,52.01,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,5,5/1/2021,30.4,5,79.3,54.49,Medio
+Sur-Golfo,Tabasco,2021,5,5/1/2021,30.4,5,79.3,54.49,Medio
+Sur-Golfo,Yucatán,2021,5,5/1/2021,30.4,5,79.3,54.49,Medio
+Sur-Golfo,Quintana Roo,2021,5,5/1/2021,30.4,5,79.3,54.49,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,6,6/1/2021,31.6,6,80.4,57.03,Medio
+Sur-Golfo,Tabasco,2021,6,6/1/2021,31.6,6,80.4,57.03,Medio
+Sur-Golfo,Yucatán,2021,6,6/1/2021,31.6,6,80.4,57.03,Medio
+Sur-Golfo,Quintana Roo,2021,6,6/1/2021,31.6,6,80.4,57.03,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,7,7/1/2021,30.2,2,81.9,51.85,Medio
+Sur-Golfo,Tabasco,2021,7,7/1/2021,30.2,2,81.9,51.85,Medio
+Sur-Golfo,Yucatán,2021,7,7/1/2021,30.2,2,81.9,51.85,Medio
+Sur-Golfo,Quintana Roo,2021,7,7/1/2021,30.2,2,81.9,51.85,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,8,8/1/2021,32.5,2,83.8,54.75,Medio
+Sur-Golfo,Tabasco,2021,8,8/1/2021,32.5,2,83.8,54.75,Medio
+Sur-Golfo,Yucatán,2021,8,8/1/2021,32.5,2,83.8,54.75,Medio
+Sur-Golfo,Quintana Roo,2021,8,8/1/2021,32.5,2,83.8,54.75,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,9,9/1/2021,31.6,3,86,55.24,Medio
+Sur-Golfo,Tabasco,2021,9,9/1/2021,31.6,3,86,55.24,Medio
+Sur-Golfo,Yucatán,2021,9,9/1/2021,31.6,3,86,55.24,Medio
+Sur-Golfo,Quintana Roo,2021,9,9/1/2021,31.6,3,86,55.24,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,10,10/1/2021,29.3,2,84.5,51.41,Medio
+Sur-Golfo,Tabasco,2021,10,10/1/2021,29.3,2,84.5,51.41,Medio
+Sur-Golfo,Yucatán,2021,10,10/1/2021,29.3,2,84.5,51.41,Medio
+Sur-Golfo,Quintana Roo,2021,10,10/1/2021,29.3,2,84.5,51.41,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,11,11/1/2021,25.7,0,75.2,43.61,Medio
+Sur-Golfo,Tabasco,2021,11,11/1/2021,25.7,0,75.2,43.61,Medio
+Sur-Golfo,Yucatán,2021,11,11/1/2021,25.7,0,75.2,43.61,Medio
+Sur-Golfo,Quintana Roo,2021,11,11/1/2021,25.7,0,75.2,43.61,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2021,12,12/1/2021,22.9,0,77.5,40.95,Medio
+Sur-Golfo,Tabasco,2021,12,12/1/2021,22.9,0,77.5,40.95,Medio
+Sur-Golfo,Yucatán,2021,12,12/1/2021,22.9,0,77.5,40.95,Medio
+Sur-Golfo,Quintana Roo,2021,12,12/1/2021,22.9,0,77.5,40.95,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,1,1/1/2022,22.8,1,73,40.87,Medio
+Sur-Golfo,Tabasco,2022,1,1/1/2022,22.8,1,73,40.87,Medio
+Sur-Golfo,Yucatán,2022,1,1/1/2022,22.8,1,73,40.87,Medio
+Sur-Golfo,Quintana Roo,2022,1,1/1/2022,22.8,1,73,40.87,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,2,2/1/2022,24.7,0,74.4,42.28,Medio
+Sur-Golfo,Tabasco,2022,2,2/1/2022,24.7,0,74.4,42.28,Medio
+Sur-Golfo,Yucatán,2022,2,2/1/2022,24.7,0,74.4,42.28,Medio
+Sur-Golfo,Quintana Roo,2022,2,2/1/2022,24.7,0,74.4,42.28,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,3,3/1/2022,26,2,73.9,45.56,Medio
+Sur-Golfo,Tabasco,2022,3,3/1/2022,26,2,73.9,45.56,Medio
+Sur-Golfo,Yucatán,2022,3,3/1/2022,26,2,73.9,45.56,Medio
+Sur-Golfo,Quintana Roo,2022,3,3/1/2022,26,2,73.9,45.56,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,4,4/1/2022,29.2,0,74.3,47.33,Medio
+Sur-Golfo,Tabasco,2022,4,4/1/2022,29.2,0,74.3,47.33,Medio
+Sur-Golfo,Yucatán,2022,4,4/1/2022,29.2,0,74.3,47.33,Medio
+Sur-Golfo,Quintana Roo,2022,4,4/1/2022,29.2,0,74.3,47.33,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,5,5/1/2022,32.7,2,74.3,53.17,Medio
+Sur-Golfo,Tabasco,2022,5,5/1/2022,32.7,2,74.3,53.17,Medio
+Sur-Golfo,Yucatán,2022,5,5/1/2022,32.7,2,74.3,53.17,Medio
+Sur-Golfo,Quintana Roo,2022,5,5/1/2022,32.7,2,74.3,53.17,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,6,6/1/2022,33.3,5,79.9,57.83,Medio
+Sur-Golfo,Tabasco,2022,6,6/1/2022,33.3,5,79.9,57.83,Medio
+Sur-Golfo,Yucatán,2022,6,6/1/2022,33.3,5,79.9,57.83,Medio
+Sur-Golfo,Quintana Roo,2022,6,6/1/2022,33.3,5,79.9,57.83,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,7,7/1/2022,33.1,1,84.8,54.65,Medio
+Sur-Golfo,Tabasco,2022,7,7/1/2022,33.1,1,84.8,54.65,Medio
+Sur-Golfo,Yucatán,2022,7,7/1/2022,33.1,1,84.8,54.65,Medio
+Sur-Golfo,Quintana Roo,2022,7,7/1/2022,33.1,1,84.8,54.65,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,8,8/1/2022,31,4,82.9,54.94,Medio
+Sur-Golfo,Tabasco,2022,8,8/1/2022,31,4,82.9,54.94,Medio
+Sur-Golfo,Yucatán,2022,8,8/1/2022,31,4,82.9,54.94,Medio
+Sur-Golfo,Quintana Roo,2022,8,8/1/2022,31,4,82.9,54.94,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,9,9/1/2022,32.4,2,85.5,55.01,Medio
+Sur-Golfo,Tabasco,2022,9,9/1/2022,32.4,2,85.5,55.01,Medio
+Sur-Golfo,Yucatán,2022,9,9/1/2022,32.4,2,85.5,55.01,Medio
+Sur-Golfo,Quintana Roo,2022,9,9/1/2022,32.4,2,85.5,55.01,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,10,10/1/2022,28.4,3,84.1,51.27,Medio
+Sur-Golfo,Tabasco,2022,10,10/1/2022,28.4,3,84.1,51.27,Medio
+Sur-Golfo,Yucatán,2022,10,10/1/2022,28.4,3,84.1,51.27,Medio
+Sur-Golfo,Quintana Roo,2022,10,10/1/2022,28.4,3,84.1,51.27,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,11,11/1/2022,25.5,1,80.8,45.43,Medio
+Sur-Golfo,Tabasco,2022,11,11/1/2022,25.5,1,80.8,45.43,Medio
+Sur-Golfo,Yucatán,2022,11,11/1/2022,25.5,1,80.8,45.43,Medio
+Sur-Golfo,Quintana Roo,2022,11,11/1/2022,25.5,1,80.8,45.43,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2022,12,12/1/2022,21.7,2,72.9,40.66,Medio
+Sur-Golfo,Tabasco,2022,12,12/1/2022,21.7,2,72.9,40.66,Medio
+Sur-Golfo,Yucatán,2022,12,12/1/2022,21.7,2,72.9,40.66,Medio
+Sur-Golfo,Quintana Roo,2022,12,12/1/2022,21.7,2,72.9,40.66,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,1,1/1/2023,22.3,0,70.9,38.98,Medio
+Sur-Golfo,Tabasco,2023,1,1/1/2023,22.3,0,70.9,38.98,Medio
+Sur-Golfo,Yucatán,2023,1,1/1/2023,22.3,0,70.9,38.98,Medio
+Sur-Golfo,Quintana Roo,2023,1,1/1/2023,22.3,0,70.9,38.98,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,2,2/1/2023,24.3,0,74.4,41.91,Medio
+Sur-Golfo,Tabasco,2023,2,2/1/2023,24.3,0,74.4,41.91,Medio
+Sur-Golfo,Yucatán,2023,2,2/1/2023,24.3,0,74.4,41.91,Medio
+Sur-Golfo,Quintana Roo,2023,2,2/1/2023,24.3,0,74.4,41.91,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,3,3/1/2023,26.7,2,76.6,46.93,Medio
+Sur-Golfo,Tabasco,2023,3,3/1/2023,26.7,2,76.6,46.93,Medio
+Sur-Golfo,Yucatán,2023,3,3/1/2023,26.7,2,76.6,46.93,Medio
+Sur-Golfo,Quintana Roo,2023,3,3/1/2023,26.7,2,76.6,46.93,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,4,4/1/2023,30.4,0,74.7,48.73,Medio
+Sur-Golfo,Tabasco,2023,4,4/1/2023,30.4,0,74.7,48.73,Medio
+Sur-Golfo,Yucatán,2023,4,4/1/2023,30.4,0,74.7,48.73,Medio
+Sur-Golfo,Quintana Roo,2023,4,4/1/2023,30.4,0,74.7,48.73,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,5,5/1/2023,30.1,4,81.8,53.65,Medio
+Sur-Golfo,Tabasco,2023,5,5/1/2023,30.1,4,81.8,53.65,Medio
+Sur-Golfo,Yucatán,2023,5,5/1/2023,30.1,4,81.8,53.65,Medio
+Sur-Golfo,Quintana Roo,2023,5,5/1/2023,30.1,4,81.8,53.65,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,6,6/1/2023,31.3,3,83.4,54.33,Medio
+Sur-Golfo,Tabasco,2023,6,6/1/2023,31.3,3,83.4,54.33,Medio
+Sur-Golfo,Yucatán,2023,6,6/1/2023,31.3,3,83.4,54.33,Medio
+Sur-Golfo,Quintana Roo,2023,6,6/1/2023,31.3,3,83.4,54.33,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,7,7/1/2023,31,5,79.2,55.09,Medio
+Sur-Golfo,Tabasco,2023,7,7/1/2023,31,5,79.2,55.09,Medio
+Sur-Golfo,Yucatán,2023,7,7/1/2023,31,5,79.2,55.09,Medio
+Sur-Golfo,Quintana Roo,2023,7,7/1/2023,31,5,79.2,55.09,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,8,8/1/2023,30.3,5,80.2,54.57,Medio
+Sur-Golfo,Tabasco,2023,8,8/1/2023,30.3,5,80.2,54.57,Medio
+Sur-Golfo,Yucatán,2023,8,8/1/2023,30.3,5,80.2,54.57,Medio
+Sur-Golfo,Quintana Roo,2023,8,8/1/2023,30.3,5,80.2,54.57,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,9,9/1/2023,28.2,4,84,52.01,Medio
+Sur-Golfo,Tabasco,2023,9,9/1/2023,28.2,4,84,52.01,Medio
+Sur-Golfo,Yucatán,2023,9,9/1/2023,28.2,4,84,52.01,Medio
+Sur-Golfo,Quintana Roo,2023,9,9/1/2023,28.2,4,84,52.01,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,10,10/1/2023,27.6,3,83.9,50.39,Medio
+Sur-Golfo,Tabasco,2023,10,10/1/2023,27.6,3,83.9,50.39,Medio
+Sur-Golfo,Yucatán,2023,10,10/1/2023,27.6,3,83.9,50.39,Medio
+Sur-Golfo,Quintana Roo,2023,10,10/1/2023,27.6,3,83.9,50.39,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,11,11/1/2023,24.3,0,77.4,42.51,Medio
+Sur-Golfo,Tabasco,2023,11,11/1/2023,24.3,0,77.4,42.51,Medio
+Sur-Golfo,Yucatán,2023,11,11/1/2023,24.3,0,77.4,42.51,Medio
+Sur-Golfo,Quintana Roo,2023,11,11/1/2023,24.3,0,77.4,42.51,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2023,12,12/1/2023,22.9,0,78.3,41.05,Medio
+Sur-Golfo,Tabasco,2023,12,12/1/2023,22.9,0,78.3,41.05,Medio
+Sur-Golfo,Yucatán,2023,12,12/1/2023,22.9,0,78.3,41.05,Medio
+Sur-Golfo,Quintana Roo,2023,12,12/1/2023,22.9,0,78.3,41.05,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,1,1/1/2024,20.7,1,76.1,39.18,Medio
+Sur-Golfo,Tabasco,2024,1,1/1/2024,20.7,1,76.1,39.18,Medio
+Sur-Golfo,Yucatán,2024,1,1/1/2024,20.7,1,76.1,39.18,Medio
+Sur-Golfo,Quintana Roo,2024,1,1/1/2024,20.7,1,76.1,39.18,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,2,2/1/2024,22.6,0,72.6,39.65,Medio
+Sur-Golfo,Tabasco,2024,2,2/1/2024,22.6,0,72.6,39.65,Medio
+Sur-Golfo,Yucatán,2024,2,2/1/2024,22.6,0,72.6,39.65,Medio
+Sur-Golfo,Quintana Roo,2024,2,2/1/2024,22.6,0,72.6,39.65,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,3,3/1/2024,27.2,0,66.3,43.45,Medio
+Sur-Golfo,Tabasco,2024,3,3/1/2024,27.2,0,66.3,43.45,Medio
+Sur-Golfo,Yucatán,2024,3,3/1/2024,27.2,0,66.3,43.45,Medio
+Sur-Golfo,Quintana Roo,2024,3,3/1/2024,27.2,0,66.3,43.45,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,4,4/1/2024,32.7,0,75,51.29,Medio
+Sur-Golfo,Tabasco,2024,4,4/1/2024,32.7,0,75,51.29,Medio
+Sur-Golfo,Yucatán,2024,4,4/1/2024,32.7,0,75,51.29,Medio
+Sur-Golfo,Quintana Roo,2024,4,4/1/2024,32.7,0,75,51.29,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,5,5/1/2024,32.2,2,74.8,52.66,Medio
+Sur-Golfo,Tabasco,2024,5,5/1/2024,32.2,2,74.8,52.66,Medio
+Sur-Golfo,Yucatán,2024,5,5/1/2024,32.2,2,74.8,52.66,Medio
+Sur-Golfo,Quintana Roo,2024,5,5/1/2024,32.2,2,74.8,52.66,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,6,6/1/2024,32.5,2,81.4,54.31,Medio
+Sur-Golfo,Tabasco,2024,6,6/1/2024,32.5,2,81.4,54.31,Medio
+Sur-Golfo,Yucatán,2024,6,6/1/2024,32.5,2,81.4,54.31,Medio
+Sur-Golfo,Quintana Roo,2024,6,6/1/2024,32.5,2,81.4,54.31,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,7,7/1/2024,31.5,2,80.2,52.98,Medio
+Sur-Golfo,Tabasco,2024,7,7/1/2024,31.5,2,80.2,52.98,Medio
+Sur-Golfo,Yucatán,2024,7,7/1/2024,31.5,2,80.2,52.98,Medio
+Sur-Golfo,Quintana Roo,2024,7,7/1/2024,31.5,2,80.2,52.98,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,8,8/1/2024,32.4,3,84.1,55.77,Medio
+Sur-Golfo,Tabasco,2024,8,8/1/2024,32.4,3,84.1,55.77,Medio
+Sur-Golfo,Yucatán,2024,8,8/1/2024,32.4,3,84.1,55.77,Medio
+Sur-Golfo,Quintana Roo,2024,8,8/1/2024,32.4,3,84.1,55.77,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,9,9/1/2024,31.3,2,84.7,53.66,Medio
+Sur-Golfo,Tabasco,2024,9,9/1/2024,31.3,2,84.7,53.66,Medio
+Sur-Golfo,Yucatán,2024,9,9/1/2024,31.3,2,84.7,53.66,Medio
+Sur-Golfo,Quintana Roo,2024,9,9/1/2024,31.3,2,84.7,53.66,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,10,10/1/2024,31.3,0,76.9,50.12,Medio
+Sur-Golfo,Tabasco,2024,10,10/1/2024,31.3,0,76.9,50.12,Medio
+Sur-Golfo,Yucatán,2024,10,10/1/2024,31.3,0,76.9,50.12,Medio
+Sur-Golfo,Quintana Roo,2024,10,10/1/2024,31.3,0,76.9,50.12,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,11,11/1/2024,26.4,2,79,47.03,Medio
+Sur-Golfo,Tabasco,2024,11,11/1/2024,26.4,2,79,47.03,Medio
+Sur-Golfo,Yucatán,2024,11,11/1/2024,26.4,2,79,47.03,Medio
+Sur-Golfo,Quintana Roo,2024,11,11/1/2024,26.4,2,79,47.03,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2024,12,12/1/2024,25.1,0,81.1,44.07,Medio
+Sur-Golfo,Tabasco,2024,12,12/1/2024,25.1,0,81.1,44.07,Medio
+Sur-Golfo,Yucatán,2024,12,12/1/2024,25.1,0,81.1,44.07,Medio
+Sur-Golfo,Quintana Roo,2024,12,12/1/2024,25.1,0,81.1,44.07,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,1,1/1/2025,22,2,71.6,40.73,Medio
+Sur-Golfo,Tabasco,2025,1,1/1/2025,22,2,71.6,40.73,Medio
+Sur-Golfo,Yucatán,2025,1,1/1/2025,22,2,71.6,40.73,Medio
+Sur-Golfo,Quintana Roo,2025,1,1/1/2025,22,2,71.6,40.73,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,2,2/1/2025,24.5,0,69.1,41.05,Medio
+Sur-Golfo,Tabasco,2025,2,2/1/2025,24.5,0,69.1,41.05,Medio
+Sur-Golfo,Yucatán,2025,2,2/1/2025,24.5,0,69.1,41.05,Medio
+Sur-Golfo,Quintana Roo,2025,2,2/1/2025,24.5,0,69.1,41.05,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,3,3/1/2025,25,0,67.2,41.2,Medio
+Sur-Golfo,Tabasco,2025,3,3/1/2025,25,0,67.2,41.2,Medio
+Sur-Golfo,Yucatán,2025,3,3/1/2025,25,0,67.2,41.2,Medio
+Sur-Golfo,Quintana Roo,2025,3,3/1/2025,25,0,67.2,41.2,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,4,4/1/2025,30.4,3,78.1,52.28,Medio
+Sur-Golfo,Tabasco,2025,4,4/1/2025,30.4,3,78.1,52.28,Medio
+Sur-Golfo,Yucatán,2025,4,4/1/2025,30.4,3,78.1,52.28,Medio
+Sur-Golfo,Quintana Roo,2025,4,4/1/2025,30.4,3,78.1,52.28,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,5,5/1/2025,30.4,1,76.2,49.97,Medio
+Sur-Golfo,Tabasco,2025,5,5/1/2025,30.4,1,76.2,49.97,Medio
+Sur-Golfo,Yucatán,2025,5,5/1/2025,30.4,1,76.2,49.97,Medio
+Sur-Golfo,Quintana Roo,2025,5,5/1/2025,30.4,1,76.2,49.97,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,6,6/1/2025,30.5,5,87.2,56.14,Medio
+Sur-Golfo,Tabasco,2025,6,6/1/2025,30.5,5,87.2,56.14,Medio
+Sur-Golfo,Yucatán,2025,6,6/1/2025,30.5,5,87.2,56.14,Medio
+Sur-Golfo,Quintana Roo,2025,6,6/1/2025,30.5,5,87.2,56.14,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,7,7/1/2025,31,2,78.1,51.98,Medio
+Sur-Golfo,Tabasco,2025,7,7/1/2025,31,2,78.1,51.98,Medio
+Sur-Golfo,Yucatán,2025,7,7/1/2025,31,2,78.1,51.98,Medio
+Sur-Golfo,Quintana Roo,2025,7,7/1/2025,31,2,78.1,51.98,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,8,8/1/2025,30.4,3,84.8,53.63,Medio
+Sur-Golfo,Tabasco,2025,8,8/1/2025,30.4,3,84.8,53.63,Medio
+Sur-Golfo,Yucatán,2025,8,8/1/2025,30.4,3,84.8,53.63,Medio
+Sur-Golfo,Quintana Roo,2025,8,8/1/2025,30.4,3,84.8,53.63,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,9,9/1/2025,32.2,4,80,55.61,Medio
+Sur-Golfo,Tabasco,2025,9,9/1/2025,32.2,4,80,55.61,Medio
+Sur-Golfo,Yucatán,2025,9,9/1/2025,32.2,4,80,55.61,Medio
+Sur-Golfo,Quintana Roo,2025,9,9/1/2025,32.2,4,80,55.61,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,10,10/1/2025,29.5,0,84.9,49.79,Medio
+Sur-Golfo,Tabasco,2025,10,10/1/2025,29.5,0,84.9,49.79,Medio
+Sur-Golfo,Yucatán,2025,10,10/1/2025,29.5,0,84.9,49.79,Medio
+Sur-Golfo,Quintana Roo,2025,10,10/1/2025,29.5,0,84.9,49.79,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,11,11/1/2025,23.4,1,76.4,42.21,Medio
+Sur-Golfo,Tabasco,2025,11,11/1/2025,23.4,1,76.4,42.21,Medio
+Sur-Golfo,Yucatán,2025,11,11/1/2025,23.4,1,76.4,42.21,Medio
+Sur-Golfo,Quintana Roo,2025,11,11/1/2025,23.4,1,76.4,42.21,Medio
+Sur-Golfo,Veracruz de Ignacio de la Llave,2025,12,12/1/2025,25.3,0,78.7,43.83,Medio
+Sur-Golfo,Tabasco,2025,12,12/1/2025,25.3,0,78.7,43.83,Medio
+Sur-Golfo,Yucatán,2025,12,12/1/2025,25.3,0,78.7,43.83,Medio
+Sur-Golfo,Quintana Roo,2025,12,12/1/2025,25.3,0,78.7,43.83,Medio
