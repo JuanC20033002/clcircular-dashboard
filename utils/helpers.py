@@ -1,21 +1,24 @@
 import pandas as pd
 import streamlit as st
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 @st.cache_data
 def load_comercio():
-    return pd.read_csv("data/comercio_carne_limpio.csv", parse_dates=["fecha"])
+    return pd.read_csv(os.path.join(BASE_DIR, "comercio_carne_limpio.csv"), parse_dates=["fecha"])
 
 @st.cache_data
 def load_clima():
-    return pd.read_csv("data/clima_riesgo_clcircular.csv", parse_dates=["fecha"])
+    return pd.read_csv(os.path.join(BASE_DIR, "clima_riesgo_clcircular.csv"), parse_dates=["fecha"])
 
 @st.cache_data
 def load_importaciones_estado():
-    return pd.read_csv("data/importaciones_por_estado.csv")
+    return pd.read_csv(os.path.join(BASE_DIR, "importaciones_por_estado.csv"))
 
 @st.cache_data
 def load_exportaciones_estado():
-    return pd.read_csv("data/exportaciones_por_estado.csv")
+    return pd.read_csv(os.path.join(BASE_DIR, "exportaciones_por_estado.csv"))
 
 COLORES_RIESGO = {
     "Alto": "#E63946",
