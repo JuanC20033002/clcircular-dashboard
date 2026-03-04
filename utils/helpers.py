@@ -14,11 +14,11 @@ def load_clima():
 
 @st.cache_data
 def load_importaciones_estado():
-    return pd.read_csv(os.path.join(BASE_DIR, "importaciones_por_estado.csv"))
+    return pd.read_csv(os.path.join(BASE_DIR, "importaciones_por_estado.csv"), encoding="latin1")
 
 @st.cache_data
 def load_exportaciones_estado():
-    return pd.read_csv(os.path.join(BASE_DIR, "exportaciones_por_estado.csv"))
+    return pd.read_csv(os.path.join(BASE_DIR, "exportaciones_por_estado.csv"), encoding="latin1")
 
 COLORES_RIESGO = {
     "Alto": "#E63946",
