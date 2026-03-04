@@ -43,7 +43,7 @@ col1, col2 = st.columns([3, 2])
 with col1:
     fig_map = px.choropleth(
         df,
-        geojson="https://raw.githubusercontent.com/angelnmara/geojson/master/mexicoHigh.json",
+        geojson="https://raw.githubusercontent.com/mexiconlp/datos/master/estados.geojson",
         locations="State",
         featureidkey="properties.name",
         color="Share",
