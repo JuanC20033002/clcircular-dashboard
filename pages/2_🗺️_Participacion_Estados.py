@@ -11,8 +11,29 @@ st.title("🗺️ Participación por Estado — 2024")
 st.markdown("Distribución del valor comercial de carne y despojos por entidad federativa.")
 st.divider()
 
+# Lista completa de los 32 estados con nombres exactos del GeoJSON
+TODOS_LOS_ESTADOS = [
+    "Aguascalientes", "Baja California", "Baja California Sur", "Campeche",
+    "Chiapas", "Chihuahua", "Ciudad de México", "Coahuila de Zaragoza",
+    "Colima", "Durango", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco",
+    "Estado de México", "Michoacán de Ocampo", "Morelos", "Nayarit",
+    "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo",
+    "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas",
+    "Tlaxcala", "Veracruz de Ignacio de la Llave", "Yucatán", "Zacatecas"
+]
+
 df_imp = load_importaciones_estado()
 df_exp = load_exportaciones_estado()
+
+def completar_estados(df):
+    df_completo = pd.DataFrame({"State": TODOS_LOS_ESTADOS})
+    df_completo = df_completo.merge(df, on="State", how="left")
+    df_completo["Trade Value"] = df_completo["Trade Value"].fillna(0)
+    df_completo["Share"] = df_completo["Share"].fillna(0)
+    return df_completo
+
+df_imp = completar_estados(df_imp)
+df_exp = completar_estados(df_exp)
 
 flujo = st.radio("Selecciona flujo:", ["Importaciones", "Exportaciones"], horizontal=True)
 df = df_imp if flujo == "Importaciones" else df_exp
@@ -46,7 +67,6 @@ with col2:
 
 st.divider()
 
-# Barras
 fig_bar = px.bar(
     df.nlargest(10, "Share"),
     x="Share", y="State",
