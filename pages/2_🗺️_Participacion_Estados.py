@@ -72,7 +72,7 @@ with col1:
         locations="State_GeoJSON",
         featureidkey="properties.name",
         color="Share",
-        color_continuous_scale=["#1a535c", "#2A9D8F", "#F4A261", "#E63946"],
+        color_continuous_scale=["#3a3a3a", "#2A9D8F", "#F4A261", "#E63946"],
         range_color=[0, df["Share"].max()],
         hover_name="State",
         labels={"Share": "% Participación"},
