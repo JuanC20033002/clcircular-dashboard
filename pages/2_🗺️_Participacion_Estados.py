@@ -11,29 +11,54 @@ st.title("🗺️ Participación por Estado — 2024")
 st.markdown("Distribución del valor comercial de carne y despojos por entidad federativa.")
 st.divider()
 
-# Lista completa de los 32 estados con nombres exactos del GeoJSON
-TODOS_LOS_ESTADOS = [
-    "Aguascalientes", "Baja California", "Baja California Sur", "Campeche",
-    "Chiapas", "Chihuahua", "Ciudad de México", "Coahuila de Zaragoza",
-    "Colima", "Durango", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco",
-    "Estado de México", "Michoacán de Ocampo", "Morelos", "Nayarit",
-    "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo",
-    "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas",
-    "Tlaxcala", "Veracruz de Ignacio de la Llave", "Yucatán", "Zacatecas"
-]
+# Nombres exactos del GeoJSON angelnmara
+NOMBRE_GEOJSON = {
+    "Aguascalientes": "Aguascalientes",
+    "Baja California": "Baja California",
+    "Baja California Sur": "Baja California Sur",
+    "Campeche": "Campeche",
+    "Coahuila de Zaragoza": "Coahuila",
+    "Colima": "Colima",
+    "Chiapas": "Chiapas",
+    "Chihuahua": "Chihuahua",
+    "Ciudad de México": "Distrito Federal",
+    "Durango": "Durango",
+    "Guanajuato": "Guanajuato",
+    "Guerrero": "Guerrero",
+    "Hidalgo": "Hidalgo",
+    "Jalisco": "Jalisco",
+    "Estado de México": "México",
+    "Michoacán de Ocampo": "Michoacán",
+    "Morelos": "Morelos",
+    "Nayarit": "Nayarit",
+    "Nuevo León": "Nuevo León",
+    "Oaxaca": "Oaxaca",
+    "Puebla": "Puebla",
+    "Querétaro": "Querétaro",
+    "Quintana Roo": "Quintana Roo",
+    "San Luis Potosí": "San Luis Potosí",
+    "Sinaloa": "Sinaloa",
+    "Sonora": "Sonora",
+    "Tabasco": "Tabasco",
+    "Tamaulipas": "Tamaulipas",
+    "Tlaxcala": "Tlaxcala",
+    "Veracruz de Ignacio de la Llave": "Veracruz",
+    "Yucatán": "Yucatán",
+    "Zacatecas": "Zacatecas"
+}
 
-df_imp = load_importaciones_estado()
-df_exp = load_exportaciones_estado()
+TODOS_LOS_ESTADOS = list(NOMBRE_GEOJSON.keys())
 
 def completar_estados(df):
     df_completo = pd.DataFrame({"State": TODOS_LOS_ESTADOS})
     df_completo = df_completo.merge(df, on="State", how="left")
     df_completo["Trade Value"] = df_completo["Trade Value"].fillna(0)
     df_completo["Share"] = df_completo["Share"].fillna(0)
+    df_completo["State_GeoJSON"] = df_completo["State"].map(NOMBRE_GEOJSON)
     return df_completo
 
-df_imp = completar_estados(df_imp)
-df_exp = completar_estados(df_exp)
+df_imp = completar_estados(load_importaciones_estado())
+df_exp = completar_estados(load_exportaciones_estado())
 
 flujo = st.radio("Selecciona flujo:", ["Importaciones", "Exportaciones"], horizontal=True)
 df = df_imp if flujo == "Importaciones" else df_exp
@@ -43,11 +68,13 @@ col1, col2 = st.columns([3, 2])
 with col1:
     fig_map = px.choropleth(
         df,
-        geojson="https://raw.githubusercontent.com/mexiconlp/datos/master/estados.geojson",
-        locations="State",
+        geojson="https://raw.githubusercontent.com/angelnmara/geojson/master/mexicoHigh.json",
+        locations="State_GeoJSON",
         featureidkey="properties.name",
         color="Share",
-        color_continuous_scale=["#2A9D8F", "#F4A261", "#E63946"],
+        color_continuous_scale=["#1a535c", "#2A9D8F", "#F4A261", "#E63946"],
+        range_color=[0, df["Share"].max()],
+        hover_name="State",
         labels={"Share": "% Participación"},
         title=f"{flujo} de Carne por Estado (% del total nacional)"
     )
@@ -68,9 +95,8 @@ with col2:
 st.divider()
 
 fig_bar = px.bar(
-    df.nlargest(10, "Share"),
-    x="Share", y="State",
-    orientation="h",
+    df[df["Share"] > 0].nlargest(10, "Share"),
+    x="Share", y="State", orientation="h",
     color="Share",
     color_continuous_scale=["#2A9D8F", "#F4A261", "#E63946"],
     labels={"Share": "% Participación", "State": "Estado"},
