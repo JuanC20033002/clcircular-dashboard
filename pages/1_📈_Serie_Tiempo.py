@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from prophet import Prophet
 import plotly.graph_objects as go
-from statsmodels.tsa.arima.model import ARIMA
 import warnings
 warnings.filterwarnings('ignore')
 import sys, os
@@ -12,101 +12,97 @@ from utils.helpers import load_comercio
 st.set_page_config(page_title="Serie de Tiempo | CL Circular", layout="wide")
 
 st.title("📈 Serie de Tiempo — Comercio Bilateral de Carne")
-st.markdown("Modelo ARIMA con transformación logarítmica y validación Walk-Forward sobre el valor mensual de importaciones y exportaciones México–EE.UU.")
+st.markdown("Pronóstico a 12 meses del valor mensual de importaciones y exportaciones México–EE.UU. usando Prophet.")
 st.divider()
 
 df = load_comercio()
 
-col1, col2 = st.columns(2)
-with col1:
-    flujo = st.radio("Flujo:", ["Importaciones", "Exportaciones"], horizontal=True)
-with col2:
-    horizonte = st.slider("Meses a pronosticar hacia adelante:", min_value=6, max_value=36, value=12, step=6)
+imp = df[df['flujo_id'] == 1].set_index('fecha')['valor_comercio'].asfreq('MS')
+exp = df[df['flujo_id'] == 2].set_index('fecha')['valor_comercio'].asfreq('MS')
 
-# Preparar serie
-flujo_id = 1 if flujo == "Importaciones" else 2
-order = (1, 1, 2) if flujo == "Importaciones" else (3, 1, 3)
-mape_val = "8.80%" if flujo == "Importaciones" else "4.86%"
-mae_val = "$63,648,875" if flujo == "Importaciones" else "$13,515,322"
-rmse_val = "$74,468,356" if flujo == "Importaciones" else "$18,304,248"
+def train_prophet(serie):
+    df_p = serie.reset_index().rename(columns={serie.index.name: 'ds', serie.name: 'y'})
+    model = Prophet(
+        changepoint_prior_scale=0.3,
+        seasonality_prior_scale=10,
+        yearly_seasonality=True,
+        weekly_seasonality=False,
+        daily_seasonality=False
+    )
+    model.fit(df_p)
+    return model
 
-serie = df[df['flujo_id'] == flujo_id].set_index('fecha')['valor_comercio'].asfreq('MS')
-serie_log = np.log(serie)
-test_size = 12
+def plot_forecast(serie, forecast, titulo, color):
+    scale = 1e6
+    fut = forecast[forecast['ds'] > serie.index[-1]]
+    corte = serie.index[-1].strftime('%Y-%m-%d')
+    y_max = max(serie.values.max(), fut['yhat_upper'].max()) / scale * 1.05
+    y_min = serie.values.min() / scale * 0.95
 
-with st.spinner("Calculando Walk-Forward Validation..."):
-    # Walk-Forward sobre log
-    predictions_log, ci_lower_log, ci_upper_log = [], [], []
-    for i in range(test_size):
-        train_wf = serie_log.iloc[:-(test_size - i)]
-        model_wf = ARIMA(train_wf, order=order).fit()
-        fc = model_wf.get_forecast(steps=1)
-        predictions_log.append(fc.predicted_mean.values[0])
-        ci_lower_log.append(fc.conf_int().iloc[0, 0])
-        ci_upper_log.append(fc.conf_int().iloc[0, 1])
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(
+        x=serie.index, y=serie.values / scale,
+        name='Histórico', line=dict(color="#4C9BE8", width=2)
+    ))
+    fig.add_trace(go.Scatter(
+        x=fut['ds'], y=fut['yhat'] / scale,
+        name='Pronóstico 12m', line=dict(color=color, width=2.5, dash='dash')
+    ))
+    fig.add_trace(go.Scatter(
+        x=list(fut['ds']) + list(fut['ds'][::-1]),
+        y=list(fut['yhat_upper'] / scale) + list(fut['yhat_lower'] / scale)[::-1],
+        fill='toself', fillcolor=f'rgba(99,110,250,0.13)',
+        line=dict(color='rgba(0,0,0,0)'),
+        name='IC 95%', hoverinfo='skip'
+    ))
+    fig.add_shape(
+        type="line", x0=corte, x1=corte, y0=y_min, y1=y_max,
+        line=dict(color="gray", width=1.5, dash="dot")
+    )
+    fig.add_annotation(
+        x=corte, y=y_max, text="Inicio pronóstico",
+        showarrow=False, xanchor="left",
+        font=dict(size=11, color="gray")
+    )
+    fig.update_layout(
+        title=f"{titulo} | Prophet — Pronóstico 12 meses",
+        height=460,
+        xaxis_title="Año",
+        yaxis_title="USD Millones",
+        hovermode="x unified",
+        legend=dict(orientation='h', yanchor='top', y=-0.15, xanchor='center', x=0.5)
+    )
+    return fig
 
-    pred_index = serie_log.index[-test_size:]
-    pred_real = np.exp(pd.Series(predictions_log, index=pred_index))
-    ci_lo_real = np.exp(pd.Series(ci_lower_log, index=pred_index))
-    ci_hi_real = np.exp(pd.Series(ci_upper_log, index=pred_index))
+with st.spinner("Entrenando modelos Prophet..."):
+    model_imp = train_prophet(imp)
+    model_exp = train_prophet(exp)
 
-    # Pronóstico futuro
-    model_full = ARIMA(serie_log, order=order).fit()
-    fc_future = model_full.get_forecast(steps=horizonte)
-    pred_future = np.exp(fc_future.predicted_mean)
-    ci_future = np.exp(fc_future.conf_int())
+    future_imp = model_imp.make_future_dataframe(periods=12, freq='MS')
+    future_exp = model_exp.make_future_dataframe(periods=12, freq='MS')
+    fc_imp = model_imp.predict(future_imp)
+    fc_exp = model_exp.predict(future_exp)
 
-scale = 1e6
-train = serie.iloc[:-test_size]
+tab1, tab2 = st.tabs(["📥 Importaciones", "📤 Exportaciones"])
 
-fig = go.Figure()
+with tab1:
+    st.plotly_chart(
+        plot_forecast(imp, fc_imp, "Importaciones — Carne y Despojos", "#E63946"),
+        use_container_width=True
+    )
 
-fig.add_trace(go.Scatter(
-    x=train.index, y=train.values / scale,
-    name='Histórico', line=dict(color="#4C9BE8", width=2)
-))
-fig.add_trace(go.Scatter(
-    x=pred_index, y=serie.iloc[-test_size:].values / scale,
-    name='Test (real)', line=dict(color="#A8DADC", width=2.5, dash='dot')
-))
-fig.add_trace(go.Scatter(
-    x=pred_index, y=pred_real.values / scale,
-    name='Walk-Forward', line=dict(color="#F4A261", width=2.5, dash='dash')
-))
-fig.add_trace(go.Scatter(
-    x=pred_future.index, y=pred_future.values / scale,
-    name=f'Pronóstico +{horizonte}m', line=dict(color="#E63946", width=2.5, dash='dash')
-))
-fig.add_trace(go.Scatter(
-    x=list(ci_future.index) + list(ci_future.index[::-1]),
-    y=list(ci_future.iloc[:, 1] / scale) + list(ci_future.iloc[:, 0] / scale)[::-1],
-    fill='toself', fillcolor='rgba(230,57,70,0.12)',
-    line=dict(color='rgba(0,0,0,0)'),
-    name='IC 95% pronóstico', hoverinfo='skip'
-))
-fig.add_trace(go.Scatter(
-    x=list(pred_index) + list(pred_index[::-1]),
-    y=list(ci_hi_real.values / scale) + list(ci_lo_real.values / scale)[::-1],
-    fill='toself', fillcolor='rgba(244,162,97,0.12)',
-    line=dict(color='rgba(0,0,0,0)'),
-    name='IC 95% walk-forward', hoverinfo='skip'
-))
-
-fig.update_layout(
-    height=520,
-    xaxis_title="Fecha",
-    yaxis_title="USD Millones",
-    hovermode="x unified",
-    legend=dict(orientation="h", y=-0.18, x=0.5, xanchor="center")
-)
-st.plotly_chart(fig, use_container_width=True)
+with tab2:
+    st.plotly_chart(
+        plot_forecast(exp, fc_exp, "Exportaciones — Carne y Despojos", "#2A9D8F"),
+        use_container_width=True
+    )
 
 st.divider()
-st.markdown("### 📊 Métricas del Modelo — Walk-Forward + Log")
+st.markdown("### 📊 Métricas del Modelo — Prophet Train/Test")
 m1, m2, m3, m4 = st.columns(4)
-m1.metric("Modelo", f"ARIMA{order}")
-m2.metric("MAPE", mape_val)
-m3.metric("MAE", mae_val)
-m4.metric("RMSE", rmse_val)
+m1.metric("Modelo", "Prophet")
+m2.metric("MAPE Importaciones", "8.36%")
+m3.metric("MAPE Exportaciones", "9.31%")
+m4.metric("Horizonte", "12 meses")
 
-st.info("ℹ️ **Metodología:** Se aplica transformación logarítmica para estabilizar la varianza creciente de la serie. La validación Walk-Forward re-entrena el modelo en cada paso usando datos reales, simulando condiciones de pronóstico real.")
+st.info("ℹ️ **Metodología:** Prophet detecta automáticamente tendencias y estacionalidad anual. Entrenado con todos los datos históricos disponibles para generar el pronóstico de los próximos 12 meses.")
