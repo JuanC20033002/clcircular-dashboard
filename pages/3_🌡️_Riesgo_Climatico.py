@@ -91,3 +91,49 @@ st.info(f"""
 representa el mayor riesgo para la cadena de frío, con hasta **{dias_max} días** sobre 35°C en el mes. 
 Los operadores logísticos en esta zona deben reforzar monitoreo activo de temperatura en ese período.
 """)
+
+st.divider()
+
+with st.expander("📐 ¿Cómo se calcula el Índice de Riesgo Térmico (IRT)?"):
+    st.markdown("""
+    El **IRT** es un índice compuesto de 0 a 100 que mide el nivel de riesgo climático 
+    para operaciones de transporte refrigerado en cada zona y mes.
+    
+    ### Fórmula
+    """)
+    
+    st.latex(r"""
+    IRT = (0.5 \times T_{norm}) + (0.3 \times D_{norm}) + (0.2 \times H_{norm})
+    """)
+    
+    st.markdown("""
+    ### Variables
+    | Variable | Peso | Descripción | Rango original |
+    |---|---|---|---|
+    | \(T_{norm}\) | 50% | Temperatura promedio mensual normalizada | 0 – 45 °C |
+    | \(D_{norm}\) | 30% | Días con temperatura > 35 °C en el mes | 0 – 31 días |
+    | \(H_{norm}\) | 20% | Humedad relativa promedio mensual | 0 – 100% |
+    
+    Cada variable se normaliza al rango [0, 100] antes de aplicar los pesos:
+    """)
+    
+    st.latex(r"""
+    X_{norm} = \frac{X - X_{min}}{X_{max} - X_{min}} \times 100
+    """)
+    
+    st.markdown("""
+    ### Niveles de Riesgo
+    | Nivel | Rango IRT | Implicación operativa |
+    |---|---|---|
+    | 🟢 **Bajo** | 0 – 34 | Condiciones favorables, monitoreo estándar |
+    | 🟡 **Medio** | 35 – 59 | Requiere monitoreo activo y revisiones frecuentes |
+    | 🔴 **Alto** | 60 – 100 | Riesgo crítico, protocolo de emergencia en cadena de frío |
+    
+    ### ¿Por qué estos pesos?
+    - La **temperatura promedio** (50%) es el factor dominante porque determina 
+      la carga térmica base sobre el equipo de refrigeración
+    - Los **días extremos >35°C** (30%) capturan eventos pico que pueden romper 
+      la cadena de frío aunque el promedio mensual sea moderado
+    - La **humedad** (20%) agrava el esfuerzo del sistema de enfriamiento, 
+      especialmente en zonas costeras como Noroeste y Sur-Golfo
+    """)
