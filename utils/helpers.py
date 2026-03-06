@@ -40,3 +40,4 @@ ZONAS_COLORES = {
     "Centro":    "#2E7D32",
     "Sur-Golfo": "#0D1F4E"
 }
+
