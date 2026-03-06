@@ -44,7 +44,7 @@ st.divider()
 # Tarjetas
 cols = st.columns(3)
 for i, emp in enumerate(empresas_f):
-    color = "#E63946" if emp["relevancia"] == "Alta" else "#F4A261"
+    color = "#8DC63F" if emp["relevancia"] == "Alta" else "#F4A261" if emp["relevancia"] == "Media" else "#E63946"
     with cols[i % 3]:
         st.markdown(f"""
         <div style="border-left: 4px solid {color}; padding: 12px 16px; 
