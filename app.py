@@ -1,3 +1,4 @@
+header_con_foto()
 
 import streamlit as st
 
