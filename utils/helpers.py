@@ -20,16 +20,23 @@ def load_importaciones_estado():
 def load_exportaciones_estado():
     return pd.read_csv(os.path.join(BASE_DIR, "exportaciones_por_estado.csv"), encoding="latin1")
 
+# Paleta CL Circular
+CL_VERDE = "#8DC63F"
+CL_VERDE_OSCURO = "#2E7D32"
+CL_AZUL = "#1B6CA8"
+CL_AZUL_MARINO = "#0D1F4E"
+CL_CYAN = "#3AACB8"
+
 COLORES_RIESGO = {
-    "Alto": "#E63946",
+    "Alto":  "#E63946",
     "Medio": "#F4A261",
-    "Bajo": "#2A9D8F"
+    "Bajo":  "#8DC63F"
 }
 
 ZONAS_COLORES = {
-    "Norte": "#E63946",
-    "Noroeste": "#E76F51",
-    "Occidente": "#F4A261",
-    "Centro": "#2A9D8F",
-    "Sur-Golfo": "#E9C46A"
+    "Norte":     "#1B6CA8",
+    "Noroeste":  "#3AACB8",
+    "Occidente": "#8DC63F",
+    "Centro":    "#2E7D32",
+    "Sur-Golfo": "#0D1F4E"
 }
