@@ -6,26 +6,46 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 @st.cache_data
 def load_comercio():
-    return pd.read_csv(os.path.join(BASE_DIR, "comercio_carne_limpio.csv"), parse_dates=["fecha"])
+    return pd.read_csv(
+        os.path.join(BASE_DIR, "comercio_carne_limpio.csv"),
+        parse_dates=["fecha"]
+    )
+
+@st.cache_data
+def load_comercio_neto():
+    """comercio_neto_aduanas.csv — columnas: Flow ID, Flow, Month ID, Month, Trade Value, Time"""
+    df = pd.read_csv(os.path.join(BASE_DIR, "comercio_neto_aduanas.csv"))
+    # Normalizar nombres de columnas por si acaso
+    df.columns = df.columns.str.strip()
+    return df
 
 @st.cache_data
 def load_clima():
-    return pd.read_csv(os.path.join(BASE_DIR, "clima_riesgo_clcircular.csv"), parse_dates=["fecha"])
+    return pd.read_csv(
+        os.path.join(BASE_DIR, "clima_riesgo_clcircular.csv"),
+        parse_dates=["fecha"]
+    )
 
 @st.cache_data
 def load_importaciones_estado():
-    return pd.read_csv(os.path.join(BASE_DIR, "importaciones_por_estado.csv"), encoding="latin1")
+    return pd.read_csv(
+        os.path.join(BASE_DIR, "importaciones_por_estado.csv"),
+        encoding="latin1"
+    )
 
 @st.cache_data
 def load_exportaciones_estado():
-    return pd.read_csv(os.path.join(BASE_DIR, "exportaciones_por_estado.csv"), encoding="latin1")
+    return pd.read_csv(
+        os.path.join(BASE_DIR, "exportaciones_por_estado.csv"),
+        encoding="latin1"
+    )
 
-# Paleta CL Circular
-CL_VERDE = "#8DC63F"
+# ── Paleta CL Circular ────────────────────────────────────────────────────────
+CL_VERDE        = "#8DC63F"
 CL_VERDE_OSCURO = "#2E7D32"
-CL_AZUL = "#1B6CA8"
-CL_AZUL_MARINO = "#0D1F4E"
-CL_CYAN = "#3AACB8"
+CL_AZUL         = "#1B6CA8"
+CL_AZUL_MARINO  = "#0D1F4E"
+CL_CYAN         = "#3AACB8"
 
 COLORES_RIESGO = {
     "Alto":  "#E63946",
@@ -40,4 +60,3 @@ ZONAS_COLORES = {
     "Centro":    "#2E7D32",
     "Sur-Golfo": "#0D1F4E"
 }
-
