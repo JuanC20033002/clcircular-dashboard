@@ -50,7 +50,7 @@ fig_heat = px.imshow(
     labels=dict(color="IRT"),
     title=f"Índice de Riesgo Térmico promedio por Zona y Mes — {year_sel}",
     aspect="auto",
-    text_auto=".0f"            # ← muestra el valor dentro de cada celda
+    text_auto=".0f"
 )
 fig_heat.update_layout(
     height=360,
@@ -97,7 +97,6 @@ with col1:
 with col2:
     st.markdown("### 🟢🟡🔴 Distribución de Niveles de Riesgo")
     nivel_counts = df_f.groupby(["zona", "nivel_riesgo"]).size().reset_index(name="meses")
-    # Orden lógico de los niveles
     nivel_counts["nivel_riesgo"] = pd.Categorical(
         nivel_counts["nivel_riesgo"], categories=["Bajo", "Medio", "Alto"], ordered=True
     )
@@ -127,14 +126,14 @@ st.divider()
 
 # ── INSIGHT AUTOMÁTICO ────────────────────────────────────────────────────────
 st.markdown("### 💡 Insight Automático")
-zona_max   = df_f.groupby("zona")["IRT"].mean().idxmax()
+zona_max    = df_f.groupby("zona")["IRT"].mean().idxmax()
 mes_max_num = df_f.groupby("month")["IRT"].mean().idxmax()
+irt_max     = df_f.groupby("zona")["IRT"].mean().max()
+dias_max    = int(df_f[df_f["zona"] == zona_max]["dias_calor"].max())
 meses_nombres = {
     1:"enero", 2:"febrero", 3:"marzo", 4:"abril", 5:"mayo", 6:"junio",
     7:"julio", 8:"agosto", 9:"septiembre", 10:"octubre", 11:"noviembre", 12:"diciembre"
 }
-irt_max   = df_f.groupby("zona")["IRT"].mean().max()
-dias_max  = int(df_f[df_f["zona"] == zona_max]["dias_calor"].max())
 
 st.markdown(f"""
 <div style="
@@ -144,31 +143,141 @@ st.markdown(f"""
     padding: 16px 20px;
     margin: 8px 0;
 ">
-<span style="font-size:1.1rem; font-weight:700; color:#E63946;">🔴 Mayor riesgo térmico en {year_sel}</span><br><br>
+<span style="font-size:1.1rem; font-weight:700; color:#E63946;">
+    🔴 Mayor riesgo térmico en {year_sel}
+</span><br><br>
 <span style="color:{CL_AZUL_MARINO}; font-size:0.95rem;">
-La zona <b>{zona_max}</b> durante <b>{meses_nombres[mes_max_num]}</b> representa el mayor riesgo 
-para la cadena de frío, con un IRT promedio de <b>{irt_max:.1f}/100</b> y hasta <b>{dias_max} días</b> 
-sobre 35°C en el mes. Los operadores logísticos en esta zona deben reforzar monitoreo activo 
-de temperatura en ese período.
+    La zona <b>{zona_max}</b> durante <b>{meses_nombres[mes_max_num]}</b> representa el mayor 
+    riesgo para la cadena de frío, con un IRT promedio de <b>{irt_max:.1f}/100</b> y hasta 
+    <b>{dias_max} días</b> sobre 35°C en el mes. Los operadores logísticos en esta zona deben 
+    reforzar monitoreo activo de temperatura en ese período.
 </span>
 </div>
 """, unsafe_allow_html=True)
 
 st.divider()
 
-# ── EXPANDER METODOLOGÍA ──────────────────────────────────────────────────────
+# ── RIESGO POR CORREDOR FRONTERIZO ────────────────────────────────────────────
+st.markdown("### 🛣️ Riesgo Térmico por Corredor Fronterizo")
+st.caption(f"IRT promedio {year_sel} según zona climática de cada cruce. Usa el slider de año para actualizar.")
+
+RUTAS = {
+    "Laredo / Nuevo Laredo":   {"zona": "Norte",    "estado": "Tamaulipas",      "productos": "Cerdo · Res · Aves",      "volumen": "+3M camiones/año"},
+    "Cd. Juárez / El Paso":    {"zona": "Norte",    "estado": "Chihuahua",       "productos": "Res · Ganado en pie",     "volumen": "Top 3 cruces MX–EE.UU."},
+    "Nogales / Nogales":       {"zona": "Noroeste", "estado": "Sonora",          "productos": "Pollo · Cerdo · Res",     "volumen": "41,833 MT/año"},
+    "Reynosa / McAllen":       {"zona": "Norte",    "estado": "Tamaulipas",      "productos": "Cárnicos procesados",     "volumen": "Crecimiento sostenido"},
+    "Tijuana / Otay Mesa":     {"zona": "Noroeste", "estado": "Baja California", "productos": "Res · Aves · Procesados", "volumen": "Alto tráfico BC"},
+}
+
+MESES_CORTOS  = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"]
+COLOR_BG      = {"Alto": "#FFF5F5", "Medio": "#FFFBF0", "Bajo": "#F0FFF4"}
+ICONO_NIV     = {"Alto": "🔴", "Medio": "🟡", "Bajo": "🟢"}
+RECOMENDACION = {
+    "Alto":  "Protocolo de emergencia. Monitoreo cada 30 min. Sensores IoT críticos.",
+    "Medio": "Monitoreo activo. Revisar alertas cada 2 horas durante tránsito.",
+    "Bajo":  "Condiciones favorables. Monitoreo estándar suficiente.",
+}
+
+def nivel_riesgo(irt):
+    return "Alto" if irt >= 60 else "Medio" if irt >= 35 else "Bajo"
+
+# IRT del año seleccionado por zona (reutiliza df ya filtrado por year_sel)
+irt_año_zona = (
+    df[df["year"] == year_sel]
+    .groupby(["zona", "month"])["IRT"]
+    .mean()
+    .reset_index()
+)
+
+def get_irt_zona_dict(zona):
+    sub = irt_año_zona[irt_año_zona["zona"] == zona]
+    return dict(zip(sub["month"], sub["IRT"]))
+
+# Calcular métricas por ruta
+rutas_calc = {}
+for nombre, r in RUTAS.items():
+    irt_dict = get_irt_zona_dict(r["zona"])
+    if irt_dict:
+        irt_prom    = round(sum(irt_dict.values()) / len(irt_dict), 1)
+        mes_max     = max(irt_dict, key=irt_dict.get)
+        irt_mes_max = round(irt_dict[mes_max], 1)
+    else:
+        irt_prom, mes_max, irt_mes_max = 0, 6, 0
+    rutas_calc[nombre] = {**r, "irt": irt_prom, "mes_max": mes_max, "irt_mes_max": irt_mes_max}
+
+# Tarjetas de rutas
+cols = st.columns(len(RUTAS))
+for i, (nombre, r) in enumerate(rutas_calc.items()):
+    nivel = nivel_riesgo(r["irt"])
+    color = COLORES_RIESGO[nivel]
+    with cols[i]:
+        st.markdown(f"""
+        <div style="
+            background:{COLOR_BG[nivel]};
+            border-top:4px solid {color};
+            border-radius:10px;
+            padding:14px 12px;
+            box-shadow:0 2px 6px rgba(13,31,78,0.08);
+            height:100%;
+        ">
+            <p style="font-size:0.75rem;color:#888;margin:0 0 3px 0;">
+                {r['estado']} → EE.UU.
+            </p>
+            <p style="font-size:0.82rem;font-weight:700;color:{CL_AZUL_MARINO};
+                      margin:0 0 8px 0;line-height:1.3;">
+                🛣️ {nombre}
+            </p>
+            <span style="font-size:1.8rem;font-weight:800;color:{color};">{r['irt']}</span>
+            <span style="font-size:0.72rem;color:#666;"> IRT prom.</span><br><br>
+            <span style="background:{color};color:white;padding:2px 8px;
+                         border-radius:10px;font-size:10px;font-weight:600;">
+                {ICONO_NIV[nivel]} Riesgo {nivel}
+            </span>
+            <hr style="border:none;border-top:1px solid #E0E0E0;margin:8px 0;">
+            <p style="font-size:0.74rem;color:#555;margin:2px 0;">
+                📅 <b>Mes crítico:</b> {MESES_CORTOS[r['mes_max']-1]} (IRT {r['irt_mes_max']})
+            </p>
+            <p style="font-size:0.74rem;color:#555;margin:2px 0;">
+                📦 {r['productos']}
+            </p>
+            <p style="font-size:0.74rem;color:#555;margin:2px 0;">
+                🚛 {r['volumen']}
+            </p>
+            <p style="font-size:0.72rem;color:#444;background:white;
+                      padding:5px 7px;border-radius:5px;margin-top:6px;line-height:1.35;">
+                💡 {RECOMENDACION[nivel]}
+            </p>
+        </div>
+        """, unsafe_allow_html=True)
+
+st.divider()
+
+# ── MATRIZ CORREDOR × MES ─────────────────────────────────────────────────────
+st.markdown("### 🗓️ Matriz de Riesgo — Corredor × Mes")
+st.caption(f"Nivel de riesgo térmico por corredor y mes — {year_sel}")
+
+matrix_rows = []
+for nombre, r in rutas_calc.items():
+    irt_dict = get_irt_zona_dict(r["zona"])
+    row = {"Corredor": nombre.split("/")[0].strip()}
+    for m in range(1, 13):
+        v = irt_dict.get(m, 0)
+        row[MESES_CORTOS[m-1]] = f"{ICONO_NIV[nivel_riesgo(v)]} {v:.0f}"
+    matrix_rows.append(row)
+
+df_matrix = pd.DataFrame(matrix_rows).set_index("Corredor")
+st.dataframe(df_matrix, use_container_width=True, height=225)
+
+st.divider()
+
+# ── METODOLOGÍA IRT ───────────────────────────────────────────────────────────
 with st.expander("📐 ¿Cómo se calcula el Índice de Riesgo Térmico (IRT)?"):
     st.markdown("""
     El **IRT** es un índice compuesto de 0 a 100 que mide el nivel de riesgo climático 
     para operaciones de transporte refrigerado en cada zona y mes.
-
     ### Fórmula
     """)
-
-    st.latex(r"""
-    IRT = (0.5 \times T_{norm}) + (0.3 \times D_{norm}) + (0.2 \times H_{norm})
-    """)
-
+    st.latex(r"IRT = (0.5 \times T_{norm}) + (0.3 \times D_{norm}) + (0.2 \times H_{norm})")
     st.markdown("""
     ### Variables
     | Variable | Peso | Descripción | Rango original |
@@ -179,11 +288,7 @@ with st.expander("📐 ¿Cómo se calcula el Índice de Riesgo Térmico (IRT)?")
 
     Cada variable se normaliza al rango [0, 100] antes de aplicar los pesos:
     """)
-
-    st.latex(r"""
-    X_{norm} = \frac{X - X_{min}}{X_{max} - X_{min}} \times 100
-    """)
-
+    st.latex(r"X_{norm} = \frac{X - X_{min}}{X_{max} - X_{min}} \times 100")
     st.markdown("""
     ### Niveles de Riesgo
     | Nivel | Rango IRT | Implicación operativa |
@@ -193,10 +298,10 @@ with st.expander("📐 ¿Cómo se calcula el Índice de Riesgo Térmico (IRT)?")
     | 🔴 **Alto** | 60 – 100 | Riesgo crítico, protocolo de emergencia en cadena de frío |
 
     ### ¿Por qué estos pesos?
-    - **Temperatura promedio (50%)** — factor dominante; determina la carga térmica base sobre el equipo de refrigeración
-    - **Días extremos >35°C (30%)** — captura eventos pico que pueden romper la cadena de frío aunque el promedio mensual sea moderado
-    - **Humedad (20%)** — agrava el esfuerzo del sistema de enfriamiento, especialmente en zonas costeras como Noroeste y Sur-Golfo
+    - **Temperatura promedio (50%)** — determina la carga térmica base sobre el equipo de refrigeración
+    - **Días extremos >35°C (30%)** — captura eventos pico que pueden romper la cadena de frío
+    - **Humedad (20%)** — agrava el esfuerzo del sistema de enfriamiento en zonas costeras
     """)
 
 st.divider()
-st.caption("Nota: Datos climáticos basados en rangos representativos por zona para fines ilustrativos del prototipo | Marzo 2026")
+st.caption("Nota: Datos climáticos basados en rangos representativos por zona para fines ilustrativos | Marzo 2026")
