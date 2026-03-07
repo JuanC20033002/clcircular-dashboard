@@ -162,26 +162,26 @@ st.markdown("### 🛣️ Riesgo Térmico por Corredor Fronterizo")
 st.caption(f"IRT promedio {year_sel} según zona climática de cada cruce. Usa el slider de año para actualizar.")
 
 RUTAS = {
-    "Laredo / Nuevo Laredo":   {"zona": "Norte",    "estado": "Tamaulipas",      "productos": "Cerdo · Res · Aves",      "volumen": "+3M camiones/año"},
-    "Cd. Juárez / El Paso":    {"zona": "Norte",    "estado": "Chihuahua",       "productos": "Res · Ganado en pie",     "volumen": "Top 3 cruces MX–EE.UU."},
-    "Nogales / Nogales":       {"zona": "Noroeste", "estado": "Sonora",          "productos": "Pollo · Cerdo · Res",     "volumen": "41,833 MT/año"},
-    "Reynosa / McAllen":       {"zona": "Norte",    "estado": "Tamaulipas",      "productos": "Cárnicos procesados",     "volumen": "Crecimiento sostenido"},
-    "Tijuana / Otay Mesa":     {"zona": "Noroeste", "estado": "Baja California", "productos": "Res · Aves · Procesados", "volumen": "Alto tráfico BC"},
+    "Laredo / Nuevo Laredo": {"zona": "Norte",    "estado": "Tamaulipas",      "productos": "Cerdo · Res · Aves",      "volumen": "+3M camiones/año"},
+    "Cd. Juárez / El Paso":  {"zona": "Norte",    "estado": "Chihuahua",       "productos": "Res · Ganado en pie",     "volumen": "Top 3 cruces MX–EE.UU."},
+    "Nogales / Nogales":     {"zona": "Noroeste", "estado": "Sonora",          "productos": "Pollo · Cerdo · Res",     "volumen": "41,833 MT/año"},
+    "Reynosa / McAllen":     {"zona": "Norte",    "estado": "Tamaulipas",      "productos": "Cárnicos procesados",     "volumen": "Crecimiento sostenido"},
+    "Tijuana / Otay Mesa":   {"zona": "Noroeste", "estado": "Baja California", "productos": "Res · Aves · Procesados", "volumen": "Alto tráfico BC"},
 }
 
-MESES_CORTOS  = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"]
-COLOR_BG      = {"Alto": "#FFF5F5", "Medio": "#FFFBF0", "Bajo": "#F0FFF4"}
-ICONO_NIV     = {"Alto": "🔴", "Medio": "🟡", "Bajo": "🟢"}
+MESES_CORTOS = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"]
+COLOR_BG     = {"Alto": "#FFF5F5", "Medio": "#FFFBF0", "Bajo": "#F0FFF4"}
+ICONO_NIV    = {"Alto": "🔴", "Medio": "🟡", "Bajo": "🟢"}
 RECOMENDACION = {
-    "Alto":  "Protocolo de emergencia. Monitoreo cada 30 min. Sensores IoT críticos.",
-    "Medio": "Monitoreo activo. Revisar alertas cada 2 horas durante tránsito.",
-    "Bajo":  "Condiciones favorables. Monitoreo estándar suficiente.",
+    "Alto":  "Protocolo de emergencia activo en todos los corredores. Monitoreo de temperatura cada 30 minutos. Activar alertas IoT en tiempo real y tener plan de contingencia listo para desvío de carga.",
+    "Medio": "Monitoreo activo recomendado en todos los corredores. Revisar alertas cada 2 horas durante tránsito y coordinar con operadores en puntos de cruce para inspecciones preventivas.",
+    "Bajo":  "Condiciones climáticas favorables en la red de corredores. Monitoreo estándar suficiente. Momento óptimo para programar embarques de alto volumen.",
 }
 
 def nivel_riesgo(irt):
     return "Alto" if irt >= 60 else "Medio" if irt >= 35 else "Bajo"
 
-# IRT del año seleccionado por zona (reutiliza df ya filtrado por year_sel)
+# IRT del año seleccionado por zona
 irt_año_zona = (
     df[df["year"] == year_sel]
     .groupby(["zona", "month"])["IRT"]
@@ -205,7 +205,7 @@ for nombre, r in RUTAS.items():
         irt_prom, mes_max, irt_mes_max = 0, 6, 0
     rutas_calc[nombre] = {**r, "irt": irt_prom, "mes_max": mes_max, "irt_mes_max": irt_mes_max}
 
-# Tarjetas de rutas
+# ── TARJETAS SIN RECOMENDACIÓN INDIVIDUAL ────────────────────────────────────
 cols = st.columns(len(RUTAS))
 for i, (nombre, r) in enumerate(rutas_calc.items()):
     nivel = nivel_riesgo(r["irt"])
@@ -218,7 +218,6 @@ for i, (nombre, r) in enumerate(rutas_calc.items()):
             border-radius:10px;
             padding:14px 12px;
             box-shadow:0 2px 6px rgba(13,31,78,0.08);
-            height:100%;
         ">
             <p style="font-size:0.75rem;color:#888;margin:0 0 3px 0;">
                 {r['estado']} → EE.UU.
@@ -237,18 +236,39 @@ for i, (nombre, r) in enumerate(rutas_calc.items()):
             <p style="font-size:0.74rem;color:#555;margin:2px 0;">
                 📅 <b>Mes crítico:</b> {MESES_CORTOS[r['mes_max']-1]} (IRT {r['irt_mes_max']})
             </p>
-            <p style="font-size:0.74rem;color:#555;margin:2px 0;">
-                📦 {r['productos']}
-            </p>
-            <p style="font-size:0.74rem;color:#555;margin:2px 0;">
-                🚛 {r['volumen']}
-            </p>
-            <p style="font-size:0.72rem;color:#444;background:white;
-                      padding:5px 7px;border-radius:5px;margin-top:6px;line-height:1.35;">
-                💡 {RECOMENDACION[nivel]}
-            </p>
+            <p style="font-size:0.74rem;color:#555;margin:2px 0;">📦 {r['productos']}</p>
+            <p style="font-size:0.74rem;color:#555;margin:2px 0;">🚛 {r['volumen']}</p>
         </div>
         """, unsafe_allow_html=True)
+
+# ── RECOMENDACIÓN GENERAL ─────────────────────────────────────────────────────
+niveles_rutas = [nivel_riesgo(r["irt"]) for r in rutas_calc.values()]
+if "Alto" in niveles_rutas:
+    nivel_general = "Alto"
+elif niveles_rutas.count("Medio") >= len(niveles_rutas) // 2:
+    nivel_general = "Medio"
+else:
+    nivel_general = "Bajo"
+
+COLOR_REC = {"Alto": "#E63946", "Medio": "#F4A261", "Bajo": "#2E7D32"}
+BG_REC    = {"Alto": "#FFF5F5", "Medio": "#FFFBF0", "Bajo": "#F0FFF4"}
+
+st.markdown(f"""
+<div style="
+    background:{BG_REC[nivel_general]};
+    border-left:4px solid {COLOR_REC[nivel_general]};
+    border-radius:8px;
+    padding:14px 20px;
+    margin-top:16px;
+">
+<b style="color:{COLOR_REC[nivel_general]};font-size:0.95rem;">
+    {ICONO_NIV[nivel_general]} Recomendación operativa general — {year_sel}
+</b><br><br>
+<span style="color:{CL_AZUL_MARINO};font-size:0.88rem;">
+    {RECOMENDACION[nivel_general]}
+</span>
+</div>
+""", unsafe_allow_html=True)
 
 st.divider()
 
@@ -304,3 +324,4 @@ with st.expander("📐 ¿Cómo se calcula el Índice de Riesgo Térmico (IRT)?")
     """)
 
 st.divider()
+st.caption("Nota: Datos climáticos basados en rangos representativos por zona para fines ilustrativos | Marzo 2026")
