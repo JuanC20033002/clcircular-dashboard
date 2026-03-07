@@ -172,11 +172,7 @@ RUTAS = {
 MESES_CORTOS = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"]
 COLOR_BG     = {"Alto": "#FFF5F5", "Medio": "#FFFBF0", "Bajo": "#F0FFF4"}
 ICONO_NIV    = {"Alto": "🔴", "Medio": "🟡", "Bajo": "🟢"}
-RECOMENDACION = {
-    "Alto":  "Protocolo de emergencia activo en todos los corredores. Monitoreo de temperatura cada 30 minutos. Activar alertas IoT en tiempo real y tener plan de contingencia listo para desvío de carga.",
-    "Medio": "Monitoreo activo recomendado en todos los corredores. Revisar alertas cada 2 horas durante tránsito y coordinar con operadores en puntos de cruce para inspecciones preventivas.",
-    "Bajo":  "Condiciones climáticas favorables en la red de corredores. Monitoreo estándar suficiente. Momento óptimo para programar embarques de alto volumen.",
-}
+
 
 def nivel_riesgo(irt):
     return "Alto" if irt >= 60 else "Medio" if irt >= 35 else "Bajo"
