@@ -304,4 +304,3 @@ with st.expander("📐 ¿Cómo se calcula el Índice de Riesgo Térmico (IRT)?")
     """)
 
 st.divider()
-st.caption("Nota: Datos climáticos basados en rangos representativos por zona para fines ilustrativos | Marzo 2026")
