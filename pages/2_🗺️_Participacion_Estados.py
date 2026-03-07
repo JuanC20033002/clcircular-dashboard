@@ -17,7 +17,7 @@ logo_path = Path("assets/Logo-Cl-Circular.png")
 if logo_path.exists():
     st.sidebar.image(str(logo_path), use_container_width=True)
 
-st.title("🗺️ Participación por Estado — 2024")
+st.title("🗺️ Participación por Estado — 2025")
 st.markdown("Distribución del valor comercial de carne y despojos por entidad federativa.")
 st.divider()
 
@@ -137,7 +137,7 @@ with col2:
 st.divider()
 
 # ── BARRAS HORIZONTALES ───────────────────────────────────────────────────────
-st.markdown(f"### 📊 Top 10 Estados por {flujo} — 2024")
+st.markdown(f"### 📊 Top 10 Estados por {flujo} — 2025")
 top10_bar = df[df["Share"] > 0].nlargest(10, "Share").copy()
 top10_bar = top10_bar.sort_values("Share", ascending=True)  # ascendente para que el mayor quede arriba en horizontal
 
