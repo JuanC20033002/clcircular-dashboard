@@ -88,7 +88,7 @@ estados_activos = (df["Share"] > 0).sum()
 
 k1, k2, k3 = st.columns(3)
 k1.metric("Estado líder",      top1["State"],               f"{top1['Share']:.1f}% del total")
-k2.metric("Valor total",       f"${total_usd/1e9:.2f}B USD", f"{flujo} 2024")
+k2.metric("Valor total",       f"${total_usd/1e9:.2f}B USD", f"{flujo} 2025")
 k3.metric("Estados con flujo", f"{estados_activos} / 32",    "entidades registradas")
 
 st.divider()
