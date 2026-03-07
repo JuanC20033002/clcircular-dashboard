@@ -237,34 +237,6 @@ for i, (nombre, r) in enumerate(rutas_calc.items()):
         </div>
         """, unsafe_allow_html=True)
 
-# ── RECOMENDACIÓN GENERAL ─────────────────────────────────────────────────────
-niveles_rutas = [nivel_riesgo(r["irt"]) for r in rutas_calc.values()]
-if "Alto" in niveles_rutas:
-    nivel_general = "Alto"
-elif niveles_rutas.count("Medio") >= len(niveles_rutas) // 2:
-    nivel_general = "Medio"
-else:
-    nivel_general = "Bajo"
-
-COLOR_REC = {"Alto": "#E63946", "Medio": "#F4A261", "Bajo": "#2E7D32"}
-BG_REC    = {"Alto": "#FFF5F5", "Medio": "#FFFBF0", "Bajo": "#F0FFF4"}
-
-st.markdown(f"""
-<div style="
-    background:{BG_REC[nivel_general]};
-    border-left:4px solid {COLOR_REC[nivel_general]};
-    border-radius:8px;
-    padding:14px 20px;
-    margin-top:16px;
-">
-<b style="color:{COLOR_REC[nivel_general]};font-size:0.95rem;">
-    {ICONO_NIV[nivel_general]} Recomendación operativa general — {year_sel}
-</b><br><br>
-<span style="color:{CL_AZUL_MARINO};font-size:0.88rem;">
-    {RECOMENDACION[nivel_general]}
-</span>
-</div>
-""", unsafe_allow_html=True)
 
 st.divider()
 
