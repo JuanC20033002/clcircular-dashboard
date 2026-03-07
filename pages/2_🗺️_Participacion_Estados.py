@@ -108,7 +108,7 @@ with col1:
         hover_name="State",
         hover_data={"Trade Value": ":,.0f", "Share": ":.2f", "State_GeoJSON": False},
         labels={"Share": "% Participación", "Trade Value": "Valor USD"},
-        title=f"{flujo} de Carne por Estado — % del total nacional (2024)"
+        title=f"{flujo} de Carne por Estado — % del total nacional (2025)"
     )
     fig_map.update_geos(fitbounds="locations", visible=False)
     fig_map.update_layout(
@@ -153,7 +153,7 @@ fig_bar = px.bar(
         else ["#F1F8E9", "#AED581", CL_VERDE, "#1B5E20"]
     ),
     labels={"Share": "% Participación", "State": "Estado"},
-    title=f"Top 10 Estados por {flujo} de Carne — 2024",
+    title=f"Top 10 Estados por {flujo} de Carne — 2025",
     text="Share"
 )
 fig_bar.update_traces(
