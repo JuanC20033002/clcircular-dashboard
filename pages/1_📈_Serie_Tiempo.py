@@ -181,7 +181,7 @@ with st.expander("📐 ¿Por qué Prophet y no ARIMA?"):
                 border-radius:6px; padding:16px 20px;">
     <b style="color:{CL_AZUL_MARINO};">Comparación de modelos evaluados</b><br><br>
     Se evaluaron <b>ARIMA con Log + Walk-Forward Validation</b> y <b>Prophet (Meta)</b> 
-    sobre el valor mensual del comercio bilateral 2006–2024.<br><br>
+    sobre el valor mensual del comercio bilateral 2006–2025.<br><br>
     Prophet fue seleccionado como modelo final en producción por:
     <ul style="color:#444; margin-top:8px;">
         <li>✅ <b>Menor MAPE en importaciones</b> (8.36% vs ~11% ARIMA)</li>
