@@ -2,7 +2,6 @@ import streamlit as st
 import base64
 from pathlib import Path
 
-# ── DEBE SER LO PRIMERO ──────────────────────────────────────────────────────
 st.set_page_config(
     page_title="CL Circular | Dashboard",
     page_icon="♻️",
@@ -10,7 +9,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ── LOGO EN SIDEBAR ──────────────────────────────────────────────────────────
+# ── LOGO EN SIDEBAR ───────────────────────────────────────────────────────────
 logo_path = Path("assets/Logo-Cl-Circular.png")
 if logo_path.exists():
     st.sidebar.image(str(logo_path), use_container_width=True)
@@ -39,68 +38,99 @@ def header_con_foto():
     .hero-overlay {{
         position: absolute;
         inset: 0;
-        background: linear-gradient(to right, rgba(13,31,78,0.75) 0%, rgba(13,31,78,0.2) 100%);
+        background: linear-gradient(to right, rgba(13,31,78,0.80) 0%, rgba(13,31,78,0.20) 100%);
         border-radius: 0 0 1.5rem 1.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 2rem 2.5rem;
+        padding: 2.2rem 2.5rem;
     }}
     .hero-title {{
         color: #FFFFFF;
-        font-size: 2rem;
+        font-size: 2.1rem;
         font-weight: 800;
         margin: 0;
-        text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
     }}
     .hero-subtitle {{
         color: #8DC63F;
-        font-size: 1.1rem;
+        font-size: 1.05rem;
         margin-top: 0.4rem;
         font-weight: 500;
     }}
     </style>
 
     <div class="hero-banner">
-        <div class="hero-overlay">
-            <p class="hero-title">CL Circular — Dashboard Estratégico</p>
-            <p class="hero-subtitle">Corredor Comercial México–Estados Unidos | Sector Cárnico</p>
-        </div>
+      <div class="hero-overlay">
+        <p class="hero-title">CL Circular — Dashboard Estratégico</p>
+        <p class="hero-subtitle">
+          Corredor Comercial México–Estados Unidos · Sector Cárnico
+        </p>
+      </div>
     </div>
     """, unsafe_allow_html=True)
 
-header_con_foto()   # ← aquí se llama
+header_con_foto()
 
 # ── INTRODUCCIÓN ─────────────────────────────────────────────────────────────
+st.markdown("### ¿Qué es CL Circular?")
+
 st.markdown("""
-### ¿Qué es CL Circular?
 **CL Circular** ofrece visibilidad en tiempo real del estado de los embarques en operaciones 
-de importación y exportación. Este dashboard analiza la viabilidad estratégica de introducir 
-sus servicios en el corredor bilateral México–EE.UU. dentro del **sector cárnico**.
+de importación y exportación mediante sensores IoT reutilizables.  
+Este dashboard sirve como plataforma analítica para evaluar la **viabilidad de expansión** de CL Circular 
+al corredor México–Estados Unidos en el sector cárnico y construir una **estrategia de entrada por fases**.
 """)
 
 st.divider()
 
-# ── KPIs ─────────────────────────────────────────────────────────────────────
-st.markdown("### 📊 El Mercado en Números")
-k1, k2, k3, k4 = st.columns(4)
+# ── OBJETIVO DEL PROYECTO ────────────────────────────────────────────────────
+st.markdown("### 🎯 Objetivo del estudio")
 
-k1.metric(label="Volumen Anual",       value="2.3M ton",       delta="métricas en ambas direcciones")
-k2.metric(label="Valor del Corredor",  value="$5B+ USD",       delta="exportaciones + importaciones")
-k3.metric(label="Cruces Fronterizos",  value="4 principales",  delta="Laredo, Tijuana, Juárez, Reynosa")
-k4.metric(label="Empresas Potenciales",value="17 identificadas",delta="importadores y exportadores")
+st.markdown("""
+Evaluar, con base en datos, si existe una lógica económica y operativa para que CL Circular 
+entre al mercado cárnico México–EE.UU., y proponer una estrategia de expansión que:
+- Seleccione segmentos y corredores prioritarios.
+- Cuantifique la oportunidad y los riesgos logísticos.
+- Alinee el roadmap de sensores y el mensaje comercial de la empresa.
+""")
+
+st.divider()
+
+# ── EQUIPO DEL PROYECTO ──────────────────────────────────────────────────────
+st.markdown("### 👥 Equipo de proyecto")
+
+col1, col2 = st.columns([2, 3])
+
+with col1:
+    st.markdown("""
+    **Integrantes**
+
+    - Pablo Marin  
+    - Luis Armando Domínguez  
+    - Juan Cepeda  
+    - Joaquin Cano  
+    - Geraldine Dominguez  
+    - David Balas  
+    """)
+
+with col2:
+    st.markdown("""
+    Este dashboard se elaboró como parte del reto con **CL Circular** y el 
+    **Tecnológico de Monterrey**, integrando análisis de comercio exterior, 
+    logística y riesgo climático para respaldar recomendaciones estratégicas.
+    """)
 
 st.divider()
 
 # ── NAVEGACIÓN ───────────────────────────────────────────────────────────────
-st.markdown("### 🗂️ Secciones del Dashboard")
-st.markdown("""
-Usa el **menú lateral izquierdo** para navegar entre secciones:
+st.markdown("### 🗂️ ¿Qué puedes explorar en el dashboard?")
 
-- 📈 **Serie de Tiempo** — Histórico y pronóstico Prophet del comercio bilateral
-- 🗺️ **Participación por Estado** — Mapa de importaciones y exportaciones por entidad
-- 🌡️ **Riesgo Climático** — Índice de riesgo térmico por zona y mes
-- 🤝 **Socios Clave** — Empresas y actores logísticos prioritarios
+st.markdown("""
+- 📈 **Serie de Tiempo** – Histórico y pronóstico del comercio cárnico bilateral.  
+- 🗺️ **Participación por Estado** – Concentración geográfica de importaciones y exportaciones.  
+- 🌡️ **Riesgo Climático** – Índice de riesgo térmico por zona y corredores fronterizos.  
+- 🤝 **Socios Clave** – Empresas y actores logísticos prioritarios.  
+- 🚀 **Estrategia de Expansión** – Hoja de ruta propuesta para la entrada de CL Circular.
 """)
 
 st.divider()
