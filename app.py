@@ -129,9 +129,9 @@ st.markdown("""
 - 📈 **Serie de Tiempo** – Histórico y pronóstico del comercio cárnico bilateral.  
 - 🗺️ **Participación por Estado** – Concentración geográfica de importaciones y exportaciones.  
 - 🌡️ **Riesgo Climático** – Índice de riesgo térmico por zona y corredores fronterizos.  
-- 🤝 **Socios Clave** – Empresas y actores logísticos prioritarios.  
 - 🚀 **Estrategia de Expansión** – Hoja de ruta propuesta para la entrada de CL Circular.
 """)
+
 
 st.divider()
 st.caption("Datos: DataMéxico · USDA · Trade Map · SMN | Marzo 2026")
