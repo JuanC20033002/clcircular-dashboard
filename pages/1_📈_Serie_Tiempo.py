@@ -143,7 +143,7 @@ tab_list = st.tabs(tabs)
 with tab_list[0]:
     st.plotly_chart(
         plot_forecast(imp, fc_imp,
-                      "Importaciones — Carne y Despojos",
+                      "Importaciones — Carne",
                       color_hist=CL_AZUL,
                       color_forecast=CL_AZUL_MARINO),
         use_container_width=True
